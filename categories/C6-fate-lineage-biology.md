@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (16)
+## Papers (17)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -20,6 +20,8 @@
   早期命运决定的调控 patterning code；为「当前状态 → 命运决策 → 新调控状态」的转移规律研究提供分子层证据。
 - **[Quantitative Resolving Cell Fate in the Early Embryogenesis of Caenorhabditis elegans](https://doi.org/10.1101/2024.10.25.620330)** — Xiong et al., *bioRxiv* 2024 `T1-core` `preprint`<br>
   用景观/路径类方法定量解析早期胚胎的细胞命运决定；不变谱系框架下命运景观的定量尝试。
+- **[Single‐cell dynamics of chromatin activity during cell lineage differentiation in Caenorhabditis elegans embryos](https://doi.org/10.15252/msb.202010075)** — Zhao et al., *Molecular Systems Biology* 2021 `T1-core` `peer-reviewed`<br>
+  利用位置效应推断早期胚胎每个谱系细胞的染色质活性景观：染色质状态区分细胞状态并随谱系分化；表观层状态-命运关联的系统证据。
 - **[Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119)** — Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed`<br>
   Digital Development 数据库：谱系分化表型、细胞特异基因功能与多尺度模型；扰动表型的公开数据资源。
 - **[Spatiotemporal transcriptomics reveals the evolutionary history of the endoderm germ layer](https://doi.org/10.1038/nature13996)** — Hashimshony et al., *Nature* 2015 `T1-core` `peer-reviewed`<br>

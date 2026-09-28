@@ -2935,5 +2935,41 @@
     "added": "2026-09-28",
     "source": "manual",
     "doi": "10.1016/j.celrep.2026.117005"
+  },
+  {
+    "id": "10.15252/msb.202010075",
+    "doi": "10.15252/msb.202010075",
+    "title": "Single‐cell dynamics of chromatin activity during cell lineage differentiation in Caenorhabditis elegans embryos",
+    "authors": [
+      "Zhiguang Zhao",
+      "Rong Fan",
+      "Weina Xu",
+      "Yahui Kou",
+      "Yangyang Wang",
+      "Xuehua Ma",
+      "Zhuo Du"
+    ],
+    "venue": "Molecular Systems Biology",
+    "year": 2021,
+    "categories": [
+      "C4",
+      "C6"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "利用位置效应推断早期胚胎每个谱系细胞的染色质活性景观：染色质状态区分细胞状态并随谱系分化；表观层状态-命运关联的系统证据。",
+    "url": "https://doi.org/10.15252/msb.202010075",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
   }
 ]

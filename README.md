@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-83-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--28-green)
+![papers](https://img.shields.io/badge/papers-84-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--28-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -158,6 +158,8 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
   *基因组尺度估计合子 mRNA 积累速率（scRNA-seq + 单分子成像校准）；快速转录如何支撑快速命运决定的定量图景。*
 - [A 4D single-cell protein atlas of transcription factors delineates spatiotemporal patterning during embryogenesis](https://doi.org/10.1038/s41592-021-01216-1) - Ma et al., *Nature Methods* 2021 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *转录因子蛋白的 4D（时空+谱系）表达图谱；蛋白层表达动力学的核心资源。*
+- [Single‐cell dynamics of chromatin activity during cell lineage differentiation in Caenorhabditis elegans embryos](https://doi.org/10.15252/msb.202010075) - Zhao et al., *Molecular Systems Biology* 2021 `T1-core` `peer-reviewed` · also filed under `C6`<br>
+  *利用位置效应推断早期胚胎每个谱系细胞的染色质活性景观：染色质状态区分细胞状态并随谱系分化；表观层状态-命运关联的系统证据。*
 - [A lineage-resolved molecular atlas of C. elegans embryogenesis at single-cell resolution](https://doi.org/10.1126/science.aax1971) - Packer et al., *Science* 2019 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *谱系分辨单细胞转录组图谱的奠基数据集；谱系-分子联合分析的主要数据来源，destructive assay 导致的纵向轨迹缺失是此类数据的核心观测限制。*
 - [Homeostasis of protein and mRNA concentrations in growing cells](https://doi.org/10.1038/s41467-018-06714-z) - Lin et al., *Nature Communications* 2018 `T3-transfer` `peer-reviewed`<br>
@@ -207,7 +209,7 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。*
 
-*See the [category page](categories/C6-fate-lineage-biology.md) for 12 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C6-fate-lineage-biology.md) for 13 cross-listed entries filed primarily elsewhere.*
 
 ## Methods Transfer
 
