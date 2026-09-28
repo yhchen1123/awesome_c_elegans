@@ -213,6 +213,11 @@ def render_readme(tax, papers):
         "for operations. License: CC0-1.0 (see `LICENSE`)."
     )
     lines.append("")
+    lines.append(
+        "Maintained by Chao Tang's lab, Westlake University · "
+        "Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)"
+    )
+    lines.append("")
     if c7_share > 0.30:
         lines.append(
             f"> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up {c7_share:.0%} of Methods "
