@@ -6,10 +6,14 @@
 
 [← Back to README](../README.md)
 
-## Papers (10)
+## Papers (12)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
+- **[Cell tracking with accurate error prediction](https://doi.org/10.1038/s41592-025-02845-6)** — Betjes et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed` `uncertainty-quantified`<br>
+  OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。
+- **[CELLECT: contrastive embedding learning for large-scale efficient cell tracking](https://doi.org/10.1038/s41592-025-02886-x)** — Zhou et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed`<br>
+  CELLECT：对比嵌入学习实现大规模高效细胞追踪；嵌入表示驱动的追踪范式，与细胞表示学习方法天然衔接。
 - **[EmbSAM: cell boundary localization and Segment Anything Model for fast images of developing embryos](https://doi.org/10.1038/s42003-025-09220-3)** — Guan et al., *Communications Biology* 2025 `T1-core` `peer-reviewed`<br>
   EmbSAM：面向发育胚胎低信噪比膜图像的 SAM 分割管线（边界定位+Segment Anything）；膜分割的实用工具。
 - **[LivecellX: Corrective Deep Learning for Object-Oriented Single-Cell Analysis in Live-Cell Imaging](https://doi.org/10.1101/2025.02.23.639532)** — Ni et al., *bioRxiv* 2025 `T2-adjacent` `preprint`<br>

@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (21)
+## Papers (22)
 
 - **[Developmental chronology of mouse embryo from 2-cell stage through birth](https://doi.org/10.1038/s41556-026-01971-3)** — Cao et al., *Nature Cell Biology* 2026 `T3-transfer` `peer-reviewed`<br>
   小鼠胚胎从 2 细胞到出生的发育年表资源；跨物种发育时序参照系。
@@ -20,6 +20,8 @@
   全胚胎亚细胞分辨空间转录组（斑马鱼，原肠到器官发生）；空间组学图谱技术的标杆。
 - **[Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0)** — Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed`<br>
   CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。
+- **[Cell tracking with accurate error prediction](https://doi.org/10.1038/s41592-025-02845-6)** — Betjes et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed` `uncertainty-quantified`<br>
+  OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。
 - **[EmbSAM: cell boundary localization and Segment Anything Model for fast images of developing embryos](https://doi.org/10.1038/s42003-025-09220-3)** — Guan et al., *Communications Biology* 2025 `T1-core` `peer-reviewed`<br>
   EmbSAM：面向发育胚胎低信噪比膜图像的 SAM 分割管线（边界定位+Segment Anything）；膜分割的实用工具。
 - **[A full-body transcription factor expression atlas with completely resolved cell identities in C. elegans](https://doi.org/10.1038/s41467-023-42677-6)** — Li et al., *Nature Communications* 2024 `T2-adjacent` `peer-reviewed`<br>
