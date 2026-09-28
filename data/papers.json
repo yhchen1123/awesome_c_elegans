@@ -2971,5 +2971,81 @@
     "needs_review": false,
     "added": "2026-09-28",
     "source": "manual"
+  },
+  {
+    "id": "10.1038/s41592-025-02845-6",
+    "doi": "10.1038/s41592-025-02845-6",
+    "title": "Cell tracking with accurate error prediction",
+    "authors": [
+      "Max A. Betjes",
+      "Rutger N. U. Kok",
+      "Sander J. Tans",
+      "Jeroen S. van Zon"
+    ],
+    "venue": "Nature Methods",
+    "year": 2025,
+    "categories": [
+      "C0",
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [
+      "uncertainty-quantified"
+    ],
+    "relevance_note": "OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。",
+    "url": "https://doi.org/10.1038/s41592-025-02845-6",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/s41592-025-02886-x",
+    "doi": "10.1038/s41592-025-02886-x",
+    "title": "CELLECT: contrastive embedding learning for large-scale efficient cell tracking",
+    "authors": [
+      "Hongyu Zhou",
+      "Seonghoon Kim",
+      "Zhifeng Zhao",
+      "Jiaqi Fan",
+      "Wen Huang",
+      "Xinghua Sui",
+      "Lizhi Shao",
+      "Haoran An",
+      "Jing-Ren Zhang",
+      "Jiamin Wu",
+      "Qionghai Dai"
+    ],
+    "venue": "Nature Methods",
+    "year": 2025,
+    "categories": [
+      "C0",
+      "C7"
+    ],
+    "tags": [
+      "imaging",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "CELLECT：对比嵌入学习实现大规模高效细胞追踪；嵌入表示驱动的追踪范式，与细胞表示学习方法天然衔接。",
+    "url": "https://doi.org/10.1038/s41592-025-02886-x",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
   }
 ]

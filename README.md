@@ -3,13 +3,13 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-84-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--28-green)
+![papers](https://img.shields.io/badge/papers-86-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--28-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
 This repository is maintained by an **AI-search + human-PR-audit** loop: a weekly GitHub Actions run queries Europe PMC (PubMed + bioRxiv/medRxiv) and arXiv for new literature, an LLM classifies candidates into the taxonomy below and writes Chinese relevance notes, and all changes are delivered as a pull request for human review — nothing is pushed to `main` directly. A monthly digest summarizes the month's additions by theme and watches for retractions. Each category also has a dedicated page under `categories/` with the full cross-listed entries. See `CONTRIBUTING.md` for inclusion criteria and `docs/DEVELOPMENT.md` for operations. License: CC0-1.0 (see `LICENSE`).
 
-> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 86% of Methods Transfer (12/14), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
+> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 80% of Methods Transfer (12/15), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
 
 ## Contents
 
@@ -28,6 +28,10 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
 
 **测量与追踪** · C0
 
+- [Cell tracking with accurate error prediction](https://doi.org/10.1038/s41592-025-02845-6) - Betjes et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed` `uncertainty-quantified` · also filed under `C8`<br>
+  *OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。*
+- [CELLECT: contrastive embedding learning for large-scale efficient cell tracking](https://doi.org/10.1038/s41592-025-02886-x) - Zhou et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed` · also filed under `C7`<br>
+  *CELLECT：对比嵌入学习实现大规模高效细胞追踪；嵌入表示驱动的追踪范式，与细胞表示学习方法天然衔接。*
 - [EmbSAM: cell boundary localization and Segment Anything Model for fast images of developing embryos](https://doi.org/10.1038/s42003-025-09220-3) - Guan et al., *Communications Biology* 2025 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *EmbSAM：面向发育胚胎低信噪比膜图像的 SAM 分割管线（边界定位+Segment Anything）；膜分割的实用工具。*
 - [LivecellX: Corrective Deep Learning for Object-Oriented Single-Cell Analysis in Live-Cell Imaging](https://doi.org/10.1101/2025.02.23.639532) - Ni et al., *bioRxiv* 2025 `T2-adjacent` `preprint` · also filed under `C7`<br>
@@ -222,7 +226,7 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
 - [Stochastic Flow Map for Count Data](https://arxiv.org/abs/2609.23290) - Wei, *arXiv* 2026 `T3-transfer` `preprint`<br>
   *直接在计数空间学习有限时间随机转移（Poisson 生 / Binomial 灭）的少步生成模型，应用于单细胞药物扰动响应预测；其「有限时间转移算子」形式与发育动力学的随机转移建模同构，值得借鉴；未在胚胎数据上验证。*
 
-*See the [category page](categories/C7-methods-transfer.md) for 11 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C7-methods-transfer.md) for 12 cross-listed entries filed primarily elsewhere.*
 
 ## Datasets, Benchmarks & Software
 
@@ -239,7 +243,7 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
 - [Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119) - Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *Digital Development 数据库：谱系分化表型、细胞特异基因功能与多尺度模型；扰动表型的公开数据资源。*
 
-*See the [category page](categories/C8-datasets-benchmarks-software.md) for 16 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C8-datasets-benchmarks-software.md) for 17 cross-listed entries filed primarily elsewhere.*
 
 ## Reviews & Perspectives
 
