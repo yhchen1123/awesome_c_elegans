@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (15)
+## Papers (16)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -38,6 +38,8 @@
   WaveOrder：可微波动光学显微框架，统一多种成像模态的正演模型；显微成像物理可微化的参照。
 - **[Morphodynamical cell state description via live-cell imaging trajectory embedding](https://doi.org/10.1038/s42003-023-04837-8)** — Copperman et al., *Communications Biology* 2023 `T3-transfer` `peer-reviewed`<br>
   活细胞成像轨迹嵌入的形态动力学细胞状态描述；以轨迹历史而非单帧特征表示细胞状态的方法。
+- **[A Whole-Cell Computational Model Predicts Phenotype from Genotype](https://doi.org/10.1016/j.cell.2012.05.044)** — Karr et al., *Cell* 2012 `T3-transfer` `peer-reviewed`<br>
+  首个全细胞计算模型（M. genitalium）：28 个模块耦合并行推进、由基因型预测表型；全细胞/全胚胎尺度「多过程耦合模拟」的奠基范式。
 
 ## Related categories
 

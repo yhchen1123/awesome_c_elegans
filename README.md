@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-86-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--28-green)
+![papers](https://img.shields.io/badge/papers-88-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--28-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -11,7 +11,7 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
 
 Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)
 
-> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 80% of Methods Transfer (12/15), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
+> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 81% of Methods Transfer (13/16), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
 
 ## Contents
 
@@ -133,6 +133,10 @@ Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@west
   *早期胚胎的可计算 phase-field forward simulator；可计算胚胎形态发生模拟器方向的先行者，也是「力不可唯一识别」问题的实例。*
 - [System-Level Quantification and Phenotyping of Early Embryonic Morphogenesis of Caenorhabditis elegans](https://doi.org/10.1101/776062) - Guan et al., *bioRxiv* 2019 `T1-core` `preprint` · also filed under `C2`<br>
   *早期胚胎形态发生的系统级定量与表型分析；全胚胎形态变异定量的早期框架（bioRxiv 预印本）。*
+- [OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans](https://doi.org/10.1098/rstb.2017.0382) - Sarma et al., *Philosophical Transactions of the Royal Society B: Biological Sciences* 2018 `T2-adjacent` `peer-reviewed` · also filed under `C9`<br>
+  *OpenWorm 综述：线虫整合生物学模拟（神经肌肉-躯体-环境闭环）的进展与路线；虽面向成虫整体而非胚胎，其多尺度整合模拟的架构与开放工程实践对胚胎尺度模拟有直接参照价值。*
+- [A Whole-Cell Computational Model Predicts Phenotype from Genotype](https://doi.org/10.1016/j.cell.2012.05.044) - Karr et al., *Cell* 2012 `T3-transfer` `peer-reviewed` · also filed under `C7`<br>
+  *首个全细胞计算模型（M. genitalium）：28 个模块耦合并行推进、由基因型预测表型；全细胞/全胚胎尺度「多过程耦合模拟」的奠基范式。*
 - [Glass-like dynamics of collective cell migration](https://doi.org/10.1073/pnas.1010059108) - Angelini et al., *Proceedings of the National Academy of Sciences* 2011 `T3-transfer` `peer-reviewed`<br>
   *集体细胞迁移的类玻璃动力学（jamming）奠基描述；细胞集体运动的物理框架，可迁移至胚胎细胞重排分析。*
 - [Chiral Forces Organize Left-Right Patterning in C. elegans by Uncoupling Midline and Anteroposterior Axis](https://doi.org/10.1016/j.devcel.2010.08.014) - Pohl et al., *Developmental Cell* 2010 `T1-core` `peer-reviewed` · also filed under `C6`<br>
@@ -228,7 +232,7 @@ Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@west
 - [Stochastic Flow Map for Count Data](https://arxiv.org/abs/2609.23290) - Wei, *arXiv* 2026 `T3-transfer` `preprint`<br>
   *直接在计数空间学习有限时间随机转移（Poisson 生 / Binomial 灭）的少步生成模型，应用于单细胞药物扰动响应预测；其「有限时间转移算子」形式与发育动力学的随机转移建模同构，值得借鉴；未在胚胎数据上验证。*
 
-*See the [category page](categories/C7-methods-transfer.md) for 12 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C7-methods-transfer.md) for 13 cross-listed entries filed primarily elsewhere.*
 
 ## Datasets, Benchmarks & Software
 
@@ -264,4 +268,4 @@ Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@west
 - [Self-Organization in Pattern Formation](https://doi.org/10.1016/j.devcel.2019.05.019) - Schweisguth et al., *Developmental Cell* 2019 `T3-transfer` `peer-reviewed`<br>
   *图式形成中自组织的综述；从对称性破缺到组织模式的自组织概念框架。*
 
-*See the [category page](categories/C9-reviews-perspectives.md) for 1 cross-listed entry filed primarily elsewhere.*
+*See the [category page](categories/C9-reviews-perspectives.md) for 2 cross-listed entries filed primarily elsewhere.*

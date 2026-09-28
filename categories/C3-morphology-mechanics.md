@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (25)
+## Papers (27)
 
 - **[Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development](https://doi.org/10.1038/s41563-026-02594-7)** — Guruciaga et al., *Nature Materials* 2026 `T3-transfer` `peer-reviewed`<br>
   边界几何控制三维拓扑缺陷转变并决定小鼠胚胎腔体成核位置；边界条件-缺陷-形态发生链条的实验证据。
@@ -54,6 +54,10 @@
   脊椎动物胚胎发生机械调控的权威综述；力学-图式形成领域的系统性评述。
 - **[System-Level Quantification and Phenotyping of Early Embryonic Morphogenesis of Caenorhabditis elegans](https://doi.org/10.1101/776062)** — Guan et al., *bioRxiv* 2019 `T1-core` `preprint`<br>
   早期胚胎形态发生的系统级定量与表型分析；全胚胎形态变异定量的早期框架（bioRxiv 预印本）。
+- **[OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans](https://doi.org/10.1098/rstb.2017.0382)** — Sarma et al., *Philosophical Transactions of the Royal Society B: Biological Sciences* 2018 `T2-adjacent` `peer-reviewed`<br>
+  OpenWorm 综述：线虫整合生物学模拟（神经肌肉-躯体-环境闭环）的进展与路线；虽面向成虫整体而非胚胎，其多尺度整合模拟的架构与开放工程实践对胚胎尺度模拟有直接参照价值。
+- **[A Whole-Cell Computational Model Predicts Phenotype from Genotype](https://doi.org/10.1016/j.cell.2012.05.044)** — Karr et al., *Cell* 2012 `T3-transfer` `peer-reviewed`<br>
+  首个全细胞计算模型（M. genitalium）：28 个模块耦合并行推进、由基因型预测表型；全细胞/全胚胎尺度「多过程耦合模拟」的奠基范式。
 - **[Glass-like dynamics of collective cell migration](https://doi.org/10.1073/pnas.1010059108)** — Angelini et al., *Proceedings of the National Academy of Sciences* 2011 `T3-transfer` `peer-reviewed`<br>
   集体细胞迁移的类玻璃动力学（jamming）奠基描述；细胞集体运动的物理框架，可迁移至胚胎细胞重排分析。
 - **[Chiral Forces Organize Left-Right Patterning in C. elegans by Uncoupling Midline and Anteroposterior Axis](https://doi.org/10.1016/j.devcel.2010.08.014)** — Pohl et al., *Developmental Cell* 2010 `T1-core` `peer-reviewed`<br>
