@@ -1,0 +1,47 @@
+name: weekly-literature-update
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch new papers
+        env:
+          EPMC_EMAIL: ${{ secrets.EPMC_EMAIL }}
+        run: python3 scripts/fetch.py --out build/candidates_raw.json --report build/fetch_report.json
+      - name: Dedupe
+        run: python3 scripts/dedupe.py --in build/candidates_raw.json --db data/papers.json --out build/candidates_new.json
+      - name: Classify with LLM
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python3 scripts/classify.py --in build/candidates_new.json --db data/papers.json
+      - name: Render
+        run: python3 scripts/render.py
+      - name: Validate
+        run: python3 scripts/validate.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-artifacts
+          path: build/
+          retention-days: 90
+      - name: Create audit PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/weekly-update
+          delete-branch: true
+          title: "📚 Weekly literature update (${{ github.run_number }})"
+          body-path: build/pr_body.md
+          labels: literature-update, automated
+          commit-message: "chore: weekly literature update"

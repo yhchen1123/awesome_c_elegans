@@ -1,0 +1,689 @@
+[
+  {
+    "id": "10.65215/ltspreprints.2026.04.04.000174",
+    "title": "A kinematic equation for the morphogenetic reproducibility of an animal",
+    "authors": [
+      "Jianguo Wang",
+      "Long Xiao",
+      "Miaoling Yang",
+      "Zeqi Yao",
+      "Shanjun Deng",
+      "Zhuo Du",
+      "Xionglei He"
+    ],
+    "venue": "LTS Preprints",
+    "year": 2026,
+    "categories": [
+      "C2"
+    ],
+    "tags": [
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "emerging-evidence",
+    "standards": [],
+    "relevance_note": "形态发生可重复性的运动学方程；与发育稳健性/可重复性定量研究直接相关。**注意：按本仓库证据规则视为 emerging evidence，未经同行评审与独立验证前不得作为既定共识引用。**",
+    "url": "https://doi.org/10.65215/ltspreprints.2026.04.04.000174",
+    "doi": "10.65215/ltspreprints.2026.04.04.000174",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/s41467-025-58878-0",
+    "title": "Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry",
+    "authors": [
+      "Guoye Guan",
+      "Zelin Li",
+      "Yiming Ma",
+      "Pohao Ye",
+      "Jianfeng Cao",
+      "Ming-Kin Wong",
+      "Vincy Wing Sze Ho",
+      "Lu-Yan Chan",
+      "Hong Yan",
+      "Chao Tang",
+      "Zhongying Zhao"
+    ],
+    "venue": "Nature Communications",
+    "year": 2025,
+    "categories": [
+      "C3",
+      "C8"
+    ],
+    "tags": [
+      "morphology-3D",
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。",
+    "url": "https://doi.org/10.1038/s41467-025-58878-0",
+    "doi": "10.1038/s41467-025-58878-0",
+    "citations": 12,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1126/science.adu8249",
+    "title": "Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae",
+    "authors": [
+      "Christopher R. L. Large",
+      "Rupa Khanal",
+      "LaDeana Hillier",
+      "Chau Huynh",
+      "Connor Kubo",
+      "Junhyong Kim",
+      "Robert H. Waterston",
+      "John I. Murray"
+    ],
+    "venue": "Science",
+    "year": 2025,
+    "categories": [
+      "C4",
+      "C6"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "c-elegans",
+      "c-briggsae"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "跨物种谱系分辨表达演化；为 lineage 与 transcriptome 非恒定关系及远缘谱系分子收敛提供证据。",
+    "url": "https://doi.org/10.1126/science.adu8249",
+    "doi": "10.1126/science.adu8249",
+    "citations": 20,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual",
+    "preprint_id": "10.1101/2024.02.03.578695"
+  },
+  {
+    "id": "10.1101/2025.02.23.639532",
+    "title": "LivecellX: Corrective Deep Learning for Object-Oriented Single-Cell Analysis in Live-Cell Imaging",
+    "authors": [
+      "Ke Ni",
+      "Gaohan Yu",
+      "Zhiqian Zheng",
+      "Yong Lu",
+      "Sophia Hu",
+      "Dante Poe",
+      "Sijie Zhang",
+      "Mia Sanborn",
+      "Mostofa Uddin",
+      "Zilin Wang",
+      "Shiman Zhou",
+      "Yanshuo Chen",
+      "Xueying Zhan",
+      "Weikang Wang",
+      "Jianhua Xing"
+    ],
+    "venue": "bioRxiv",
+    "year": 2025,
+    "categories": [
+      "C0",
+      "C7"
+    ],
+    "tags": [
+      "imaging",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "corrective deep learning 追踪框架；替代 StarryNite/AceTree 单点依赖、避免错误沿长轨迹累积的候选路线。",
+    "url": "https://doi.org/10.1101/2025.02.23.639532",
+    "doi": "10.1101/2025.02.23.639532",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.7554/elife.87099",
+    "title": "Gene regulatory patterning codes in early cell fate specification of the C. elegans embryo",
+    "authors": [
+      "Alison G Cole",
+      "Tamar Hashimshony",
+      "Zhuo Du",
+      "Itai Yanai"
+    ],
+    "venue": "eLife",
+    "year": 2024,
+    "categories": [
+      "C4",
+      "C6"
+    ],
+    "tags": [
+      "scRNA",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "早期命运决定的调控 patterning code；为「当前状态 → 命运决策 → 新调控状态」的转移规律研究提供分子层证据。",
+    "url": "https://doi.org/10.7554/elife.87099",
+    "doi": "10.7554/elife.87099",
+    "citations": 13,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1371/journal.pcbi.1012629",
+    "title": "Image-based force inference by biomechanical simulation",
+    "authors": [
+      "Michiel Vanslambrouck",
+      "Wim Thiels",
+      "Jef Vangheel",
+      "Casper van Bavel",
+      "Bart Smeets",
+      "Rob Jelier"
+    ],
+    "venue": "PLOS Computational Biology",
+    "year": 2024,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "imaging",
+      "mechanics",
+      "theory-model"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "FIDES 生物力学仿真力推断；为「形态约束力学但不等同绝对 force」的可识别性讨论提供方法样本。",
+    "url": "https://doi.org/10.1371/journal.pcbi.1012629",
+    "doi": "10.1371/journal.pcbi.1012629",
+    "citations": 8,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.celrep.2024.113928",
+    "title": "Spatiotemporal analysis of mRNA-protein relationships enhances transcriptome-based developmental inference",
+    "authors": [
+      "Duchangjiang Fan",
+      "Yulin Cong",
+      "Jinyi Liu",
+      "Haoye Zhang",
+      "Zhuo Du"
+    ],
+    "venue": "Cell Reports",
+    "year": 2024,
+    "categories": [
+      "C4"
+    ],
+    "tags": [
+      "scRNA",
+      "protein-reporter",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "mRNA 与蛋白非同步、非一一对应的直接证据；为发育推断中的 mRNA-蛋白时间延迟建模提供实验依据。",
+    "url": "https://doi.org/10.1016/j.celrep.2024.113928",
+    "doi": "10.1016/j.celrep.2024.113928",
+    "citations": 22,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/s41592-023-02084-7",
+    "title": "Embryo mechanics cartography: inference of 3D force atlases from fluorescence microscopy",
+    "authors": [
+      "Sacha Ichbiah",
+      "Fabrice Delbary",
+      "Alex McDougall",
+      "Rémi Dumollard",
+      "Hervé Turlier"
+    ],
+    "venue": "Nature Methods",
+    "year": 2023,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "imaging",
+      "mechanics",
+      "morphology-3D"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "从荧光显微图像反推 3D 力学图谱；inverse mechanics（由形态反推力学）路线的关键方法参照。",
+    "url": "https://doi.org/10.1038/s41592-023-02084-7",
+    "doi": "10.1038/s41592-023-02084-7",
+    "citations": 73,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1371/journal.pcbi.1009755",
+    "title": "Computable early Caenorhabditis elegans embryo with a phase field model",
+    "authors": [
+      "Xiangyu Kuang",
+      "Guoye Guan",
+      "Ming-Kin Wong",
+      "Lu-Yan Chan",
+      "Zhongying Zhao",
+      "Chao Tang",
+      "Lei Zhang"
+    ],
+    "venue": "PLOS Computational Biology",
+    "year": 2022,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "morphology-3D",
+      "mechanics",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "早期胚胎的可计算 phase-field forward simulator；可计算胚胎形态发生模拟器方向的先行者，也是「力不可唯一识别」问题的实例。",
+    "url": "https://doi.org/10.1371/journal.pcbi.1009755",
+    "doi": "10.1371/journal.pcbi.1009755",
+    "citations": 31,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1126/science.aax1971",
+    "title": "A lineage-resolved molecular atlas of C. elegans embryogenesis at single-cell resolution",
+    "authors": [
+      "Jonathan S. Packer",
+      "Qin Zhu",
+      "Chau Huynh",
+      "Priya Sivaramakrishnan",
+      "Elicia Preston",
+      "Hannah Dueck",
+      "Derek Stefanik",
+      "Kai Tan",
+      "Cole Trapnell",
+      "Junhyong Kim",
+      "Robert H. Waterston",
+      "John I. Murray"
+    ],
+    "venue": "Science",
+    "year": 2019,
+    "categories": [
+      "C4",
+      "C8"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "谱系分辨单细胞转录组图谱的奠基数据集；谱系-分子联合分析的主要数据来源，destructive assay 导致的纵向轨迹缺失是此类数据的核心观测限制。",
+    "url": "https://doi.org/10.1126/science.aax1971",
+    "doi": "10.1126/science.aax1971",
+    "citations": 646,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.celrep.2018.12.052",
+    "title": "Systems Properties and Spatiotemporal Regulation of Cell Position Variability during Embryogenesis",
+    "authors": [
+      "Xiaoyu Li",
+      "Zhiguang Zhao",
+      "Weina Xu",
+      "Rong Fan",
+      "Long Xiao",
+      "Xuehua Ma",
+      "Zhuo Du"
+    ],
+    "venue": "Cell Reports",
+    "year": 2019,
+    "categories": [
+      "C2"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "细胞位置变异与谱系/对称性/接触相关且存在系统性变异压缩；发育稳健性（canalization）定量研究的重要实证基础。",
+    "url": "https://doi.org/10.1016/j.celrep.2018.12.052",
+    "doi": "10.1016/j.celrep.2018.12.052",
+    "citations": 40,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1002/dvdy.22233",
+    "title": "Cell fate specification in the C. elegans embryo",
+    "authors": [
+      "Morris F. Maduro"
+    ],
+    "venue": "Developmental Dynamics",
+    "year": 2010,
+    "categories": [
+      "C6",
+      "C9"
+    ],
+    "tags": [
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "命运决定机制的权威综述；母源因子、非对称分裂与 Wnt/Notch 信号框架是分子调控与谱系生物学条目的知识底座。",
+    "url": "https://doi.org/10.1002/dvdy.22233",
+    "doi": "10.1002/dvdy.22233",
+    "citations": 58,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1073/pnas.0511111103",
+    "title": "Automated cell lineage tracing in Caenorhabditis elegans",
+    "authors": [
+      "Zhirong Bao",
+      "John I. Murray",
+      "Thomas Boyle",
+      "Siew Loon Ooi",
+      "Matthew J. Sandel",
+      "Robert H. Waterston"
+    ],
+    "venue": "Proceedings of the National Academy of Sciences",
+    "year": 2006,
+    "categories": [
+      "C0",
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "StarryNite/AceTree 自动谱系追踪的开山之作；后续测量管线的基线与数据兼容层，其 tracking error 沿长轨迹传播的问题至今仍是改进目标。",
+    "url": "https://doi.org/10.1073/pnas.0511111103",
+    "doi": "10.1073/pnas.0511111103",
+    "citations": 395,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/0012-1606(83)90201-4",
+    "title": "The embryonic cell lineage of the nematode Caenorhabditis elegans",
+    "authors": [
+      "J.E. Sulston",
+      "E. Schierenberg",
+      "J.G. White",
+      "J.N. Thomson"
+    ],
+    "venue": "Developmental Biology",
+    "year": 1983,
+    "categories": [
+      "C6",
+      "C8"
+    ],
+    "tags": [
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。",
+    "url": "https://doi.org/10.1016/0012-1606(83)90201-4",
+    "doi": "10.1016/0012-1606(83)90201-4",
+    "citations": 4386,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1371/journal.pcbi.1014792",
+    "title": "Nematic structures contribute to robust zygotic polarization in C. elegans",
+    "authors": [
+      "Michiel Vanslambrouck",
+      "Jef Vangheel",
+      "Ella Linxia Müller",
+      "Bart Smeets",
+      "Pierre Gönczy",
+      "Rob Jelier"
+    ],
+    "venue": "PLOS Computational Biology",
+    "year": 2026,
+    "categories": [
+      "C3",
+      "C6"
+    ],
+    "tags": [
+      "mechanics",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "建立线虫合子极化的 3D 力学模型（皮层收缩丝网络），复现 cortical flow、表面褶皱与张力各向异性，提出密度依赖收缩的机械负反馈机制；形态-力学耦合建模在单细胞阶段的直接参照，与 FIDES 力推断工作出自同一团队。",
+    "url": "https://doi.org/10.1371/journal.pcbi.1014792",
+    "doi": "10.1371/journal.pcbi.1014792",
+    "confidence": 0.9,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1101/gr.281734.125",
+    "title": "Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data",
+    "authors": [
+      "Xiaochen Yu",
+      "Zihao Wang",
+      "Zhenquan Zhang",
+      "Yuxin Wang",
+      "Yuting Lin",
+      "Lijun Hong",
+      "Xiaoshu Chen",
+      "Xionglei He"
+    ],
+    "venue": "Genome Research",
+    "year": 2026,
+    "categories": [
+      "C4",
+      "C7"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。",
+    "url": "https://doi.org/10.1101/gr.281734.125",
+    "doi": "10.1101/gr.281734.125",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1126/sciadv.aef6546",
+    "title": "An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans",
+    "authors": [
+      "Simon Berger",
+      "Silvan Spiri",
+      "Evelyn Lattmann",
+      "Stefanie Engleitner",
+      "Mitchell P. Levesque",
+      "Andrew deMello",
+      "Alex Hajnal"
+    ],
+    "venue": "Science Advances",
+    "year": 2026,
+    "categories": [
+      "C5",
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "perturbation",
+      "c-elegans"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。",
+    "url": "https://doi.org/10.1126/sciadv.aef6546",
+    "doi": "10.1126/sciadv.aef6546",
+    "confidence": 0.82,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "epmc"
+  },
+  {
+    "id": "2609.23325",
+    "arxiv_id": "2609.23325",
+    "title": "Rethinking Class Imbalance for Single-Cell Foundation Models: A Systematic Benchmark Across Architectures and Long-Tail Loss Functions",
+    "authors": [
+      "Zeyu Dong",
+      "Jiahui Zhong"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C8"
+    ],
+    "tags": [
+      "scRNA",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "单细胞基础模型稀有类别失效的系统基准（3 架构 × 3 数据集 × 6 损失 × 162 组受控训练）：稀有类失效在嵌入几何层面已注定，损失函数只能挽救其中一部分；对胚胎稀有细胞状态分类的训练与评估有直接警示价值。",
+    "url": "https://arxiv.org/abs/2609.23325",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "id": "2609.29755",
+    "arxiv_id": "2609.29755",
+    "title": "On Growth and Form, and Function: Reusable Regulatory Handles Control Phenotypic Variation",
+    "authors": [
+      "Benedikt Hartl",
+      "Milton L. Montero",
+      "Marcello Barylli",
+      "Sebastian Risi",
+      "Michael Levin"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7"
+    ],
+    "tags": [
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "用 LoRA 低秩调制预训练神经胞元自动机（NCA）的发育程序，约 2.5 万个适配器中识别出可复用、可组合的低维表型变异控制方向；对「扰动→形态分布」的计算建模有方法学启发，但目前仅是 2D 玩具系统，迁移价值待验证。",
+    "url": "https://arxiv.org/abs/2609.29755",
+    "confidence": 0.7,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "id": "2609.23290",
+    "arxiv_id": "2609.23290",
+    "title": "Stochastic Flow Map for Count Data",
+    "authors": [
+      "Ganchao Wei"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7"
+    ],
+    "tags": [
+      "scRNA",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "直接在计数空间学习有限时间随机转移（Poisson 生 / Binomial 灭）的少步生成模型，应用于单细胞药物扰动响应预测；其「有限时间转移算子」形式与发育动力学的随机转移建模同构，值得借鉴；未在胚胎数据上验证。",
+    "url": "https://arxiv.org/abs/2609.23290",
+    "confidence": 0.7,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "arxiv"
+  }
+]

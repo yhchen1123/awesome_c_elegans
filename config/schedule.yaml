@@ -1,0 +1,6 @@
+weekly:
+  cron: "0 6 * * 1"        # 周一 06:00 UTC
+monthly_digest:
+  cron: "0 6 1 * *"        # 每月 1 日 06:00 UTC
+retraction_scan:
+  cron: "0 7 1 * *"        # 每月 1 日 07:00 UTC（随 digest 同 workflow）

@@ -1,0 +1,46 @@
+name: monthly-digest
+on:
+  schedule:
+    # 每月 1 日 06:00 UTC；撤稿扫描（schedule.yaml 中 07:00 的 retraction_scan）
+    # 由 digest.py 内置的 OpenAlex is_retracted 全库扫描一并完成，无需单独触发。
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Generate monthly digest
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          EPMC_EMAIL: ${{ secrets.EPMC_EMAIL }}
+        run: python3 scripts/digest.py
+      - name: Render
+        run: python3 scripts/render.py
+      - name: Validate
+        run: python3 scripts/validate.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: digest-artifacts
+          path: build/
+          retention-days: 90
+      - name: Compute digest month
+        run: echo "DIGEST_MONTH=$(date -u -d "$(date -u +%Y-%m-01) - 1 day" +%Y-%m)" >> "$GITHUB_ENV"
+      - name: Create audit PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/monthly-digest
+          delete-branch: true
+          title: "📊 Monthly digest ${{ env.DIGEST_MONTH }}"
+          body-path: build/pr_body.md
+          labels: monthly-digest, automated
+          commit-message: "chore: monthly digest"

@@ -1,0 +1,43 @@
+name: Suggest a paper
+description: Recommend a paper for inclusion in awesome_c_elegans
+title: "[Paper]: <DOI or short title>"
+labels: ["paper-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        推荐的条目会进入与自动检索条目**相同的审计流程**（LLM 分类 → 人工 PR 审计），不会直接入库。
+        Suggested papers go through the same audit pipeline as automated candidates.
+  - type: input
+    id: link
+    attributes:
+      label: DOI / 链接
+      description: DOI (preferred), arXiv ID, or URL of the paper
+      placeholder: "10.1126/science.aax1971"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类 / Suggested category
+      options:
+        - "C0 — Measurement & Tracking（测量与追踪）"
+        - "C1 — Cell & Embryo Representation（细胞与胚胎表示）"
+        - "C2 — WT Developmental Dynamics（野生型发育动力学）"
+        - "C3 — Morphology & Mechanics（形态与力学）"
+        - "C4 — Molecular Regulation & Coupling（分子调控与耦合）"
+        - "C5 — Perturbation & Causal Inference（扰动与因果推断）"
+        - "C6 — Fate Specification & Lineage Biology（命运决定与谱系生物学）"
+        - "C7 — Methods Transfer（方法迁移）"
+        - "C8 — Datasets, Benchmarks & Software（数据集、基准与软件）"
+        - "C9 — Reviews & Perspectives（综述与观点）"
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: 推荐理由 / Rationale
+      description: 与哪个分类（C0–C9）相关？带来了什么新内容（新方法/新数据/新基准/新结论）？
+      placeholder: "该工作提供了 ……，建议归入 C3（形态与力学）……"
+    validations:
+      required: true

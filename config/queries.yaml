@@ -1,0 +1,41 @@
+window_days: 10          # 每周运行，取 10 天重叠窗口防漏
+europe_pmc:
+  base: "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  page_size: 100
+  queries:
+    core_embryo:
+      categories_hint: [C0, C2, C6, C8]
+      query: '(("Caenorhabditis elegans" OR "C. elegans") AND (embryo OR embryogenesis OR embryo*) AND ("cell lineage" OR "cell tracking" OR "cell fate" OR "cell division" OR morphogenesis OR "single-cell")) AND FIRST_PDATE:[{from_date} TO {to_date}]'
+    imaging_tracking:
+      categories_hint: [C0, C8]
+      query: '(("C. elegans" OR "Caenorhabditis elegans" OR embryo*) AND ("lineage tracing" OR "cell tracking" OR "nuclei segmentation" OR "membrane segmentation" OR "4D microscopy") AND (embryo*)) AND FIRST_PDATE:[{from_date} TO {to_date}]'
+    mechanics:
+      categories_hint: [C3]
+      query: '((embryo* OR "C. elegans") AND ("force inference" OR "cell mechanics" OR "surface tension" OR "cellular mechanics" OR "mechanical compression" OR morphogenesis) AND ("three-dimensional" OR 3D OR "in toto")) AND FIRST_PDATE:[{from_date} TO {to_date}]'
+    molecular:
+      categories_hint: [C4, C6]
+      query: '(("C. elegans" OR "Caenorhabditis elegans") AND (embryo*) AND ("single-cell RNA" OR transcriptome OR "transcription factor" OR "gene regulatory network" OR Wnt OR Notch OR "maternal factor" OR "asymmetric division")) AND FIRST_PDATE:[{from_date} TO {to_date}]'
+    perturbation:
+      categories_hint: [C5]
+      query: '(("C. elegans" OR embryo*) AND (RNAi OR "gene perturbation" OR "laser ablation" OR "cell ablation" OR mutant) AND (embryo* AND (development OR morphogenesis))) AND FIRST_PDATE:[{from_date} TO {to_date}]'
+    variability_robustness:
+      categories_hint: [C2]
+      query: '((embryo*) AND ("developmental robustness" OR canalization OR "position variability" OR "developmental noise")) AND FIRST_PDATE:[{from_date} TO {to_date}]'
+arxiv:
+  base: "https://export.arxiv.org/api/query"
+  max_results: 200
+  queries:
+    methods_dynamics:
+      categories_hint: [C1, C7]
+      # 注意：OR 组必须加括号，否则 arXiv 会把 `cat:cs.LG OR cat:q-bio.QM AND ...`
+      # 解释为 `cat:cs.LG OR (cat:q-bio.QM AND ...)`，命中整个 cs.LG 分类（2026-09-28 修正）
+      query: '(cat:cs.LG OR cat:q-bio.QM) AND all:"single-cell" AND (all:"dynamics" OR all:"trajectory" OR all:"graph neural" OR all:"foundation model" OR all:"neural ODE" OR all:"cellular dynamics")'
+    methods_embryo:
+      categories_hint: [C0, C3, C7]
+      query: '(all:"embryogenesis" OR all:"embryo") AND (all:"segmentation" OR all:"tracking" OR all:"morphogenesis" OR all:"force inference" OR all:"simulator")'
+openalex:
+  base: "https://api.openalex.org/works"
+  # 仅用于 enrichment：引用数、is_retracted、OA 链接；按 DOI 查询
+crossref:
+  base: "https://api.crossref.org/works"
+  # 仅用于：preprint DOI → published DOI 的关系解析（relation.is-preprint-of）
