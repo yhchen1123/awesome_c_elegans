@@ -3047,5 +3047,89 @@
     "needs_review": false,
     "added": "2026-09-28",
     "source": "manual"
+  },
+  {
+    "id": "10.1098/rstb.2017.0382",
+    "doi": "10.1098/rstb.2017.0382",
+    "title": "OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans",
+    "authors": [
+      "Gopal P. Sarma",
+      "Chee Wai Lee",
+      "Tom Portegys",
+      "Vahid Ghayoomie",
+      "Travis Jacobs",
+      "Bradly Alicea",
+      "Matteo Cantarelli",
+      "Michael Currie",
+      "Richard C. Gerkin",
+      "Shane Gingell",
+      "Padraig Gleeson",
+      "Richard Gordon",
+      "Ramin M. Hasani",
+      "Giovanni Idili",
+      "Sergey Khayrulin",
+      "David Lung",
+      "Andrey Palyanov",
+      "Mark Watts",
+      "Stephen D. Larson"
+    ],
+    "venue": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "year": 2018,
+    "categories": [
+      "C3",
+      "C9"
+    ],
+    "tags": [
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "OpenWorm 综述：线虫整合生物学模拟（神经肌肉-躯体-环境闭环）的进展与路线；虽面向成虫整体而非胚胎，其多尺度整合模拟的架构与开放工程实践对胚胎尺度模拟有直接参照价值。",
+    "url": "https://doi.org/10.1098/rstb.2017.0382",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.cell.2012.05.044",
+    "doi": "10.1016/j.cell.2012.05.044",
+    "title": "A Whole-Cell Computational Model Predicts Phenotype from Genotype",
+    "authors": [
+      "Jonathan R. Karr",
+      "Jayodita C. Sanghvi",
+      "Derek N. Macklin",
+      "Miriam V. Gutschow",
+      "Jared M. Jacobs",
+      "Benjamin Bolival",
+      "Nacyra Assad-Garcia",
+      "John I. Glass",
+      "Markus W. Covert"
+    ],
+    "venue": "Cell",
+    "year": 2012,
+    "categories": [
+      "C3",
+      "C7"
+    ],
+    "tags": [
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "首个全细胞计算模型（M. genitalium）：28 个模块耦合并行推进、由基因型预测表型；全细胞/全胚胎尺度「多过程耦合模拟」的奠基范式。",
+    "url": "https://doi.org/10.1016/j.cell.2012.05.044",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-28",
+    "source": "manual"
   }
 ]
