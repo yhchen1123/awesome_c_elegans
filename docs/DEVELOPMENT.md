@@ -154,3 +154,12 @@ python3 scripts/classify.py --add 10.1126/science.aax1971 --yes   # 跳过交互
 - 功能：分类/层级/证据筛选、标题作者期刊搜索、作者·期刊·标签·关联边开关、节点详情面板（含关联文献跳转与原文链接）、选中节点相机飞行定位与邻居高亮；
 - 布局只在数据加载时计算一次（环形初始化 + ForceAtlas2，同一输入同一布局），筛选仅切换节点/边的 hidden 属性，位置稳定不跳动；
 - 注意：sigma 把节点/边的 `type` 属性当作渲染程序名，语义类型在图谱构建时改名为 `nodeType` / `linkType`（构建侧已处理）。
+
+## 想法种子系统（求签）
+
+`data/seeds.json` 是种子库的单一事实源：每颗种子 = 跨分类/跨社区/无共同作者的远距论文组合 + AI 撰写的猜想与检验路径 + 探索状态机（`new → ai-explored → human-explored → human-audited`）+ 投票/反馈计数。
+
+- 新种子由 Kimi Work agent 从知识图谱计算远距组合后撰写产生（跨学科交叉，非单一方向深挖），入库须人工审计；
+- 网页端「求签」为加权随机抽取（未探索优先、近三次抽到的不重复）；
+- **投票/反馈当前存于 localStorage**（本地单用户）；`webapp/src/types/seeds.ts` 中四个存储函数（loadVotes/storeVote/loadFeedback/storeFeedback）是后端适配口——发布网站时替换为 GitHub Issues reactions 或 Supabase 即可，数据结构与 UI 不变；
+- `scripts/graph.py` 每次运行会同步 `data/seeds.json` 到 `webapp/public/seeds.json`。
