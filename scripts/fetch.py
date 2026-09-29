@@ -200,10 +200,23 @@ def main():
     ap.add_argument("--out", default="build/candidates_raw.json")
     ap.add_argument("--report", default="build/fetch_report.json")
     ap.add_argument("--window-days", type=int, default=None, help="override config window_days")
+    ap.add_argument("--only-category", default=None, metavar="C0-C9",
+                    help="只运行 categories_hint 覆盖该分类的查询（工作日轮询模式）")
     args = ap.parse_args()
 
     with open(ROOT / "config" / "queries.yaml", encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
+    if args.only_category:
+        cat = args.only_category
+        for source in ("europe_pmc", "arxiv"):
+            qs = cfg[source]["queries"]
+            cfg[source]["queries"] = {
+                name: q for name, q in qs.items() if cat in (q.get("categories_hint") or [])
+            }
+        n = sum(len(cfg[s]["queries"]) for s in ("europe_pmc", "arxiv"))
+        print(f"category filter {cat}: {n} queries selected")
+        if n == 0:
+            print(f"warning: no query covers {cat}（可在 queries.yaml 补充该分类的检索式）", file=sys.stderr)
     window_days = args.window_days or int(cfg.get("window_days", 10))
     from_date, to_date = compute_window(window_days)
     print(f"fetch window: {from_date} .. {to_date} ({window_days} days)")
