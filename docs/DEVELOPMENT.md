@@ -9,10 +9,11 @@
 当前生效的运行模式是 **Kimi Work 本地定时任务「每周文献检索与更新（本地 agent 分类）」**（每周一 14:00 Asia/Shanghai = 06:00 UTC，绑定本工作区）：
 
 - fetch / dedupe 走 `scripts/` 脚本；**分类由 Kimi Work agent 亲自完成**，不调用外部 LLM API，无需配置 `LLM_API_KEY`；
+- 每天只追踪一个方向：`scripts/fetch.py --only-category Cx` 只运行 `categories_hint` 覆盖该分类的查询（C9 综述查询为 2026-09-29 新增，首次运行需观察 Europe PMC 语法表现）；
+- 分支改为每周一个：`auto/daily-update-<ISO 年-W 周>`，同一周的五个工作日增量提交到同一分支；**若上一周的分支尚未合并进 main，本周任务会跳过**（桌面通知提醒合并）；
 - 分类规则与 `scripts/classify.py` 的 SYSTEM_PROMPT 完全一致（铁律：书目字段只来自数据源 API 元数据）；
 - **保密红线**：本仓库公开。所有入库文本（尤其 relevance_note）只使用公开科学语言，不得包含任何未公开的项目内部信息；该约束已写入定时任务的最高优先级规则；
-- 每次运行的变更提交到本地分支 `auto/weekly-update-<日期>`，**main 不被自动改动**；维护者审 diff 后 `git merge` 合并并推送，即完成审计闭环；
-- 若上次更新分支尚未合并，任务会跳过该周运行以避免重复分类（桌面通知会提醒合并）；
+- 维护者审 diff 后 `git merge` 合并并推送，即完成审计闭环；
 - 仓库内的 GitHub Actions workflows 保留作备选：将来在 GitHub 配置 `LLM_API_KEY` 后可启用云端链路，两者任选其一。**本地模式生效期间，请在 GitHub Actions 页禁用 `weekly-literature-update` 与 `monthly-digest`**，否则每周会因缺 secret 产生失败邮件。
 
 ## 环境准备
