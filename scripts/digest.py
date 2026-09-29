@@ -71,12 +71,12 @@ def openalex_refresh(db, dry_run=False):
     movers, retracted = [], []
     email = os.environ.get("EPMC_EMAIL", "").strip()
     headers = {"User-Agent": f"awesome_c_elegans/0.1 (mailto:{email or 'unset@example.org'})"}
-    for i in range(0, len(dois), 50):
-        chunk = dois[i:i + 50]
-        filt = "|".join(f"doi:{d}" for d in chunk)
+    for i in range(0, len(dois), 20):  # 大批次易被限流；doi 过滤为单键 OR（doi:a|b，重复 doi: 键会被视为 filter 间 OR 而 400）
+        chunk = dois[i:i + 20]
+        filt = "doi:" + "|".join(chunk)
         try:
             r = requests.get("https://api.openalex.org/works",
-                             params={"filter": filt, "per-page": 50}, headers=headers, timeout=60)
+                             params={"filter": filt, "per-page": 25}, headers=headers, timeout=60)
             if r.status_code != 200:
                 print(f"  openalex batch {i // 50 + 1}: HTTP {r.status_code}", file=sys.stderr)
                 continue
@@ -133,9 +133,18 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true",
                     help="skeleton only: no LLM summaries, no OpenAlex refresh, no DB writes")
+    ap.add_argument("--month", default=None, metavar="YYYY-MM",
+                    help="cover the given calendar month instead of the previous one")
+    ap.add_argument("--summaries", default=None, metavar="PATH",
+                    help="JSON file mapping category code -> section summary text "
+                         "(agent-authored summaries in local mode; takes precedence over LLM)")
     args = ap.parse_args()
 
-    m_start, m_end = prev_month()
+    if args.month:
+        m_start = datetime.date.fromisoformat(args.month + "-01")
+        m_end = (m_start.replace(day=28) + datetime.timedelta(days=7)).replace(day=1) - datetime.timedelta(days=1)
+    else:
+        m_start, m_end = prev_month()
     month_label = m_start.strftime("%Y-%m")
     db = load_db()
     new_entries = [p for p in db if m_start.isoformat() <= p.get("added", "") <= m_end.isoformat()]
@@ -145,6 +154,10 @@ def main():
         "base_url": os.environ.get("LLM_BASE_URL", "").strip() or "https://api.moonshot.cn/v1",
         "model": os.environ.get("LLM_MODEL", "").strip() or "kimi-k2-0905-preview",
     }
+    supplied_summaries = {}
+    if args.summaries:
+        with open(args.summaries, encoding="utf-8") as f:
+            supplied_summaries = json.load(f)
 
     movers, retracted = ([], [])
     if not args.dry_run:
@@ -183,7 +196,9 @@ def main():
         if not entries:
             lines.append("本月无新增。")
         else:
-            summary = None if args.dry_run else llm_summarize(entries, cfg)
+            summary = supplied_summaries.get(code)
+            if summary is None and not args.dry_run:
+                summary = llm_summarize(entries, cfg)
             if summary:
                 lines.append(summary)
                 lines.append("")
