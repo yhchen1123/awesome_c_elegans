@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (22)
+## Papers (29)
 
 - **[Developmental chronology of mouse embryo from 2-cell stage through birth](https://doi.org/10.1038/s41556-026-01971-3)** — Cao et al., *Nature Cell Biology* 2026 `T3-transfer` `peer-reviewed`<br>
   小鼠胚胎从 2 细胞到出生的发育年表资源；跨物种发育时序参照系。
@@ -28,16 +28,24 @@
   全身转录因子表达图谱（L1 幼虫）与 RAPCAT 自动细胞身份标注工具；细胞身份自动标注方法对胚胎数据同样适用。
 - **[Automated profiling of gene function during embryonic development](https://doi.org/10.1016/j.cell.2024.04.012)** — Green et al., *Cell* 2024 `T1-core` `peer-reviewed`<br>
   500 个基因敲低的 4D 成像自动表型剖析与 PhenoBank 资源；自动化扰动表型组学的规模化样板。
+- **[A lineage-resolved cartography of microRNA promoter activity in C. elegans empowers multidimensional developmental analysis](https://doi.org/10.1038/s41467-024-47055-4)** — Xu et al., *Nature Communications* 2024 `T1-core` `peer-reviewed`<br>
+  谱系分辨的 microRNA 启动子活性图谱；miRNA 层时空调控资源。
 - **[TedSim: temporal dynamics simulation of single-cell RNA sequencing data and cell division history](https://doi.org/10.1093/nar/gkac235)** — Pan et al., *Nucleic Acids Research* 2022 `T3-transfer` `peer-reviewed`<br>
   TedSim：scRNA 时序动力学与细胞分裂历史联合模拟器；谱系-转录组联合数据方法的基准测试工具。
+- **[3D+time nuclei tracking dataset of confocal fluorescence microscopy time series of C. elegans embryos](https://doi.org/10.5281/zenodo.6460303)** — Anthony et al., *Zenodo* 2022 `T1-core` `peer-reviewed`<br>
+  共聚焦荧光时序 3D+time 细胞核追踪数据集；追踪/分割算法的公开基准数据。
 - **[A 4D single-cell protein atlas of transcription factors delineates spatiotemporal patterning during embryogenesis](https://doi.org/10.1038/s41592-021-01216-1)** — Ma et al., *Nature Methods* 2021 `T1-core` `peer-reviewed`<br>
   转录因子蛋白的 4D（时空+谱系）表达图谱；蛋白层表达动力学的核心资源。
 - **[A high-content imaging approach to profile C. elegans embryonic development](https://doi.org/10.1242/dev.174029)** — Wang et al., *Development* 2019 `T1-core` `peer-reviewed`<br>
   高内涵成像剖析线虫胚胎发育，自动提取形态与分裂特征；胚胎表型特征提取管线的代表工作。
 - **[A lineage-resolved molecular atlas of C. elegans embryogenesis at single-cell resolution](https://doi.org/10.1126/science.aax1971)** — Packer et al., *Science* 2019 `T1-core` `peer-reviewed`<br>
   谱系分辨单细胞转录组图谱的奠基数据集；谱系-分子联合分析的主要数据来源，destructive assay 导致的纵向轨迹缺失是此类数据的核心观测限制。
+- **[Generating a 4D Atlas of Nuclear Positions in Embryonic Caenorhabditis elegans](https://doi.org/10.1016/j.bpj.2018.11.3001)** — Christensen et al., *Biophysical Journal* 2019 `T1-core` `peer-reviewed`<br>
+  胚胎细胞核位置的 4D 图谱生成；细胞位置参照系的基础数据工作。
 - **[In Toto Imaging and Reconstruction of Post-Implantation Mouse Development at the Single-Cell Level](https://doi.org/10.1016/j.cell.2018.09.031)** — McDole et al., *Cell* 2018 `T3-transfer` `peer-reviewed`<br>
   小鼠着床后发育的 in toto 光片成像与单细胞重建（含多胚胎统计动态图谱）；全胚胎动态图谱的范式性工作。
+- **[AceTree: a major update and case study in the long term maintenance of open-source scientific software](https://doi.org/10.1186/s12859-018-2127-0)** — Katzman et al., *BMC Bioinformatics* 2018 `T1-core` `peer-reviewed`<br>
+  AceTree 重大更新：开源科学软件长期维护的案例研究；谱系分析工具的持续演进。
 - **[A Transcriptional Lineage of the Early C. elegans Embryo](https://doi.org/10.1016/j.devcel.2016.07.025)** — Tintori et al., *Developmental Cell* 2016 `T1-core` `peer-reviewed`<br>
   16 细胞期前每个胚胎细胞的 RNA-seq 转录谱系；细胞级合子基因组激活图谱的奠基数据集。
 - **[Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119)** — Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed`<br>
@@ -46,10 +54,16 @@
   线虫转录因子序列特异性的系统图谱；TF-DNA 特异性资源，支撑调控 motif 层分析。
 - **[Tissue cartography: compressing bio-image data by dimensional reduction](https://doi.org/10.1038/nmeth.3648)** — Heemskerk et al., *Nature Methods* 2015 `T3-transfer` `peer-reviewed`<br>
   组织制图学通用框架：曲面到平面映射的畸变控制与无缝导航；胚胎表面成像数据降维的方法参照。
+- **[WormGUIDES: an interactive single cell developmental atlas and tool for collaborative multidimensional data exploration](https://doi.org/10.1186/s12859-015-0627-8)** — Santella et al., *BMC Bioinformatics* 2015 `T1-core` `peer-reviewed`<br>
+  WormGUIDES：交互式单细胞发育图谱与协作标注工具；谱系数据的交互式浏览基础设施。
 - **[Systematic quantification of developmental phenotypes at single-cell resolution during embryogenesis](https://doi.org/10.1242/dev.096040)** — Moore et al., *Development* 2013 `T1-core` `peer-reviewed`<br>
   单细胞分辨的发育表型系统量化（自动图像分析提取数十种测量）；线虫胚胎表型组学的早期方法。
 - **[Automated cell lineage tracing in Caenorhabditis elegans](https://doi.org/10.1073/pnas.0511111103)** — Bao et al., *Proceedings of the National Academy of Sciences* 2006 `T1-core` `peer-reviewed`<br>
   StarryNite/AceTree 自动谱系追踪的开山之作；后续测量管线的基线与数据兼容层，其 tracking error 沿长轨迹传播的问题至今仍是改进目标。
+- **[AceTree: a tool for visual analysis of Caenorhabditis elegans embryogenesis](https://doi.org/10.1186/1471-2105-7-275)** — Boyle et al., *BMC Bioinformatics* 2006 `T1-core` `peer-reviewed`<br>
+  AceTree 初代：谱系树与胚胎影像的可视化分析工具；长维护开源软件的起点。
+- **[The lineaging of fluorescently-labeled Caenorhabditis elegans embryos with StarryNite and AceTree](https://doi.org/10.1038/nprot.2006.222)** — Murray et al., *Nature Protocols* 2006 `T1-core` `peer-reviewed`<br>
+  StarryNite 谱系追踪的标准实验流程；自动谱系追踪方法的配套 protocol。
 - **[The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4)** — Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed`<br>
   invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。
 

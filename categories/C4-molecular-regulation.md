@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (24)
+## Papers (29)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -16,6 +16,8 @@
   PASTRI：从带末端状态标注的谱系树推断阶段特异的细胞状态转移速率，在线虫胚胎谱系上验证；利用不同谱系距离绕过动力学随发育变化的问题。
 - **[Whole-embryo spatial transcriptomics at subcellular resolution from gastrulation to organogenesis](https://doi.org/10.1126/science.adt3439)** — Wan et al., *Science* 2026 `T3-transfer` `peer-reviewed`<br>
   全胚胎亚细胞分辨空间转录组（斑马鱼，原肠到器官发生）；空间组学图谱技术的标杆。
+- **[Decoding anterior–posterior patterning cues into embryo-wide binary fate decisions through recruitment-mediated targeting](https://doi.org/10.1101/gad.353848.126)** — Xiao et al., *Genes & Development* 2026 `T1-core` `peer-reviewed`<br>
+  前后轴图式信号被解码为全胚胎二元命运决策；图式-命运映射的机制解析。
 - **[Integrating representation learning, permutation, and optimization to detect lineage-related gene expression patterns](https://doi.org/10.1038/s41467-025-56388-7)** — Schlüter et al., *Nature Communications* 2025 `T3-transfer` `peer-reviewed`<br>
   PORCELAN：表示学习+置换检验+优化检测谱系相关基因表达模式；谱系条形码×表达联合分析的新方法。
 - **[Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249)** — Large et al., *Science* 2025 `T1-core` `peer-reviewed`<br>
@@ -32,6 +34,8 @@
   早期命运决定的调控 patterning code；为「当前状态 → 命运决策 → 新调控状态」的转移规律研究提供分子层证据。
 - **[Spatiotemporal analysis of mRNA-protein relationships enhances transcriptome-based developmental inference](https://doi.org/10.1016/j.celrep.2024.113928)** — Fan et al., *Cell Reports* 2024 `T1-core` `peer-reviewed`<br>
   mRNA 与蛋白非同步、非一一对应的直接证据；为发育推断中的 mRNA-蛋白时间延迟建模提供实验依据。
+- **[A lineage-resolved cartography of microRNA promoter activity in C. elegans empowers multidimensional developmental analysis](https://doi.org/10.1038/s41467-024-47055-4)** — Xu et al., *Nature Communications* 2024 `T1-core` `peer-reviewed`<br>
+  谱系分辨的 microRNA 启动子活性图谱；miRNA 层时空调控资源。
 - **[Transcript accumulation rates in the early Caenorhabditis elegans embryo](https://doi.org/10.1126/sciadv.adi1270)** — Sivaramakrishnan et al., *Science Advances* 2023 `T1-core` `peer-reviewed`<br>
   基因组尺度估计合子 mRNA 积累速率（scRNA-seq + 单分子成像校准）；快速转录如何支撑快速命运决定的定量图景。
 - **[TedSim: temporal dynamics simulation of single-cell RNA sequencing data and cell division history](https://doi.org/10.1093/nar/gkac235)** — Pan et al., *Nucleic Acids Research* 2022 `T3-transfer` `peer-reviewed`<br>
@@ -40,8 +44,12 @@
   转录因子蛋白的 4D（时空+谱系）表达图谱；蛋白层表达动力学的核心资源。
 - **[Single‐cell dynamics of chromatin activity during cell lineage differentiation in Caenorhabditis elegans embryos](https://doi.org/10.15252/msb.202010075)** — Zhao et al., *Molecular Systems Biology* 2021 `T1-core` `peer-reviewed`<br>
   利用位置效应推断早期胚胎每个谱系细胞的染色质活性景观：染色质状态区分细胞状态并随谱系分化；表观层状态-命运关联的系统证据。
+- **[A single-cell analysis of the molecular lineage of chordate embryogenesis](https://doi.org/10.1126/sciadv.abc4773)** — Zhang et al., *Science Advances* 2020 `T3-transfer` `peer-reviewed`<br>
+  脊索动物胚胎发生的分子谱系单细胞分析；谱系-分子联合分析在头索动物中的范式。
 - **[A lineage-resolved molecular atlas of C. elegans embryogenesis at single-cell resolution](https://doi.org/10.1126/science.aax1971)** — Packer et al., *Science* 2019 `T1-core` `peer-reviewed`<br>
   谱系分辨单细胞转录组图谱的奠基数据集；谱系-分子联合分析的主要数据来源，destructive assay 导致的纵向轨迹缺失是此类数据的核心观测限制。
+- **[Multivariable regulation of gene expression plasticity in metazoans](https://doi.org/10.1098/rsob.190150)** — Xiao et al., *Open Biology* 2019 `T1-core` `peer-reviewed`<br>
+  后生动物基因表达可塑性的多变量调控；表达变异的调控来源解析。
 - **[Homeostasis of protein and mRNA concentrations in growing cells](https://doi.org/10.1038/s41467-018-06714-z)** — Lin et al., *Nature Communications* 2018 `T3-transfer` `peer-reviewed`<br>
   生长细胞中蛋白与 mRNA 浓度稳态的极小模型（聚合酶/核糖体限制）；为表达动力学与剂量效应建模提供理论基线。
 - **[A Transcriptional Lineage of the Early C. elegans Embryo](https://doi.org/10.1016/j.devcel.2016.07.025)** — Tintori et al., *Developmental Cell* 2016 `T1-core` `peer-reviewed`<br>
@@ -56,6 +64,8 @@
   线虫基因组的时空分辨调控分析（转录因子结合图谱）；调控结合的时空资源。
 - **[Multidimensional regulation of gene expression in the C. elegans embryo](https://doi.org/10.1101/gr.131920.111)** — Murray et al., *Genome Research* 2012 `T1-core` `peer-reviewed`<br>
   线虫胚胎基因表达的多维调控解析（启动子驱动的时空表达）；时空分辨调控分析的早期系统工作。
+- **[Automated analysis of embryonic gene expression with cellular resolution in C. elegans](https://doi.org/10.1038/nmeth.1228)** — Murray et al., *Nature Methods* 2008 `T1-core` `peer-reviewed`<br>
+  细胞分辨的胚胎基因表达自动分析管线（谱系+表达整合）；表达定量测量的早期自动化框架。
 
 ## Related categories
 

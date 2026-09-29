@@ -3131,5 +3131,1342 @@
     "needs_review": false,
     "added": "2026-09-28",
     "source": "manual"
+  },
+  {
+    "id": "10.1038/nmeth.1228",
+    "doi": "10.1038/nmeth.1228",
+    "title": "Automated analysis of embryonic gene expression with cellular resolution in C. elegans",
+    "authors": [
+      "John Isaac Murray",
+      "Zhirong Bao",
+      "Thomas J Boyle",
+      "Max E Boeck",
+      "Barbara L Mericle",
+      "Thomas J Nicholas",
+      "Zhongying Zhao",
+      "Matthew J Sandel",
+      "Robert H Waterston"
+    ],
+    "venue": "Nature Methods",
+    "year": 2008,
+    "categories": [
+      "C0",
+      "C4"
+    ],
+    "tags": [
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "细胞分辨的胚胎基因表达自动分析管线（谱系+表达整合）；表达定量测量的早期自动化框架。",
+    "url": "https://doi.org/10.1038/nmeth.1228",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/nprot.2006.222",
+    "doi": "10.1038/nprot.2006.222",
+    "title": "The lineaging of fluorescently-labeled Caenorhabditis elegans embryos with StarryNite and AceTree",
+    "authors": [
+      "John Isaac Murray",
+      "Zhirong Bao",
+      "Thomas J Boyle",
+      "Robert H Waterston"
+    ],
+    "venue": "Nature Protocols",
+    "year": 2006,
+    "categories": [
+      "C0",
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "StarryNite 谱系追踪的标准实验流程；自动谱系追踪方法的配套 protocol。",
+    "url": "https://doi.org/10.1038/nprot.2006.222",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1186/1471-2105-7-275",
+    "doi": "10.1186/1471-2105-7-275",
+    "title": "AceTree: a tool for visual analysis of Caenorhabditis elegans embryogenesis",
+    "authors": [
+      "Thomas J Boyle",
+      "Zhirong Bao",
+      "John I Murray",
+      "Carlos L Araya",
+      "Robert H Waterston"
+    ],
+    "venue": "BMC Bioinformatics",
+    "year": 2006,
+    "categories": [
+      "C8",
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "AceTree 初代：谱系树与胚胎影像的可视化分析工具；长维护开源软件的起点。",
+    "url": "https://doi.org/10.1186/1471-2105-7-275",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1186/1471-2105-11-580",
+    "doi": "10.1186/1471-2105-11-580",
+    "title": "A hybrid blob-slice model for accurate and efficient detection of fluorescence labeled nuclei in 3D",
+    "authors": [
+      "Anthony Santella",
+      "Zhuo Du",
+      "Sonja Nowotschin",
+      "Anna-Katerina Hadjantonakis",
+      "Zhirong Bao"
+    ],
+    "venue": "BMC Bioinformatics",
+    "year": 2010,
+    "categories": [
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "荧光标记细胞核检测的 blob-slice 混合模型；核检测环节的精度改进。",
+    "url": "https://doi.org/10.1186/1471-2105-11-580",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1186/1471-2105-15-217",
+    "doi": "10.1186/1471-2105-15-217",
+    "title": "A semi-local neighborhood-based framework for probabilistic cell lineage tracing",
+    "authors": [
+      "Anthony Santella",
+      "Zhuo Du",
+      "Zhirong Bao"
+    ],
+    "venue": "BMC Bioinformatics",
+    "year": 2014,
+    "categories": [
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "半局部邻域框架的概率化谱系追踪；利用邻域上下文降低长时程追踪错误。",
+    "url": "https://doi.org/10.1186/1471-2105-15-217",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1186/s12859-015-0627-8",
+    "doi": "10.1186/s12859-015-0627-8",
+    "title": "WormGUIDES: an interactive single cell developmental atlas and tool for collaborative multidimensional data exploration",
+    "authors": [
+      "Anthony Santella",
+      "Raúl Catena",
+      "Ismar Kovacevic",
+      "Pavak Shah",
+      "Zidong Yu",
+      "Javier Marquina-Solis",
+      "Abhishek Kumar",
+      "Yicong Wu",
+      "James Schaff",
+      "Daniel Colón-Ramos",
+      "Hari Shroff",
+      "William A. Mohler",
+      "Zhirong Bao"
+    ],
+    "venue": "BMC Bioinformatics",
+    "year": 2015,
+    "categories": [
+      "C8",
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "WormGUIDES：交互式单细胞发育图谱与协作标注工具；谱系数据的交互式浏览基础设施。",
+    "url": "https://doi.org/10.1186/s12859-015-0627-8",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1186/s12859-018-2127-0",
+    "doi": "10.1186/s12859-018-2127-0",
+    "title": "AceTree: a major update and case study in the long term maintenance of open-source scientific software",
+    "authors": [
+      "Braden Katzman",
+      "Doris Tang",
+      "Anthony Santella",
+      "Zhirong Bao"
+    ],
+    "venue": "BMC Bioinformatics",
+    "year": 2018,
+    "categories": [
+      "C8",
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "AceTree 重大更新：开源科学软件长期维护的案例研究；谱系分析工具的持续演进。",
+    "url": "https://doi.org/10.1186/s12859-018-2127-0",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/nbt.2713",
+    "doi": "10.1038/nbt.2713",
+    "title": "Spatially isotropic four-dimensional imaging with dual-view plane illumination microscopy",
+    "authors": [
+      "Yicong Wu",
+      "Peter Wawrzusin",
+      "Justin Senseney",
+      "Robert S Fischer",
+      "Ryan Christensen",
+      "Anthony Santella",
+      "Andrew G York",
+      "Peter W Winter",
+      "Clare M Waterman",
+      "Zhirong Bao",
+      "Daniel A Colón-Ramos",
+      "Matthew McAuliffe",
+      "Hari Shroff"
+    ],
+    "venue": "Nature Biotechnology",
+    "year": 2013,
+    "categories": [
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "diSPIM 实现空间各向同性的四维成像；胚胎活体成像分辨率的关键方法（通用显微技术）。",
+    "url": "https://doi.org/10.1038/nbt.2713",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/nprot.2014.172",
+    "doi": "10.1038/nprot.2014.172",
+    "title": "Dual-view plane illumination microscopy for rapid and spatially isotropic imaging",
+    "authors": [
+      "Abhishek Kumar",
+      "Yicong Wu",
+      "Ryan Christensen",
+      "Panagiotis Chandris",
+      "William Gandler",
+      "Evan McCreedy",
+      "Alexandra Bokinsky",
+      "Daniel A Colón-Ramos",
+      "Zhirong Bao",
+      "Matthew McAuliffe",
+      "Gary Rondeau",
+      "Hari Shroff"
+    ],
+    "venue": "Nature Protocols",
+    "year": 2014,
+    "categories": [
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "diSPIM 标准 protocol；各向同性光片成像的可复现操作文档。",
+    "url": "https://doi.org/10.1038/nprot.2014.172",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/s41587-020-0560-x",
+    "doi": "10.1038/s41587-020-0560-x",
+    "title": "Rapid image deconvolution and multiview fusion for optical microscopy",
+    "authors": [
+      "Min Guo",
+      "Yue Li",
+      "Yijun Su",
+      "Talley Lambert",
+      "Damian Dalle Nogare",
+      "Mark W. Moyle",
+      "Leighton H. Duncan",
+      "Richard Ikegami",
+      "Anthony Santella",
+      "Ivan Rey-Suarez",
+      "Daniel Green",
+      "Anastasia Beiriger",
+      "Jiji Chen",
+      "Harshad Vishwasrao",
+      "Sundar Ganesan",
+      "Victoria Prince",
+      "Jennifer C. Waters",
+      "Christina M. Annunziata",
+      "Markus Hafner",
+      "William A. Mohler",
+      "Ajay B. Chitnis",
+      "Arpita Upadhyaya",
+      "Ted B. Usdin",
+      "Zhirong Bao",
+      "Daniel Colón-Ramos",
+      "Patrick La Riviere",
+      "Huafeng Liu",
+      "Yicong Wu",
+      "Hari Shroff"
+    ],
+    "venue": "Nature Biotechnology",
+    "year": 2020,
+    "categories": [
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "快速图像去卷积与多视角融合；光片数据重建的计算加速方法。",
+    "url": "https://doi.org/10.1038/s41587-020-0560-x",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.7554/elife.10070",
+    "doi": "10.7554/elife.10070",
+    "title": "Untwisting the Caenorhabditis elegans embryo",
+    "authors": [
+      "Ryan Patrick Christensen",
+      "Alexandra Bokinsky",
+      "Anthony Santella",
+      "Yicong Wu",
+      "Javier Marquina-Solis",
+      "Min Guo",
+      "Ismar Kovacevic",
+      "Abhishek Kumar",
+      "Peter W Winter",
+      "Nicole Tashakkori",
+      "Evan McCreedy",
+      "Huafeng Liu",
+      "Matthew McAuliffe",
+      "William Mohler",
+      "Daniel A Colón-Ramos",
+      "Zhirong Bao",
+      "Hari Shroff"
+    ],
+    "venue": "eLife",
+    "year": 2015,
+    "categories": [
+      "C0",
+      "C3"
+    ],
+    "tags": [
+      "imaging",
+      "morphology-3D",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "将线虫胚胎「解旋拉直」的计算方法，突破扭曲姿态对成像分析的限制；形态标准化的经典工作。",
+    "url": "https://doi.org/10.7554/elife.10070",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1186/1741-7007-10-94",
+    "doi": "10.1186/1741-7007-10-94",
+    "title": "Actomyosin-based Self-organization of cell internalization during C. elegans gastrulation",
+    "authors": [
+      "Christian Pohl",
+      "Michael Tiongson",
+      "Julia L Moore",
+      "Anthony Santella",
+      "Zhirong Bao"
+    ],
+    "venue": "BMC Biology",
+    "year": 2012,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "imaging",
+      "mechanics",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "肌动球蛋白自组织驱动原肠期细胞内陷；内陷行为的力学-自组织机制。",
+    "url": "https://doi.org/10.1186/1741-7007-10-94",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.devcel.2017.10.021",
+    "doi": "10.1016/j.devcel.2017.10.021",
+    "title": "An In Toto Approach to Dissecting Cellular Interactions in Complex Tissues",
+    "authors": [
+      "Pavak Kirit Shah",
+      "Anthony Santella",
+      "Adrian Jacobo",
+      "Kimberly Siletti",
+      "A.J. Hudspeth",
+      "Zhirong Bao"
+    ],
+    "venue": "Developmental Cell",
+    "year": 2017,
+    "categories": [
+      "C0",
+      "C3"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "in toto 解析复杂组织中的细胞相互作用；从全胚胎数据提取细胞互作关系的方法框架。",
+    "url": "https://doi.org/10.1016/j.devcel.2017.10.021",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.7554/elife.58626",
+    "doi": "10.7554/elife.58626",
+    "title": "Cadherin preserves cohesion across involuting tissues during C. elegans neurulation",
+    "authors": [
+      "Kristopher M Barnes",
+      "Li Fan",
+      "Mark W Moyle",
+      "Christopher A Brittin",
+      "Yichi Xu",
+      "Daniel A Colón-Ramos",
+      "Anthony Santella",
+      "Zhirong Bao"
+    ],
+    "venue": "eLife",
+    "year": 2020,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "钙粘蛋白在神经形成内卷组织中维持组织内聚力；粘附-内聚对形态发生的约束。",
+    "url": "https://doi.org/10.7554/elife.58626",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1242/dev.201493",
+    "doi": "10.1242/dev.201493",
+    "title": "A compound PCP scheme underlies sequential rosettes-based cell intercalation",
+    "authors": [
+      "Yichi Xu",
+      "Yunsheng Cheng",
+      "Allison T. Chen",
+      "Zhirong Bao"
+    ],
+    "venue": "Development",
+    "year": 2023,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "复合 PCP 方案驱动序列性莲座式细胞嵌入；集体细胞重排的分子-几何机制。",
+    "url": "https://doi.org/10.1242/dev.201493",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.bpj.2018.11.3001",
+    "doi": "10.1016/j.bpj.2018.11.3001",
+    "title": "Generating a 4D Atlas of Nuclear Positions in Embryonic Caenorhabditis elegans",
+    "authors": [
+      "Ryan Christensen",
+      "Alexandra Bokinsky",
+      "Anthony Santella",
+      "Mark Moyle",
+      "Min Guo",
+      "Andrew Lauziere",
+      "Evan Ardiel",
+      "Harshad D. Vishwasrao",
+      "Brandon Harvey",
+      "Michael Levin",
+      "Nensi Karaj",
+      "William Mohler",
+      "Daniel Daniel Colón-Ramos",
+      "Zhirong Bao",
+      "Hari Shroff"
+    ],
+    "venue": "Biophysical Journal",
+    "year": 2019,
+    "categories": [
+      "C0",
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "胚胎细胞核位置的 4D 图谱生成；细胞位置参照系的基础数据工作。",
+    "url": "https://doi.org/10.1016/j.bpj.2018.11.3001",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1371/journal.pone.0166551",
+    "doi": "10.1371/journal.pone.0166551",
+    "title": "An Observation-Driven Agent-Based Modeling and Analysis Framework for C. elegans Embryogenesis",
+    "authors": [
+      "Zi Wang",
+      "Benjamin J. Ramsey",
+      "Dali Wang",
+      "Kwai Wong",
+      "Husheng Li",
+      "Eric Wang",
+      "Zhirong Bao"
+    ],
+    "venue": "PLOS ONE",
+    "year": 2016,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "观测驱动的智能体建模与分析框架（早期胚胎）；数据驱动的 agent-based 胚胎模拟探索。",
+    "url": "https://doi.org/10.1371/journal.pone.0166551",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1126/sciadv.abc4773",
+    "doi": "10.1126/sciadv.abc4773",
+    "title": "A single-cell analysis of the molecular lineage of chordate embryogenesis",
+    "authors": [
+      "Tengjiao Zhang",
+      "Yichi Xu",
+      "Kaoru Imai",
+      "Teng Fei",
+      "Guilin Wang",
+      "Bo Dong",
+      "Tianwei Yu",
+      "Yutaka Satou",
+      "Weiyang Shi",
+      "Zhirong Bao"
+    ],
+    "venue": "Science Advances",
+    "year": 2020,
+    "categories": [
+      "C4",
+      "C6"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "脊索动物胚胎发生的分子谱系单细胞分析；谱系-分子联合分析在头索动物中的范式。",
+    "url": "https://doi.org/10.1126/sciadv.abc4773",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/s42256-021-00431-x",
+    "doi": "10.1038/s42256-021-00431-x",
+    "title": "Hierarchical deep reinforcement learning reveals a modular mechanism of cell movement",
+    "authors": [
+      "Zi Wang",
+      "Yichi Xu",
+      "Dali Wang",
+      "Jiawei Yang",
+      "Zhirong Bao"
+    ],
+    "venue": "Nature Machine Intelligence",
+    "year": 2022,
+    "categories": [
+      "C2",
+      "C7"
+    ],
+    "tags": [
+      "imaging",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "层级深度强化学习揭示胚胎细胞运动的模块化机制；从轨迹数据反演运动策略的 RL 方法。",
+    "url": "https://doi.org/10.1038/s42256-021-00431-x",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.7554/elife.77918",
+    "doi": "10.7554/elife.77918",
+    "title": "Cross-modality synthesis of EM time series and live fluorescence imaging",
+    "authors": [
+      "Anthony Santella",
+      "Irina Kolotuev",
+      "Caroline Kizilyaprak",
+      "Zhirong Bao"
+    ],
+    "venue": "eLife",
+    "year": 2022,
+    "categories": [
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "电镜时序与活荧光成像的跨模态合成；把超微结构信息锚定到活体时序数据的方法。",
+    "url": "https://doi.org/10.7554/elife.77918",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.crmeth.2026.101606",
+    "doi": "10.1016/j.crmeth.2026.101606",
+    "title": "A single-cell spatiotemporal manifold of tissue morphology and dynamics",
+    "authors": [
+      "Erin Haus",
+      "Anthony Santella",
+      "Yichi Xu",
+      "Ruohan Ren",
+      "Dali Wang",
+      "Zhirong Bao"
+    ],
+    "venue": "Cell Reports Methods",
+    "year": 2026,
+    "categories": [
+      "C1",
+      "C3"
+    ],
+    "tags": [
+      "morphology-3D",
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "组织形态与动力学的单细胞时空流形；形态-动力学联合表示学习的新框架。",
+    "url": "https://doi.org/10.1016/j.crmeth.2026.101606",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1007/978-3-032-29912-3_16",
+    "doi": "10.1007/978-3-032-29912-3_16",
+    "title": "Cell Identification from Partial Observation Using Spatiotemporal Attention in Caenorhabditis Elegans Embryogenesis",
+    "authors": [
+      "Henry Xue",
+      "Dali Wang",
+      "Erin Haus",
+      "Anthony Santella",
+      "Zhirong Bao"
+    ],
+    "venue": "Lecture Notes in Computer Science",
+    "year": 2026,
+    "categories": [
+      "C0",
+      "C1"
+    ],
+    "tags": [
+      "imaging",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "时空注意力实现部分观测下的细胞身份识别；缺失观测场景的身份指派方法（会议论文）。",
+    "url": "https://doi.org/10.1007/978-3-032-29912-3_16",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.ydbio.2011.08.002",
+    "doi": "10.1016/j.ydbio.2011.08.002",
+    "title": "Specific roles for the GATA transcription factors end-1 and end-3 during C. elegans E-lineage development",
+    "authors": [
+      "Max E. Boeck",
+      "Tom Boyle",
+      "Zhirong Bao",
+      "John Murray",
+      "Barbara Mericle",
+      "Robert Waterston"
+    ],
+    "venue": "Developmental Biology",
+    "year": 2011,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "GATA 因子 end-1/end-3 在内胚层谱系中的特异分工；内胚层命运决定的经典证据。",
+    "url": "https://doi.org/10.1016/j.ydbio.2011.08.002",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.ydbio.2014.12.009",
+    "doi": "10.1016/j.ydbio.2014.12.009",
+    "title": "E3 ubiquitin ligases promote progression of differentiation during C. elegans embryogenesis",
+    "authors": [
+      "Zhuo Du",
+      "Fei He",
+      "Zidong Yu",
+      "Bruce Bowerman",
+      "Zhirong Bao"
+    ],
+    "venue": "Developmental Biology",
+    "year": 2015,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "E3 泛素连接酶促进胚胎分化进程；翻译后调控驱动分化时序的证据。",
+    "url": "https://doi.org/10.1016/j.ydbio.2014.12.009",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.devcel.2015.05.024",
+    "doi": "10.1016/j.devcel.2015.05.024",
+    "title": "POS-1 Promotes Endo-mesoderm Development by Inhibiting the Cytoplasmic Polyadenylation of neg-1 mRNA",
+    "authors": [
+      "Ahmed Elewa",
+      "Masaki Shirayama",
+      "Ebru Kaymak",
+      "Paul F. Harrison",
+      "David R. Powell",
+      "Zhuo Du",
+      "Christopher D. Chute",
+      "Hannah Woolf",
+      "Dongni Yi",
+      "Takao Ishidate",
+      "Jagan Srinivasan",
+      "Zhirong Bao",
+      "Traude H. Beilharz",
+      "Sean P. Ryder",
+      "Craig C. Mello"
+    ],
+    "venue": "Developmental Cell",
+    "year": 2015,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "POS-1 通过抑制胞质多聚腺苷酸化促进内-中胚层发育；母源 mRNA 调控与命运决定。",
+    "url": "https://doi.org/10.1016/j.devcel.2015.05.024",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1371/journal.pone.0195855",
+    "doi": "10.1371/journal.pone.0195855",
+    "title": "The Caenorhabditis elegans gene ham-1 regulates daughter cell size asymmetry primarily in divisions that produce a small anterior daughter cell",
+    "authors": [
+      "Jerome Teuliere",
+      "Ismar Kovacevic",
+      "Zhirong Bao",
+      "Gian Garriga"
+    ],
+    "venue": "PLOS ONE",
+    "year": 2018,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "ham-1 主要通过谱系自主机制调控子细胞大小不对称；不对称分裂的遗传证据。",
+    "url": "https://doi.org/10.1371/journal.pone.0195855",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1093/g3journal/jkab026",
+    "doi": "10.1093/g3journal/jkab026",
+    "title": "A genetic screen for temperature-sensitive morphogenesis-defective Caenorhabditis elegans mutants",
+    "authors": [
+      "Molly C Jud",
+      "Josh Lowry",
+      "Thalia Padilla",
+      "Erin Clifford",
+      "Yuqi Yang",
+      "Francesca Fennell",
+      "Alexander K Miller",
+      "Danielle Hamill",
+      "Austin M Harvey",
+      "Martha Avila-Zavala",
+      "Hong Shao",
+      "Nhan Nguyen Tran",
+      "Zhirong Bao",
+      "Bruce Bowerman"
+    ],
+    "venue": "G3 Genes|Genomes|Genetics",
+    "year": 2021,
+    "categories": [
+      "C5"
+    ],
+    "tags": [
+      "perturbation",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "温度敏感形态发生缺陷的遗传筛选；条件型等位基因扰动资源。",
+    "url": "https://doi.org/10.1093/g3journal/jkab026",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1101/2021.06.09.447780",
+    "doi": "10.1101/2021.06.09.447780",
+    "title": "A landscape model for cell fate decisions during mesoendoderm differentiation in C. elegans based on Wnt dynamics",
+    "authors": [
+      "Shyr-Shea Chang",
+      "Zhirong Bao",
+      "Eric D. Siggia"
+    ],
+    "venue": "bioRxiv",
+    "year": 2021,
+    "categories": [
+      "C2",
+      "C6"
+    ],
+    "tags": [
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "基于 Wnt 动态的中内胚层命运决定景观模型；信号动态-命运景观的定量联结（bioRxiv 预印本）。",
+    "url": "https://doi.org/10.1101/2021.06.09.447780",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.5281/zenodo.6460303",
+    "doi": "10.5281/zenodo.6460303",
+    "title": "3D+time nuclei tracking dataset of confocal fluorescence microscopy time series of C. elegans embryos",
+    "authors": [
+      "Santella, Anthony",
+      "Ismar Kovacevic",
+      "Bao, Zhirong",
+      "Hirsch, Peter"
+    ],
+    "venue": "Zenodo",
+    "year": 2022,
+    "categories": [
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "共聚焦荧光时序 3D+time 细胞核追踪数据集；追踪/分割算法的公开基准数据。",
+    "url": "https://doi.org/10.5281/zenodo.6460303",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1038/s41467-024-47055-4",
+    "doi": "10.1038/s41467-024-47055-4",
+    "title": "A lineage-resolved cartography of microRNA promoter activity in C. elegans empowers multidimensional developmental analysis",
+    "authors": [
+      "Weina Xu",
+      "Jinyi Liu",
+      "Huan Qi",
+      "Ruolin Si",
+      "Zhiguang Zhao",
+      "Zhiju Tao",
+      "Yuchuan Bai",
+      "Shipeng Hu",
+      "Xiaohan Sun",
+      "Yulin Cong",
+      "Haoye Zhang",
+      "Duchangjiang Fan",
+      "Long Xiao",
+      "Yangyang Wang",
+      "Yongbin Li",
+      "Zhuo Du"
+    ],
+    "venue": "Nature Communications",
+    "year": 2024,
+    "categories": [
+      "C4",
+      "C8"
+    ],
+    "tags": [
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "谱系分辨的 microRNA 启动子活性图谱；miRNA 层时空调控资源。",
+    "url": "https://doi.org/10.1038/s41467-024-47055-4",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1101/gad.353848.126",
+    "doi": "10.1101/gad.353848.126",
+    "title": "Decoding anterior–posterior patterning cues into embryo-wide binary fate decisions through recruitment-mediated targeting",
+    "authors": [
+      "Long Xiao",
+      "Yulin Cong",
+      "Huan Qi",
+      "Yuchuan Bai",
+      "Xuehua Ma",
+      "Zixin Zhou",
+      "Xiahe Huang",
+      "Yingchun Wang",
+      "Zhuo Du"
+    ],
+    "venue": "Genes & Development",
+    "year": 2026,
+    "categories": [
+      "C6",
+      "C4"
+    ],
+    "tags": [
+      "scRNA",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "前后轴图式信号被解码为全胚胎二元命运决策；图式-命运映射的机制解析。",
+    "url": "https://doi.org/10.1101/gad.353848.126",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.7554/elife.89032",
+    "doi": "10.7554/elife.89032",
+    "title": "Vacuolar H+-ATPase determines daughter cell fates through asymmetric segregation of the nucleosome remodeling and deacetylase complex",
+    "authors": [
+      "Zhongyun Xie",
+      "Yongping Chai",
+      "Zhiwen Zhu",
+      "Zijie Shen",
+      "Zhengyang Guo",
+      "Zhiguang Zhao",
+      "Long Xiao",
+      "Zhuo Du",
+      "Guangshuo Ou",
+      "Wei Li"
+    ],
+    "venue": "eLife",
+    "year": 2024,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "液泡 H+-ATPase 通过不对称分离决定子细胞命运；细胞器不对称遗传与命运决定。",
+    "url": "https://doi.org/10.7554/elife.89032",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.15252/embr.202357440",
+    "doi": "10.15252/embr.202357440",
+    "title": "Metabolic plasticity sustains the robustness of Caenorhabditis elegans embryogenesis",
+    "authors": [
+      "Siyu Chen",
+      "Xing Su",
+      "Jinglin Zhu",
+      "Long Xiao",
+      "Yulin Cong",
+      "Leilei Yang",
+      "Zhuo Du",
+      "Xun Huang"
+    ],
+    "venue": "EMBO Reports",
+    "year": 2023,
+    "categories": [
+      "C2",
+      "C5"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "代谢可塑性支撑线虫胚胎发生稳健性；代谢层面对扰动缓冲的证据。",
+    "url": "https://doi.org/10.15252/embr.202357440",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1101/2023.12.30.573745",
+    "doi": "10.1101/2023.12.30.573745",
+    "title": "Discovery of Waddington’s developmental canals elucidates the embryogenesis stability in Caenorhabditis elegans",
+    "authors": [
+      "Jianguo Wang",
+      "Long Xiao",
+      "Zeqi Yao",
+      "Shanjun Deng",
+      "Jianrong Yang",
+      "Chung-I Wu",
+      "Zhuo Du",
+      "Xionglei He"
+    ],
+    "venue": "bioRxiv",
+    "year": 2024,
+    "categories": [
+      "C2"
+    ],
+    "tags": [
+      "imaging",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "Waddington 发育运河的直接发现与胚胎稳定性阐释；沟渠化现象的实证刻画（bioRxiv 预印本）。",
+    "url": "https://doi.org/10.1101/2023.12.30.573745",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1098/rsob.190150",
+    "doi": "10.1098/rsob.190150",
+    "title": "Multivariable regulation of gene expression plasticity in metazoans",
+    "authors": [
+      "Long Xiao",
+      "Zhiguang Zhao",
+      "Fei He",
+      "Zhuo Du"
+    ],
+    "venue": "Open Biology",
+    "year": 2019,
+    "categories": [
+      "C4"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "后生动物基因表达可塑性的多变量调控；表达变异的调控来源解析。",
+    "url": "https://doi.org/10.1098/rsob.190150",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1364/prj.441778",
+    "doi": "10.1364/prj.441778",
+    "title": "Axial gradient excitation accelerates volumetric imaging of two-photon microscopy",
+    "authors": [
+      "Yufeng Gao",
+      "Xianyuan Xia",
+      "Lina Liu",
+      "Ting Wu",
+      "Tingai Chen",
+      "Jia Yu",
+      "Zhili Xu",
+      "Liang Wang",
+      "Fei Yan",
+      "Zhuo Du",
+      "Jun Chu",
+      "Yang Zhan",
+      "Bo Peng",
+      "Hui Li",
+      "Wei Zheng"
+    ],
+    "venue": "Photonics Research",
+    "year": 2022,
+    "categories": [
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "轴向梯度激发加速双光子体成像；活体快速体成像的光学方法（合作方法学）。",
+    "url": "https://doi.org/10.1364/prj.441778",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.jgg.2025.10.003",
+    "doi": "10.1016/j.jgg.2025.10.003",
+    "title": "To see and to know: the power of live imaging in illuminating and decoding biological complexity",
+    "authors": [
+      "Miaoling Yang",
+      "Zhuo Du"
+    ],
+    "venue": "Journal of Genetics and Genomics",
+    "year": 2026,
+    "categories": [
+      "C9"
+    ],
+    "tags": [
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "活成像照亮与解码生物学的综述（见与知）；活体成像领域的观点性评述。",
+    "url": "https://doi.org/10.1016/j.jgg.2025.10.003",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-09-29",
+    "source": "manual"
   }
 ]

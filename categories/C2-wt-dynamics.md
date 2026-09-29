@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (13)
+## Papers (17)
 
 - **[A kinematic equation for the morphogenetic reproducibility of an animal](https://doi.org/10.65215/ltspreprints.2026.04.04.000174)** — Wang et al., *LTS Preprints* 2026 `T1-core` `emerging-evidence`<br>
   ⚠️ emerging evidence: 形态发生可重复性的运动学方程；与发育稳健性/可重复性定量研究直接相关。**注意：按本仓库证据规则视为 emerging evidence，未经同行评审与独立验证前不得作为既定共识引用。**
@@ -24,8 +24,16 @@
   用景观/路径类方法定量解析早期胚胎的细胞命运决定；不变谱系框架下命运景观的定量尝试。
 - **[Temporal variability and cell mechanics control robustness in mammalian embryogenesis](https://doi.org/10.1126/science.adh1145)** — Fabrèges et al., *Science* 2024 `T3-transfer` `peer-reviewed`<br>
   哺乳动物胚胎中时间变异与细胞力学共同控制发育稳健性；变异并非纯噪声而可成为稳健性来源的跨物种定量证据。
+- **[Discovery of Waddington’s developmental canals elucidates the embryogenesis stability in Caenorhabditis elegans](https://doi.org/10.1101/2023.12.30.573745)** — Wang et al., *bioRxiv* 2024 `T1-core` `preprint`<br>
+  Waddington 发育运河的直接发现与胚胎稳定性阐释；沟渠化现象的实证刻画（bioRxiv 预印本）。
+- **[Metabolic plasticity sustains the robustness of Caenorhabditis elegans embryogenesis](https://doi.org/10.15252/embr.202357440)** — Chen et al., *EMBO Reports* 2023 `T1-core` `peer-reviewed`<br>
+  代谢可塑性支撑线虫胚胎发生稳健性；代谢层面对扰动缓冲的证据。
 - **[Defect-buffering cellular plasticity increases robustness of metazoan embryogenesis](https://doi.org/10.1016/j.cels.2022.07.001)** — Xiao et al., *Cell Systems* 2022 `T1-core` `peer-reviewed`<br>
   系统量化保守基因敲低诱导的细胞缺陷，揭示细胞可塑性对缺陷的缓冲机制；「扰动→缺陷→缓冲」发育稳健性框架的实证基础。
+- **[Hierarchical deep reinforcement learning reveals a modular mechanism of cell movement](https://doi.org/10.1038/s42256-021-00431-x)** — Wang et al., *Nature Machine Intelligence* 2022 `T1-core` `peer-reviewed`<br>
+  层级深度强化学习揭示胚胎细胞运动的模块化机制；从轨迹数据反演运动策略的 RL 方法。
+- **[A landscape model for cell fate decisions during mesoendoderm differentiation in C. elegans based on Wnt dynamics](https://doi.org/10.1101/2021.06.09.447780)** — Chang et al., *bioRxiv* 2021 `T1-core` `preprint`<br>
+  基于 Wnt 动态的中内胚层命运决定景观模型；信号动态-命运景观的定量联结（bioRxiv 预印本）。
 - **[Maps of variability in cell lineage trees](https://doi.org/10.1371/journal.pcbi.1006745)** — Hicks et al., *PLOS Computational Biology* 2019 `T3-transfer` `peer-reviewed`<br>
   谱系树变异图谱的统计框架；在树结构上定量比较变异分布的可迁移工具。
 - **[System-Level Quantification and Phenotyping of Early Embryonic Morphogenesis of Caenorhabditis elegans](https://doi.org/10.1101/776062)** — Guan et al., *bioRxiv* 2019 `T1-core` `preprint`<br>

@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (9)
+## Papers (11)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
@@ -22,8 +22,12 @@
   500 个基因敲低的 4D 成像自动表型剖析与 PhenoBank 资源；自动化扰动表型组学的规模化样板。
 - **[Self-organized tissue mechanics underlie embryonic regulation](https://doi.org/10.1038/s41586-024-07934-8)** — Caldarelli et al., *Nature* 2024 `T3-transfer` `peer-reviewed`<br>
   鸟类胚胎自组织组织力学支撑的胚胎调节现象（分割后重建完整胚胎）；扰动-恢复与自修复的力学基础。
+- **[Metabolic plasticity sustains the robustness of Caenorhabditis elegans embryogenesis](https://doi.org/10.15252/embr.202357440)** — Chen et al., *EMBO Reports* 2023 `T1-core` `peer-reviewed`<br>
+  代谢可塑性支撑线虫胚胎发生稳健性；代谢层面对扰动缓冲的证据。
 - **[Defect-buffering cellular plasticity increases robustness of metazoan embryogenesis](https://doi.org/10.1016/j.cels.2022.07.001)** — Xiao et al., *Cell Systems* 2022 `T1-core` `peer-reviewed`<br>
   系统量化保守基因敲低诱导的细胞缺陷，揭示细胞可塑性对缺陷的缓冲机制；「扰动→缺陷→缓冲」发育稳健性框架的实证基础。
+- **[A genetic screen for temperature-sensitive morphogenesis-defective Caenorhabditis elegans mutants](https://doi.org/10.1093/g3journal/jkab026)** — Jud et al., *G3 Genes|Genomes|Genetics* 2021 `T1-core` `peer-reviewed`<br>
+  温度敏感形态发生缺陷的遗传筛选；条件型等位基因扰动资源。
 - **[The Regulatory Landscape of Lineage Differentiation in a Metazoan Embryo](https://doi.org/10.1016/j.devcel.2015.07.014)** — Du et al., *Developmental Cell* 2015 `T1-core` `peer-reviewed`<br>
   系统 RNAi 绘制谱系分化的调控景观：命运沟渠化、二元命运开关与多尺度分化模型；扰动-表型系统分析的奠基资源。
 
