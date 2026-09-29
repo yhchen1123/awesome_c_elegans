@@ -15,6 +15,9 @@ Behavior:
   4. Retraction watch: OpenAlex is_retracted scan of the whole DB; hits are
      flagged retracted: true in papers.json and alerted at the top of the digest.
   5. New entries are listed with their curated Chinese notes under each category.
+  6. Cross-links (optional): an agent/LLM-authored markdown fragment (--insights)
+     synthesizing interactions between papers — method combinations, tensions,
+     and hypothesis seeds — injected as a dedicated section.
 
 Outputs digest/YYYY-MM.md and updates papers.json (citations / retracted only).
 Also writes build/pr_body.md for the monthly audit PR.
@@ -138,6 +141,9 @@ def main():
     ap.add_argument("--summaries", default=None, metavar="PATH",
                     help="JSON file mapping category code -> section summary text "
                          "(agent-authored summaries in local mode; takes precedence over LLM)")
+    ap.add_argument("--insights", default=None, metavar="PATH",
+                    help="markdown file with cross-paper synthesis (method combinations, "
+                         "tensions, hypothesis seeds), injected as the Cross-links section")
     args = ap.parse_args()
 
     if args.month:
@@ -158,6 +164,9 @@ def main():
     if args.summaries:
         with open(args.summaries, encoding="utf-8") as f:
             supplied_summaries = json.load(f)
+    insights_md = None
+    if args.insights:
+        insights_md = Path(args.insights).read_text(encoding="utf-8").strip()
 
     movers, retracted = ([], [])
     if not args.dry_run:
@@ -204,6 +213,16 @@ def main():
                 lines.append("")
             for p in entries:
                 lines.append(entry_line(p))
+        lines.append("")
+
+    if insights_md:
+        lines.append("## 🔗 Cross-links（交叉洞察：方法、发现与观点的相互作用）")
+        lines.append("")
+        lines.append("> 本节由策展 agent 撰写：梳理本月条目之间的相互作用——可组合的方法、"
+                     "相互印证或冲突的发现、以及由此涌现的可检验猜想。所有内容均基于已收录条目的"
+                     "公开信息，供读者与 AI 二次加工。")
+        lines.append("")
+        lines.append(insights_md)
         lines.append("")
 
     lines.append("## 📈 Citation movers（环比增速 Top 10，新增引用 ≥5）")
