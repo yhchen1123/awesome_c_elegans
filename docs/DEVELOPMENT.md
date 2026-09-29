@@ -54,7 +54,12 @@ npx --yes awesome-lint README.md     # lint CI 同款检查
 ```bash
 python3 scripts/digest.py            # 完整运行（引用/撤稿会写回 papers.json）
 python3 scripts/digest.py --dry-run  # 只生成分节骨架，无网络、不写库
+python3 scripts/digest.py --month 2026-09 --summaries build/section_summaries.json --insights build/insights_2026-09.md
+# 本地 agent 模式：--summaries 注入 agent 撰写的分节摘要（JSON: 分类码 -> 摘要），
+#                  --insights 注入 agent 撰写的交叉洞察 markdown（方法组合/张力/猜想种子）
 ```
+
+digest 结构：分类分节（含小节摘要）→ **Cross-links 交叉洞察**（不同论文方法/发现/观点之间的相互作用，目标是催生新猜想与新方法）→ Citation movers。交叉洞察只允许基于已收录条目的公开信息撰写，便于读者与 AI 二次加工。
 
 云端 `monthly-digest.yml`（每月 1 日 06:00 UTC）保留作备选；本地模式的月度定时任务尚未创建（见 Roadmap）。
 
