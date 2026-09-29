@@ -145,6 +145,25 @@ python3 scripts/classify.py --add 10.1126/science.aax1971 --yes   # 跳过交互
 - **月度 digest 本地定时任务**：每月 1 日跑 `digest.py`（分类简报 + 引用刷新 + 撤稿扫描），与周更任务同模式；
 - **硬标准联动**：新论文命中 `standards` 标签（embryo-level-split / open-loop-rollout / uncertainty-quantified / perturbation-holdout / shortcut-audit）时，自动开 issue 提醒维护者关注。
 
+## 知识图谱与想法种子（独立仓库）
+
+可视化站点（知识图谱 + 求签式想法种子）已分离到独立仓库 **awesome-c-elegans-kg**（与本文献库同级的 sibling 目录，独立 git 历史，未来可单独发布为网站）：
+
+- 数据同步：文献库 papers.json 变更后，运行 `python3 ../awesome-c-elegans-kg/scripts/build_graph.py` 重建图谱数据与种子静态资源；
+- 本仓库不再包含网页代码；种子库数据文件也由该仓库持有（`awesome-c-elegans-kg/seeds.json`）。
+
+## GitHub 侧一次性设置
+
+- [ ] 仓库主页加 description 与 topics（`awesome`、`awesome-list`），否则 lint CI 的 github 规则报错；
+- [ ] Settings → Branches：main 开启分支保护（Require a pull request before merging）；
+- [ ] 本地模式生效期间：Actions 页禁用 `weekly-literature-update` 与 `monthly-digest`；
+- [ ] 若启用云端链路：Secrets 配 `LLM_API_KEY`（必需）、`EPMC_EMAIL`（推荐），Variables 可选 `LLM_BASE_URL` / `LLM_MODEL`。
+
+## Roadmap
+
+- **月度 digest 本地定时任务**：每月 1 日跑 `digest.py`（分类简报 + 引用刷新 + 撤稿扫描），与周更任务同模式；
+- **硬标准联动**：新论文命中 `standards` 标签（embryo-level-split / open-loop-rollout / uncertainty-quantified / perturbation-holdout / shortcut-audit）时，自动开 issue 提醒维护者关注。
+
 ## 知识图谱可视化（webapp/）
 
 `webapp/` 是基于 React + Vite + Tailwind + shadcn/ui 的文献知识图谱界面（Sigma.js WebGL 渲染 + ForceAtlas2 确定性布局 + Louvain 聚类）：
