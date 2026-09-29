@@ -146,9 +146,11 @@ python3 scripts/classify.py --add 10.1126/science.aax1971 --yes   # 跳过交互
 
 ## 知识图谱可视化（webapp/）
 
-`webapp/` 是基于 React + Vite + Tailwind + shadcn/ui 的文献知识图谱界面（react-force-graph-2d 力导向布局）：
+`webapp/` 是基于 React + Vite + Tailwind + shadcn/ui 的文献知识图谱界面（Sigma.js WebGL 渲染 + ForceAtlas2 确定性布局 + Louvain 聚类）：
 
 - 数据来自 `scripts/graph.py`（`data/papers.json` 的渲染产物，确定性生成）：论文/分类/作者/期刊/标签五类节点，belongs_to / authored_by / published_in / has_tag / related（共同作者+主题重叠）五类边；作者与期刊节点仅保留库内 ≥2 篇的实体以保持可读性；
 - **每次 papers.json 变更后重新生成**：`python3 scripts/graph.py`（输出 `webapp/public/graph-data.json`，已入库以支持静态部署）；
 - 本地开发：`cd webapp && npm install && npm run dev`；构建：`npm run build`（`dist/` 为纯静态站点，可直接部署 GitHub Pages / Vercel / Netlify）；
-- 功能：分类/层级/证据筛选、标题作者期刊搜索、作者·期刊·标签·关联边开关、节点详情面板（含关联文献跳转与原文链接）、选中节点邻居高亮。
+- 功能：分类/层级/证据筛选、标题作者期刊搜索、作者·期刊·标签·关联边开关、节点详情面板（含关联文献跳转与原文链接）、选中节点相机飞行定位与邻居高亮；
+- 布局只在数据加载时计算一次（环形初始化 + ForceAtlas2，同一输入同一布局），筛选仅切换节点/边的 hidden 属性，位置稳定不跳动；
+- 注意：sigma 把节点/边的 `type` 属性当作渲染程序名，语义类型在图谱构建时改名为 `nodeType` / `linkType`（构建侧已处理）。
