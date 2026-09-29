@@ -143,3 +143,12 @@ python3 scripts/classify.py --add 10.1126/science.aax1971 --yes   # 跳过交互
 
 - **月度 digest 本地定时任务**：每月 1 日跑 `digest.py`（分类简报 + 引用刷新 + 撤稿扫描），与周更任务同模式；
 - **硬标准联动**：新论文命中 `standards` 标签（embryo-level-split / open-loop-rollout / uncertainty-quantified / perturbation-holdout / shortcut-audit）时，自动开 issue 提醒维护者关注。
+
+## 知识图谱可视化（webapp/）
+
+`webapp/` 是基于 React + Vite + Tailwind + shadcn/ui 的文献知识图谱界面（react-force-graph-2d 力导向布局）：
+
+- 数据来自 `scripts/graph.py`（`data/papers.json` 的渲染产物，确定性生成）：论文/分类/作者/期刊/标签五类节点，belongs_to / authored_by / published_in / has_tag / related（共同作者+主题重叠）五类边；作者与期刊节点仅保留库内 ≥2 篇的实体以保持可读性；
+- **每次 papers.json 变更后重新生成**：`python3 scripts/graph.py`（输出 `webapp/public/graph-data.json`，已入库以支持静态部署）；
+- 本地开发：`cd webapp && npm install && npm run dev`；构建：`npm run build`（`dist/` 为纯静态站点，可直接部署 GitHub Pages / Vercel / Netlify）；
+- 功能：分类/层级/证据筛选、标题作者期刊搜索、作者·期刊·标签·关联边开关、节点详情面板（含关联文献跳转与原文链接）、选中节点邻居高亮。
