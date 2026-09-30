@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (34)
+## Papers (35)
 
 - **[Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development](https://doi.org/10.1038/s41563-026-02594-7)** — Guruciaga et al., *Nature Materials* 2026 `T3-transfer` `peer-reviewed`<br>
   边界几何控制三维拓扑缺陷转变并决定小鼠胚胎腔体成核位置；边界条件-缺陷-形态发生链条的实验证据。
@@ -34,6 +34,8 @@
   VertAX：可微顶点模型，以梯度优化学习上皮组织力学参数；可微组织力学模拟器路线的新成员。
 - **[A single-cell spatiotemporal manifold of tissue morphology and dynamics](https://doi.org/10.1016/j.crmeth.2026.101606)** — Haus et al., *Cell Reports Methods* 2026 `T1-core` `peer-reviewed`<br>
   组织形态与动力学的单细胞时空流形；形态-动力学联合表示学习的新框架。
+- **[Wound-induced syncytia outpace mononucleate neighbors during Drosophila wound repair.](https://doi.org/10.7554/elife.92593)** — JS et al., *eLife* 2026 `T3-transfer` `peer-reviewed`<br>
+  结合活体成像与组织流动性计算模型，发现伤口诱导的合胞体形成可加速上皮伤口闭合；其细胞融合与组织尺度力学建模思路对形态与力学（C3）及相关模拟方法具有迁移参考价值。
 - **[&lt;b&gt;Genetic-Morphological Synergy Governs Cell Fate Specification in Development&lt;/b&gt;](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>
   遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。
 - **[Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0)** — Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed`<br>

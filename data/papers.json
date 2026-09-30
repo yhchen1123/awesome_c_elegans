@@ -4471,5 +4471,72 @@
     "needs_review": false,
     "added": "2026-09-29",
     "source": "manual"
+  },
+  {
+    "id": "10.1242/dev.205729",
+    "title": "Single-nucleus multiome sequencing reveals the molecular basis of thermal acclimation in Drosophila melanogaster embryos.",
+    "authors": [
+      "O'Leary TS",
+      "Mikucki EE",
+      "Tangwancharoen S",
+      "Boyd JR",
+      "Cahan SH",
+      "Frietze S",
+      "Lockwood BL"
+    ],
+    "venue": "Development",
+    "year": 2026,
+    "categories": [
+      "C2",
+      "C4"
+    ],
+    "tags": [
+      "scRNA",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "以单核多组学（scRNA + 染色质可及性）刻画果蝇胚胎对温度驯化的稳态基因调控响应，直接涉及发育稳健性（canalization/robustness）的分子机制；为野生型发育动力学（C2）与谱系分辨分子调控（C4）提供跨物种参照。",
+    "url": "https://doi.org/10.1242/dev.205729",
+    "doi": "10.1242/dev.205729",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-09-30",
+    "source": "epmc"
+  },
+  {
+    "id": "10.7554/elife.92593",
+    "title": "Wound-induced syncytia outpace mononucleate neighbors during Drosophila wound repair.",
+    "authors": [
+      "White JS",
+      "Hua J",
+      "Su JJ",
+      "Tro KJ",
+      "Ruark EM",
+      "Hutson MS",
+      "Page-McCaw A"
+    ],
+    "venue": "eLife",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C3"
+    ],
+    "tags": [
+      "imaging",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "结合活体成像与组织流动性计算模型，发现伤口诱导的合胞体形成可加速上皮伤口闭合；其细胞融合与组织尺度力学建模思路对形态与力学（C3）及相关模拟方法具有迁移参考价值。",
+    "url": "https://doi.org/10.7554/elife.92593",
+    "doi": "10.7554/elife.92593",
+    "confidence": 0.58,
+    "needs_review": true,
+    "added": "2026-09-30",
+    "source": "epmc"
   }
 ]
