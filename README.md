@@ -11,8 +11,6 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
 
 Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake University · Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)
 
-> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 78% of Methods Transfer (14/18), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
-
 ## Contents
 
 - [Measurement & Tracking](#measurement--tracking)

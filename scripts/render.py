@@ -180,7 +180,6 @@ def render_readme(tax, papers):
     grouped = primary_grouped(papers)
     total = len(papers)
     last_update = max((p.get("added", "") for p in papers), default="")
-    c7_n, c7_t3, c7_share = c7_stats(papers)
 
     lines = []
     # HTML H1 keeps "C. elegans" lowercase/italic; awesome-lint title-case only
@@ -218,13 +217,6 @@ def render_readme(tax, papers):
         "Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)"
     )
     lines.append("")
-    if c7_share > 0.30:
-        lines.append(
-            f"> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up {c7_share:.0%} of Methods "
-            f"Transfer ({c7_t3}/{c7_n}), exceeding the 30% soft cap. Maintainers should consider "
-            "tightening arXiv queries or triaging low-relevance entries."
-        )
-        lines.append("")
     lines.append("## Contents")
     lines.append("")
     for code in SLUGS:
