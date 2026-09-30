@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-125-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--29-green)
+![papers](https://img.shields.io/badge/papers-127-blue) ![last update](https://img.shields.io/badge/last_update-2026--09--30-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -11,7 +11,7 @@ This repository is maintained by an **AI-search + human-PR-audit** loop: a weekl
 
 Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)
 
-> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 76% of Methods Transfer (13/17), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
+> ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 78% of Methods Transfer (14/18), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
 
 ## Contents
 
@@ -110,6 +110,8 @@ Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@west
   *斑马鱼受精几何（曲率/体积）作为初始条件触发不对称分裂与细胞周期梯度，进而影响合子激活；几何决定发育可重复性的范例。*
 - [Intracellular buffering enables developmental robustness after genome doubling in C. elegans embryos](https://doi.org/10.1016/j.celrep.2026.117005) - Yang et al., *Cell Reports* 2026 `T1-core` `peer-reviewed` · also filed under `C5`<br>
   *基因组加倍后细胞内缓冲保障发育稳健性；倍性扰动下稳健性机制的直接证据。*
+- [Single-nucleus multiome sequencing reveals the molecular basis of thermal acclimation in Drosophila melanogaster embryos.](https://doi.org/10.1242/dev.205729) - TS et al., *Development* 2026 `T3-transfer` `peer-reviewed` · also filed under `C4`<br>
+  *以单核多组学（scRNA + 染色质可及性）刻画果蝇胚胎对温度驯化的稳态基因调控响应，直接涉及发育稳健性（canalization/robustness）的分子机制；为野生型发育动力学（C2）与谱系分辨分子调控（C4）提供跨物种参照。*
 - [Quantitative Resolving Cell Fate in the Early Embryogenesis of Caenorhabditis elegans](https://doi.org/10.1101/2024.10.25.620330) - Xiong et al., *bioRxiv* 2024 `T1-core` `preprint` · also filed under `C6`<br>
   *用景观/路径类方法定量解析早期胚胎的细胞命运决定；不变谱系框架下命运景观的定量尝试。*
 - [Temporal variability and cell mechanics control robustness in mammalian embryogenesis](https://doi.org/10.1126/science.adh1145) - Fabrèges et al., *Science* 2024 `T3-transfer` `peer-reviewed` · also filed under `C3`<br>
@@ -188,7 +190,7 @@ Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@west
 - [Chiral Forces Organize Left-Right Patterning in C. elegans by Uncoupling Midline and Anteroposterior Axis](https://doi.org/10.1016/j.devcel.2010.08.014) - Pohl et al., *Developmental Cell* 2010 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *手性力通过解耦中线与前后轴组织线虫左右图式形成；皮层力学驱动体轴图式的经典案例。*
 
-*See the [category page](categories/C3-morphology-mechanics.md) for 9 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C3-morphology-mechanics.md) for 10 cross-listed entries filed primarily elsewhere.*
 
 ## Molecular Regulation & Coupling
 
@@ -237,7 +239,7 @@ Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@west
 - [Multidimensional regulation of gene expression in the C. elegans embryo](https://doi.org/10.1101/gr.131920.111) - Murray et al., *Genome Research* 2012 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *线虫胚胎基因表达的多维调控解析（启动子驱动的时空表达）；时空分辨调控分析的早期系统工作。*
 
-*See the [category page](categories/C4-molecular-regulation.md) for 8 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C4-molecular-regulation.md) for 9 cross-listed entries filed primarily elsewhere.*
 
 ## Perturbation & Causal Inference
 
@@ -297,6 +299,8 @@ Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@west
   *单细胞基础模型稀有类别失效的系统基准（3 架构 × 3 数据集 × 6 损失 × 162 组受控训练）：稀有类失效在嵌入几何层面已注定，损失函数只能挽救其中一部分；对胚胎稀有细胞状态分类的训练与评估有直接警示价值。*
 - [Stochastic Flow Map for Count Data](https://arxiv.org/abs/2609.23290) - Wei, *arXiv* 2026 `T3-transfer` `preprint`<br>
   *直接在计数空间学习有限时间随机转移（Poisson 生 / Binomial 灭）的少步生成模型，应用于单细胞药物扰动响应预测；其「有限时间转移算子」形式与发育动力学的随机转移建模同构，值得借鉴；未在胚胎数据上验证。*
+- [Wound-induced syncytia outpace mononucleate neighbors during Drosophila wound repair.](https://doi.org/10.7554/elife.92593) - JS et al., *eLife* 2026 `T3-transfer` `peer-reviewed` · also filed under `C3`<br>
+  *结合活体成像与组织流动性计算模型，发现伤口诱导的合胞体形成可加速上皮伤口闭合；其细胞融合与组织尺度力学建模思路对形态与力学（C3）及相关模拟方法具有迁移参考价值。*
 
 *See the [category page](categories/C7-methods-transfer.md) for 14 cross-listed entries filed primarily elsewhere.*
 
