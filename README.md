@@ -9,7 +9,7 @@
 
 This repository is maintained by an **AI-search + human-PR-audit** loop: a weekly GitHub Actions run queries Europe PMC (PubMed + bioRxiv/medRxiv) and arXiv for new literature, an LLM classifies candidates into the taxonomy below and writes Chinese relevance notes, and all changes are delivered as a pull request for human review — nothing is pushed to `main` directly. A monthly digest summarizes the month's additions by theme and watches for retractions. Each category also has a dedicated page under `categories/` with the full cross-listed entries. See `CONTRIBUTING.md` for inclusion criteria and `docs/DEVELOPMENT.md` for operations. License: CC0-1.0 (see `LICENSE`).
 
-Maintained by Chao Tang's lab, Westlake University · Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)
+Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake University · Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)
 
 > ⚠️ **C7 soft-cap warning:** T3-transfer entries make up 78% of Methods Transfer (14/18), exceeding the 30% soft cap. Maintainers should consider tightening arXiv queries or triaging low-relevance entries.
 

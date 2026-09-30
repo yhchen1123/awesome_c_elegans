@@ -214,7 +214,7 @@ def render_readme(tax, papers):
     )
     lines.append("")
     lines.append(
-        "Maintained by Chao Tang's lab, Westlake University · "
+        "Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake University · "
         "Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)"
     )
     lines.append("")
