@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (18)
+## Papers (20)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -24,6 +24,10 @@
   VertAX：可微顶点模型，以梯度优化学习上皮组织力学参数；可微组织力学模拟器路线的新成员。
 - **[Wound-induced syncytia outpace mononucleate neighbors during Drosophila wound repair.](https://doi.org/10.7554/elife.92593)** — JS et al., *eLife* 2026 `T3-transfer` `peer-reviewed`<br>
   结合活体成像与组织流动性计算模型，发现伤口诱导的合胞体形成可加速上皮伤口闭合；其细胞融合与组织尺度力学建模思路对形态与力学（C3）及相关模拟方法具有迁移参考价值。
+- **[Mapping Embryonic Mouse Lung Development Using Enhanced Spatial Transcriptomics.](https://doi.org/10.1002/advs.77678)** — P et al., *Advanced Science* 2026 `T3-transfer` `peer-reviewed`<br>
+  优化 DBiT-seq 空间转录组流程绘制早期小鼠肺发育的空间图谱，平均转录本回收率较此前提升约两倍；空间组学方法对胚胎分子调控研究（C4）具有迁移参考价值。
+- **[Real-Time Monitoring of Mass and Mechanical Properties in Single Cells and Multicellular Spheroids.](https://doi.org/10.1002/advs.77926)** — I et al., *Advanced Science* 2026 `T3-transfer` `peer-reviewed`<br>
+  基于光热驱动微悬臂梁联用光学显微，实现单细胞与多细胞球体质量、形态及力学耗散（Q 因子）的毫秒级实时同步监测；为细胞与胚胎样系统的力学性质测量方法（C7/C3）提供新工具。
 - **[CELLECT: contrastive embedding learning for large-scale efficient cell tracking](https://doi.org/10.1038/s41592-025-02886-x)** — Zhou et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed`<br>
   CELLECT：对比嵌入学习实现大规模高效细胞追踪；嵌入表示驱动的追踪范式，与细胞表示学习方法天然衔接。
 - **[Integrating representation learning, permutation, and optimization to detect lineage-related gene expression patterns](https://doi.org/10.1038/s41467-025-56388-7)** — Schlüter et al., *Nature Communications* 2025 `T3-transfer` `peer-reviewed`<br>
