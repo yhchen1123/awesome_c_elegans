@@ -282,7 +282,7 @@
     "relevance_note": "从荧光显微图像反推 3D 力学图谱；inverse mechanics（由形态反推力学）路线的关键方法参照。",
     "url": "https://doi.org/10.1038/s41592-023-02084-7",
     "doi": "10.1038/s41592-023-02084-7",
-    "citations": 73,
+    "citations": 72,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -490,7 +490,7 @@
     "relevance_note": "invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。",
     "url": "https://doi.org/10.1016/0012-1606(83)90201-4",
     "doi": "10.1016/0012-1606(83)90201-4",
-    "citations": 4383,
+    "citations": 4386,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -714,7 +714,7 @@
     "standards": [],
     "relevance_note": "细胞周期时序的统计分析：分裂同步性与顺序不变性同命运分化耦合，提出命运控制细胞周期节奏的三层模型；WT 发育时序的基础定量工作。",
     "url": "https://doi.org/10.1016/j.ydbio.2008.02.054",
-    "citations": 99,
+    "citations": 100,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -795,7 +795,7 @@
     "standards": [],
     "relevance_note": "哺乳动物胚胎中时间变异与细胞力学共同控制发育稳健性；变异并非纯噪声而可成为稳健性来源的跨物种定量证据。",
     "url": "https://doi.org/10.1126/science.adh1145",
-    "citations": 41,
+    "citations": 42,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -922,7 +922,7 @@
     "standards": [],
     "relevance_note": "生长细胞中蛋白与 mRNA 浓度稳态的极小模型（聚合酶/核糖体限制）；为表达动力学与剂量效应建模提供理论基线。",
     "url": "https://doi.org/10.1038/s41467-018-06714-z",
-    "citations": 212,
+    "citations": 211,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -1087,7 +1087,7 @@
     "standards": [],
     "relevance_note": "集体细胞迁移的类玻璃动力学（jamming）奠基描述；细胞集体运动的物理框架，可迁移至胚胎细胞重排分析。",
     "url": "https://doi.org/10.1073/pnas.1010059108",
-    "citations": 799,
+    "citations": 792,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -1159,7 +1159,7 @@
     "standards": [],
     "relevance_note": "鸟类胚胎自组织组织力学支撑的胚胎调节现象（分割后重建完整胚胎）；扰动-恢复与自修复的力学基础。",
     "url": "https://doi.org/10.1038/s41586-024-07934-8",
-    "citations": 72,
+    "citations": 73,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -1837,7 +1837,7 @@
     "standards": [],
     "relevance_note": "Worm Perturb-Seq：整动物层面大规模并行 RNAi + RNA-seq；扰动-转录组表型的高通量范式（非胚胎特异但体系直接适用）。",
     "url": "https://doi.org/10.1038/s41467-025-60154-0",
-    "citations": 7,
+    "citations": 8,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -2750,7 +2750,7 @@
     "standards": [],
     "relevance_note": "脊椎动物胚胎发生机械调控的权威综述；力学-图式形成领域的系统性评述。",
     "url": "https://doi.org/10.1038/s41580-021-00424-z",
-    "citations": 129,
+    "citations": 130,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -3004,7 +3004,7 @@
     ],
     "relevance_note": "OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。",
     "url": "https://doi.org/10.1038/s41592-025-02845-6",
-    "citations": 11,
+    "citations": 12,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -3091,7 +3091,7 @@
     "standards": [],
     "relevance_note": "OpenWorm 综述：线虫整合生物学模拟（神经肌肉-躯体-环境闭环）的进展与路线；虽面向成虫整体而非胚胎，其多尺度整合模拟的架构与开放工程实践对胚胎尺度模拟有直接参照价值。",
     "url": "https://doi.org/10.1098/rstb.2017.0382",
-    "citations": 102,
+    "citations": 103,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -3410,7 +3410,7 @@
     "standards": [],
     "relevance_note": "diSPIM 实现空间各向同性的四维成像；胚胎活体成像分辨率的关键方法（通用显微技术）。",
     "url": "https://doi.org/10.1038/nbt.2713",
-    "citations": 358,
+    "citations": 357,
     "retracted": false,
     "confidence": 1.0,
     "needs_review": false,
@@ -4503,7 +4503,8 @@
     "confidence": 0.85,
     "needs_review": false,
     "added": "2026-09-30",
-    "source": "epmc"
+    "source": "epmc",
+    "citations": 0
   },
   {
     "id": "10.7554/elife.92593",
@@ -4537,7 +4538,8 @@
     "confidence": 0.58,
     "needs_review": true,
     "added": "2026-09-30",
-    "source": "epmc"
+    "source": "epmc",
+    "citations": 1
   },
   {
     "id": "10.1002/advs.77487",
@@ -4574,7 +4576,8 @@
     "confidence": 0.85,
     "needs_review": false,
     "added": "2026-10-01",
-    "source": "epmc"
+    "source": "epmc",
+    "citations": 0
   },
   {
     "id": "10.1002/advs.77940",
@@ -4607,7 +4610,8 @@
     "confidence": 0.7,
     "needs_review": false,
     "added": "2026-10-01",
-    "source": "epmc"
+    "source": "epmc",
+    "citations": 0
   },
   {
     "id": "10.1021/acsbiomaterials.6c00563",
@@ -4639,7 +4643,8 @@
     "confidence": 0.6,
     "needs_review": false,
     "added": "2026-10-01",
-    "source": "epmc"
+    "source": "epmc",
+    "citations": 0
   },
   {
     "id": "10.1002/advs.77926",
@@ -4675,7 +4680,8 @@
     "confidence": 0.6,
     "needs_review": false,
     "added": "2026-10-01",
-    "source": "epmc"
+    "source": "epmc",
+    "citations": 0
   },
   {
     "id": "10.1002/advs.77678",
@@ -4707,6 +4713,7 @@
     "confidence": 0.55,
     "needs_review": true,
     "added": "2026-10-01",
-    "source": "epmc"
+    "source": "epmc",
+    "citations": 0
   }
 ]
