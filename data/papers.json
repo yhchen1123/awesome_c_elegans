@@ -4538,5 +4538,175 @@
     "needs_review": true,
     "added": "2026-09-30",
     "source": "epmc"
+  },
+  {
+    "id": "10.1002/advs.77487",
+    "title": "The Interplay of Curvature, Geometry, and Topology Shapes Tissue Organisation in Epithelial Shells.",
+    "authors": [
+      "Morato L",
+      "Andrés-San Román JA",
+      "Garrido-García J",
+      "Gordillo-Vázquez C",
+      "Palacios AM",
+      "Lidueña-Fernández E",
+      "McDole K",
+      "Gómez-Gálvez P",
+      "Annese V",
+      "Escudero LM."
+    ],
+    "venue": "Advanced Science",
+    "year": 2026,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "morphology-3D",
+      "mechanics",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "结合计算模型与 MDCK 囊肿及早期小鼠胚胎的精确细胞分割，揭示曲率与拓扑约束如何决定上皮壳层的多边形排布规律；为形态与力学（C3）中曲面组织的几何组织原则提供跨物种定量证据。",
+    "url": "https://doi.org/10.1002/advs.77487",
+    "doi": "10.1002/advs.77487",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-10-01",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1002/advs.77940",
+    "title": "Curvature-Directed Elongation and Chiral Tilting Drive Asymmetric Tissue Patterning.",
+    "authors": [
+      "Xu L",
+      "Peters FD",
+      "Zhang H",
+      "Stiefbold M",
+      "Ramar T",
+      "Agarwal A",
+      "Wan LQ."
+    ],
+    "venue": "Advanced Science",
+    "year": 2026,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "morphology-3D",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "在凹凸曲面上培养 C2C12 细胞，发现曲率引导的细胞伸长与内在手性倾斜相叠加，驱动集体排列与不对称组织模式形成；为曲率感知的形态发生机制（C3）提供实验线索。",
+    "url": "https://doi.org/10.1002/advs.77940",
+    "doi": "10.1002/advs.77940",
+    "confidence": 0.7,
+    "needs_review": false,
+    "added": "2026-10-01",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1021/acsbiomaterials.6c00563",
+    "title": "Matrix Stiffness Regulates Mechanotransduction and Vascular Network Formation of hiPSC-Derived Endothelial Progenitors Encapsulated in 3D Hydrogels.",
+    "authors": [
+      "Han J",
+      "Halwachs K",
+      "West T",
+      "Larsen B",
+      "Sacks MS",
+      "Rosales AM",
+      "Zoldan J."
+    ],
+    "venue": "ACS Biomaterials Science & Engineering",
+    "year": 2026,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "用可独立调节硬度的 NorHA 水凝胶研究基质力学如何调控人 iPSC 来源内皮祖细胞的机械转导与血管网络自组装；基质硬度引导形态发生的思路对力学-形态耦合研究（C3）有迁移参考价值。",
+    "url": "https://doi.org/10.1021/acsbiomaterials.6c00563",
+    "doi": "10.1021/acsbiomaterials.6c00563",
+    "confidence": 0.6,
+    "needs_review": false,
+    "added": "2026-10-01",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1002/advs.77926",
+    "title": "Real-Time Monitoring of Mass and Mechanical Properties in Single Cells and Multicellular Spheroids.",
+    "authors": [
+      "Incaviglia I",
+      "Ammirati GEM",
+      "Herzog S",
+      "Krug T",
+      "Strohmeyer N",
+      "Camacho Rufino M",
+      "Lutolf MP",
+      "Weitz DA",
+      "Müller DJ."
+    ],
+    "venue": "Advanced Science",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "imaging",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "基于光热驱动微悬臂梁联用光学显微，实现单细胞与多细胞球体质量、形态及力学耗散（Q 因子）的毫秒级实时同步监测；为细胞与胚胎样系统的力学性质测量方法（C7/C3）提供新工具。",
+    "url": "https://doi.org/10.1002/advs.77926",
+    "doi": "10.1002/advs.77926",
+    "confidence": 0.6,
+    "needs_review": false,
+    "added": "2026-10-01",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1002/advs.77678",
+    "title": "Mapping Embryonic Mouse Lung Development Using Enhanced Spatial Transcriptomics.",
+    "authors": [
+      "Zhang P",
+      "Law BK",
+      "Huang N",
+      "Goodwin K",
+      "Nelson CM",
+      "Chan MM."
+    ],
+    "venue": "Advanced Science",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C4"
+    ],
+    "tags": [
+      "scRNA",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "优化 DBiT-seq 空间转录组流程绘制早期小鼠肺发育的空间图谱，平均转录本回收率较此前提升约两倍；空间组学方法对胚胎分子调控研究（C4）具有迁移参考价值。",
+    "url": "https://doi.org/10.1002/advs.77678",
+    "doi": "10.1002/advs.77678",
+    "confidence": 0.55,
+    "needs_review": true,
+    "added": "2026-10-01",
+    "source": "epmc"
   }
 ]
