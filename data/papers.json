@@ -4742,5 +4742,367 @@
     "needs_review": false,
     "added": "2026-10-02",
     "source": "epmc"
+  },
+  {
+    "id": "10.1895/wormbook.1.23.1",
+    "doi": "10.1895/wormbook.1.23.1",
+    "title": "Gastrulation in C. elegans",
+    "authors": [
+      "Jeremy Nance"
+    ],
+    "venue": "WormBook",
+    "year": 2005,
+    "categories": [
+      "C3",
+      "C6"
+    ],
+    "tags": [
+      "mechanics",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。",
+    "url": "https://doi.org/10.1895/wormbook.1.23.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.4.1",
+    "doi": "10.1895/wormbook.1.4.1",
+    "title": "Notch signaling in the C. elegans embryo",
+    "authors": [
+      "James R. Priess"
+    ],
+    "venue": "WormBook",
+    "year": 2005,
+    "categories": [
+      "C6",
+      "C4"
+    ],
+    "tags": [
+      "c-elegans",
+      "lineage"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "胚胎 Notch 信号的经典综述：四次 AB 谱系互作与组合 Notch 编码；信号-命运框架的奠基叙述。",
+    "url": "https://doi.org/10.1895/wormbook.1.4.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.30.2",
+    "doi": "10.1895/wormbook.1.30.2",
+    "title": "Polarity establishment, asymmetric division and segregation of fate determinants in early C. elegans embryos",
+    "authors": [
+      "Lesilee Rose",
+      "Pierre Gonczy"
+    ],
+    "venue": "WormBook",
+    "year": 2014,
+    "categories": [
+      "C6",
+      "C3"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "早期胚胎极性建立、不对称分裂与命运决定因子分离的权威章节（Rose & Gönczy）；合子极化机制的标准参考。",
+    "url": "https://doi.org/10.1895/wormbook.1.30.2",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.55.1",
+    "doi": "10.1895/wormbook.1.55.1",
+    "title": "Embryological variation during nematode development",
+    "authors": [
+      "Einhard Schierenberg"
+    ],
+    "venue": "WormBook",
+    "year": 2006,
+    "categories": [
+      "C2",
+      "C6"
+    ],
+    "tags": [
+      "c-elegans",
+      "other-species"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "线虫发育变异的经典比较胚胎学章节：同属内变异大、属内高度保守的现象学；发育稳健性讨论的源头之一。",
+    "url": "https://doi.org/10.1895/wormbook.1.55.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.35.1",
+    "doi": "10.1895/wormbook.1.35.1",
+    "title": "Epidermal morphogenesis",
+    "authors": [
+      "Jeff Hardin"
+    ],
+    "venue": "WormBook",
+    "year": 2005,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "表皮形态发生的权威章节：细胞形状改变、迁移与融合的时空编排；形态发生的组织级参照。",
+    "url": "https://doi.org/10.1895/wormbook.1.35.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.34.1",
+    "doi": "10.1895/wormbook.1.34.1",
+    "title": "Translational control of maternal RNAs",
+    "authors": [
+      "Thomas Evans"
+    ],
+    "venue": "WormBook",
+    "year": 2005,
+    "categories": [
+      "C4",
+      "C6"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。",
+    "url": "https://doi.org/10.1895/wormbook.1.34.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.32.1",
+    "doi": "10.1895/wormbook.1.32.1",
+    "title": "Programmed cell death",
+    "authors": [
+      "Barbara Conradt"
+    ],
+    "venue": "WormBook",
+    "year": 2005,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "程序性细胞死亡的奠基性章节：ced 通路与谱系固定的死亡命运；命运决定研究的经典组成部分。",
+    "url": "https://doi.org/10.1895/wormbook.1.32.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.28.1",
+    "doi": "10.1895/wormbook.1.28.1",
+    "title": "Cell-cycle regulation",
+    "authors": [
+      "Sander van den Heuvel"
+    ],
+    "venue": "WormBook",
+    "year": 2005,
+    "categories": [
+      "C2"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。",
+    "url": "https://doi.org/10.1895/wormbook.1.28.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.72.1",
+    "doi": "10.1895/wormbook.1.72.1",
+    "title": "Cell division",
+    "authors": [
+      "Karen Oegema"
+    ],
+    "venue": "WormBook",
+    "year": 2006,
+    "categories": [
+      "C2",
+      "C3"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "细胞分裂章节（Hyman & Oegema）：分裂沟定位、纺锤体与胞质分裂机制；分裂几何的标准参考。",
+    "url": "https://doi.org/10.1895/wormbook.1.72.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.179.1",
+    "doi": "10.1895/wormbook.1.179.1",
+    "title": "The C. elegans eggshell",
+    "authors": [
+      "Kathryn K. Stein"
+    ],
+    "venue": "WormBook",
+    "year": 2018,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "卵壳章节：结构、形成与力学保护；卵壳约束下胚胎发育这一经典问题的物理边界条件参考。",
+    "url": "https://doi.org/10.1895/wormbook.1.179.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.177.1",
+    "doi": "10.1895/wormbook.1.177.1",
+    "title": "A Transparent window into biology: A primer on Caenorhabditis elegans",
+    "authors": [
+      "Ann K. Corsi"
+    ],
+    "venue": "WormBook",
+    "year": 2015,
+    "categories": [
+      "C9"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "线虫生物学入门经典（Corsi, Wightman & Chalfie）：新成员与外部读者的首选导读。",
+    "url": "https://doi.org/10.1895/wormbook.1.177.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "10.1895/wormbook.1.49.1",
+    "doi": "10.1895/wormbook.1.49.1",
+    "title": "Methods in cell biology",
+    "authors": [
+      "Shai Shaham"
+    ],
+    "venue": "WormBook",
+    "year": 2006,
+    "categories": [
+      "C0",
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "细胞生物学方法章节（含胚胎细胞培养等）：线虫胚胎实验方法的经典操作参考。",
+    "url": "https://doi.org/10.1895/wormbook.1.49.1",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
+  },
+  {
+    "id": "manual:wormbook",
+    "title": "WormBook: the online review of C. elegans biology",
+    "authors": [
+      "WormBook Editorial Team"
+    ],
+    "venue": "WormBook / Genetics Society of America",
+    "year": 2005,
+    "categories": [
+      "C8"
+    ],
+    "tags": [
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "线虫领域权威开放参考书（同行评审、持续更新的 living reference）；本库按章节拆分了其中最相关的 12 章，此条目作为整体入口。",
+    "url": "https://wormbook.org/",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "manual"
   }
 ]

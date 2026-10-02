@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (39)
+## Papers (44)
 
 - **[Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development](https://doi.org/10.1038/s41563-026-02594-7)** — Guruciaga et al., *Nature Materials* 2026 `T3-transfer` `peer-reviewed`<br>
   边界几何控制三维拓扑缺陷转变并决定小鼠胚胎腔体成核位置；边界条件-缺陷-形态发生链条的实验证据。
@@ -72,12 +72,16 @@
   早期胚胎形态发生的系统级定量与表型分析；全胚胎形态变异定量的早期框架（bioRxiv 预印本）。
 - **[OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans](https://doi.org/10.1098/rstb.2017.0382)** — Sarma et al., *Philosophical Transactions of the Royal Society B: Biological Sciences* 2018 `T2-adjacent` `peer-reviewed`<br>
   OpenWorm 综述：线虫整合生物学模拟（神经肌肉-躯体-环境闭环）的进展与路线；虽面向成虫整体而非胚胎，其多尺度整合模拟的架构与开放工程实践对胚胎尺度模拟有直接参照价值。
+- **[The C. elegans eggshell](https://doi.org/10.1895/wormbook.1.179.1)** — Stein, *WormBook* 2018 `T1-core` `peer-reviewed`<br>
+  卵壳章节：结构、形成与力学保护；卵壳约束下胚胎发育这一经典问题的物理边界条件参考。
 - **[An In Toto Approach to Dissecting Cellular Interactions in Complex Tissues](https://doi.org/10.1016/j.devcel.2017.10.021)** — Shah et al., *Developmental Cell* 2017 `T1-core` `peer-reviewed`<br>
   in toto 解析复杂组织中的细胞相互作用；从全胚胎数据提取细胞互作关系的方法框架。
 - **[An Observation-Driven Agent-Based Modeling and Analysis Framework for C. elegans Embryogenesis](https://doi.org/10.1371/journal.pone.0166551)** — Wang et al., *PLOS ONE* 2016 `T1-core` `peer-reviewed`<br>
   观测驱动的智能体建模与分析框架（早期胚胎）；数据驱动的 agent-based 胚胎模拟探索。
 - **[Untwisting the Caenorhabditis elegans embryo](https://doi.org/10.7554/elife.10070)** — Christensen et al., *eLife* 2015 `T1-core` `peer-reviewed`<br>
   将线虫胚胎「解旋拉直」的计算方法，突破扭曲姿态对成像分析的限制；形态标准化的经典工作。
+- **[Polarity establishment, asymmetric division and segregation of fate determinants in early C. elegans embryos](https://doi.org/10.1895/wormbook.1.30.2)** — Rose et al., *WormBook* 2014 `T1-core` `peer-reviewed`<br>
+  早期胚胎极性建立、不对称分裂与命运决定因子分离的权威章节（Rose & Gönczy）；合子极化机制的标准参考。
 - **[A Whole-Cell Computational Model Predicts Phenotype from Genotype](https://doi.org/10.1016/j.cell.2012.05.044)** — Karr et al., *Cell* 2012 `T3-transfer` `peer-reviewed`<br>
   首个全细胞计算模型（M. genitalium）：28 个模块耦合并行推进、由基因型预测表型；全细胞/全胚胎尺度「多过程耦合模拟」的奠基范式。
 - **[Actomyosin-based Self-organization of cell internalization during C. elegans gastrulation](https://doi.org/10.1186/1741-7007-10-94)** — Pohl et al., *BMC Biology* 2012 `T1-core` `peer-reviewed`<br>
@@ -86,6 +90,12 @@
   集体细胞迁移的类玻璃动力学（jamming）奠基描述；细胞集体运动的物理框架，可迁移至胚胎细胞重排分析。
 - **[Chiral Forces Organize Left-Right Patterning in C. elegans by Uncoupling Midline and Anteroposterior Axis](https://doi.org/10.1016/j.devcel.2010.08.014)** — Pohl et al., *Developmental Cell* 2010 `T1-core` `peer-reviewed`<br>
   手性力通过解耦中线与前后轴组织线虫左右图式形成；皮层力学驱动体轴图式的经典案例。
+- **[Cell division](https://doi.org/10.1895/wormbook.1.72.1)** — Oegema, *WormBook* 2006 `T1-core` `peer-reviewed`<br>
+  细胞分裂章节（Hyman & Oegema）：分裂沟定位、纺锤体与胞质分裂机制；分裂几何的标准参考。
+- **[Epidermal morphogenesis](https://doi.org/10.1895/wormbook.1.35.1)** — Hardin, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  表皮形态发生的权威章节：细胞形状改变、迁移与融合的时空编排；形态发生的组织级参照。
+- **[Gastrulation in C. elegans](https://doi.org/10.1895/wormbook.1.23.1)** — Nance, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。
 
 ## Related categories
 

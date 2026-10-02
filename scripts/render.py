@@ -84,6 +84,7 @@ def anchor(heading):
 
 
 def first_author(authors):
+    authors = [a for a in (authors or []) if a.strip()]
     if not authors:
         return "Unknown"
     fam = authors[0].strip().split()[-1]

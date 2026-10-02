@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (18)
+## Papers (21)
 
 - **[A kinematic equation for the morphogenetic reproducibility of an animal](https://doi.org/10.65215/ltspreprints.2026.04.04.000174)** — Wang et al., *LTS Preprints* 2026 `T1-core` `emerging-evidence`<br>
   ⚠️ emerging evidence: 形态发生可重复性的运动学方程；与发育稳健性/可重复性定量研究直接相关。**注意：按本仓库证据规则视为 emerging evidence，未经同行评审与独立验证前不得作为既定共识引用。**
@@ -44,6 +44,12 @@
   细胞位置变异与谱系/对称性/接触相关且存在系统性变异压缩；发育稳健性（canalization）定量研究的重要实证基础。
 - **[Control of cell cycle timing during C. elegans embryogenesis](https://doi.org/10.1016/j.ydbio.2008.02.054)** — Bao et al., *Developmental Biology* 2008 `T1-core` `peer-reviewed`<br>
   细胞周期时序的统计分析：分裂同步性与顺序不变性同命运分化耦合，提出命运控制细胞周期节奏的三层模型；WT 发育时序的基础定量工作。
+- **[Cell division](https://doi.org/10.1895/wormbook.1.72.1)** — Oegema, *WormBook* 2006 `T1-core` `peer-reviewed`<br>
+  细胞分裂章节（Hyman & Oegema）：分裂沟定位、纺锤体与胞质分裂机制；分裂几何的标准参考。
+- **[Embryological variation during nematode development](https://doi.org/10.1895/wormbook.1.55.1)** — Schierenberg, *WormBook* 2006 `T1-core` `peer-reviewed`<br>
+  线虫发育变异的经典比较胚胎学章节：同属内变异大、属内高度保守的现象学；发育稳健性讨论的源头之一。
+- **[Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1)** — Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。
 
 ## Related categories
 

@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (28)
+## Papers (29)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
@@ -64,6 +64,8 @@
   AceTree 初代：谱系树与胚胎影像的可视化分析工具；长维护开源软件的起点。
 - **[The lineaging of fluorescently-labeled Caenorhabditis elegans embryos with StarryNite and AceTree](https://doi.org/10.1038/nprot.2006.222)** — Murray et al., *Nature Protocols* 2006 `T1-core` `peer-reviewed`<br>
   StarryNite 谱系追踪的标准实验流程；自动谱系追踪方法的配套 protocol。
+- **[Methods in cell biology](https://doi.org/10.1895/wormbook.1.49.1)** — Shaham, *WormBook* 2006 `T1-core` `peer-reviewed`<br>
+  细胞生物学方法章节（含胚胎细胞培养等）：线虫胚胎实验方法的经典操作参考。
 
 ## Related categories
 

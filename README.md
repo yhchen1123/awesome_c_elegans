@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-133-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--02-green)
+![papers](https://img.shields.io/badge/papers-146-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--02-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -76,6 +76,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *StarryNite/AceTree 自动谱系追踪的开山之作；后续测量管线的基线与数据兼容层，其 tracking error 沿长轨迹传播的问题至今仍是改进目标。*
 - [The lineaging of fluorescently-labeled Caenorhabditis elegans embryos with StarryNite and AceTree](https://doi.org/10.1038/nprot.2006.222) - Murray et al., *Nature Protocols* 2006 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *StarryNite 谱系追踪的标准实验流程；自动谱系追踪方法的配套 protocol。*
+- [Methods in cell biology](https://doi.org/10.1895/wormbook.1.49.1) - Shaham, *WormBook* 2006 `T1-core` `peer-reviewed` · also filed under `C8`<br>
+  *细胞生物学方法章节（含胚胎细胞培养等）：线虫胚胎实验方法的经典操作参考。*
 
 *See the [category page](categories/C0-measurement-tracking.md) for 4 cross-listed entries filed primarily elsewhere.*
 
@@ -130,6 +132,12 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *细胞位置变异与谱系/对称性/接触相关且存在系统性变异压缩；发育稳健性（canalization）定量研究的重要实证基础。*
 - [Control of cell cycle timing during C. elegans embryogenesis](https://doi.org/10.1016/j.ydbio.2008.02.054) - Bao et al., *Developmental Biology* 2008 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *细胞周期时序的统计分析：分裂同步性与顺序不变性同命运分化耦合，提出命运控制细胞周期节奏的三层模型；WT 发育时序的基础定量工作。*
+- [Cell division](https://doi.org/10.1895/wormbook.1.72.1) - Oegema, *WormBook* 2006 `T1-core` `peer-reviewed` · also filed under `C3`<br>
+  *细胞分裂章节（Hyman & Oegema）：分裂沟定位、纺锤体与胞质分裂机制；分裂几何的标准参考。*
+- [Embryological variation during nematode development](https://doi.org/10.1895/wormbook.1.55.1) - Schierenberg, *WormBook* 2006 `T1-core` `peer-reviewed` · also filed under `C6`<br>
+  *线虫发育变异的经典比较胚胎学章节：同属内变异大、属内高度保守的现象学；发育稳健性讨论的源头之一。*
+- [Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1) - Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  *细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。*
 
 *See the [category page](categories/C2-wt-dynamics.md) for 3 cross-listed entries filed primarily elsewhere.*
 
@@ -183,6 +191,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *早期胚胎形态发生的系统级定量与表型分析；全胚胎形态变异定量的早期框架（bioRxiv 预印本）。*
 - [OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans](https://doi.org/10.1098/rstb.2017.0382) - Sarma et al., *Philosophical Transactions of the Royal Society B: Biological Sciences* 2018 `T2-adjacent` `peer-reviewed` · also filed under `C9`<br>
   *OpenWorm 综述：线虫整合生物学模拟（神经肌肉-躯体-环境闭环）的进展与路线；虽面向成虫整体而非胚胎，其多尺度整合模拟的架构与开放工程实践对胚胎尺度模拟有直接参照价值。*
+- [The C. elegans eggshell](https://doi.org/10.1895/wormbook.1.179.1) - Stein, *WormBook* 2018 `T1-core` `peer-reviewed`<br>
+  *卵壳章节：结构、形成与力学保护；卵壳约束下胚胎发育这一经典问题的物理边界条件参考。*
 - [An Observation-Driven Agent-Based Modeling and Analysis Framework for C. elegans Embryogenesis](https://doi.org/10.1371/journal.pone.0166551) - Wang et al., *PLOS ONE* 2016 `T1-core` `peer-reviewed`<br>
   *观测驱动的智能体建模与分析框架（早期胚胎）；数据驱动的 agent-based 胚胎模拟探索。*
 - [A Whole-Cell Computational Model Predicts Phenotype from Genotype](https://doi.org/10.1016/j.cell.2012.05.044) - Karr et al., *Cell* 2012 `T3-transfer` `peer-reviewed` · also filed under `C7`<br>
@@ -193,8 +203,12 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *集体细胞迁移的类玻璃动力学（jamming）奠基描述；细胞集体运动的物理框架，可迁移至胚胎细胞重排分析。*
 - [Chiral Forces Organize Left-Right Patterning in C. elegans by Uncoupling Midline and Anteroposterior Axis](https://doi.org/10.1016/j.devcel.2010.08.014) - Pohl et al., *Developmental Cell* 2010 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *手性力通过解耦中线与前后轴组织线虫左右图式形成；皮层力学驱动体轴图式的经典案例。*
+- [Epidermal morphogenesis](https://doi.org/10.1895/wormbook.1.35.1) - Hardin, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  *表皮形态发生的权威章节：细胞形状改变、迁移与融合的时空编排；形态发生的组织级参照。*
+- [Gastrulation in C. elegans](https://doi.org/10.1895/wormbook.1.23.1) - Nance, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
+  *原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。*
 
-*See the [category page](categories/C3-morphology-mechanics.md) for 11 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C3-morphology-mechanics.md) for 13 cross-listed entries filed primarily elsewhere.*
 
 ## Molecular Regulation & Coupling
 
@@ -244,8 +258,10 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *线虫基因组的时空分辨调控分析（转录因子结合图谱）；调控结合的时空资源。*
 - [Multidimensional regulation of gene expression in the C. elegans embryo](https://doi.org/10.1101/gr.131920.111) - Murray et al., *Genome Research* 2012 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *线虫胚胎基因表达的多维调控解析（启动子驱动的时空表达）；时空分辨调控分析的早期系统工作。*
+- [Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1) - Evans, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
+  *母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。*
 
-*See the [category page](categories/C4-molecular-regulation.md) for 10 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C4-molecular-regulation.md) for 11 cross-listed entries filed primarily elsewhere.*
 
 ## Perturbation & Causal Inference
 
@@ -286,14 +302,20 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *E3 泛素连接酶促进胚胎分化进程；翻译后调控驱动分化时序的证据。*
 - [POS-1 Promotes Endo-mesoderm Development by Inhibiting the Cytoplasmic Polyadenylation of neg-1 mRNA](https://doi.org/10.1016/j.devcel.2015.05.024) - Elewa et al., *Developmental Cell* 2015 `T1-core` `peer-reviewed`<br>
   *POS-1 通过抑制胞质多聚腺苷酸化促进内-中胚层发育；母源 mRNA 调控与命运决定。*
+- [Polarity establishment, asymmetric division and segregation of fate determinants in early C. elegans embryos](https://doi.org/10.1895/wormbook.1.30.2) - Rose et al., *WormBook* 2014 `T1-core` `peer-reviewed` · also filed under `C3`<br>
+  *早期胚胎极性建立、不对称分裂与命运决定因子分离的权威章节（Rose & Gönczy）；合子极化机制的标准参考。*
 - [Specific roles for the GATA transcription factors end-1 and end-3 during C. elegans E-lineage development](https://doi.org/10.1016/j.ydbio.2011.08.002) - Boeck et al., *Developmental Biology* 2011 `T1-core` `peer-reviewed`<br>
   *GATA 因子 end-1/end-3 在内胚层谱系中的特异分工；内胚层命运决定的经典证据。*
 - [Cell fate specification in the C. elegans embryo](https://doi.org/10.1002/dvdy.22233) - Maduro, *Developmental Dynamics* 2010 `T1-core` `peer-reviewed` · also filed under `C9`<br>
   *命运决定机制的权威综述；母源因子、非对称分裂与 Wnt/Notch 信号框架是分子调控与谱系生物学条目的知识底座。*
+- [Notch signaling in the C. elegans embryo](https://doi.org/10.1895/wormbook.1.4.1) - Priess, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C4`<br>
+  *胚胎 Notch 信号的经典综述：四次 AB 谱系互作与组合 Notch 编码；信号-命运框架的奠基叙述。*
+- [Programmed cell death](https://doi.org/10.1895/wormbook.1.32.1) - Conradt, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  *程序性细胞死亡的奠基性章节：ced 通路与谱系固定的死亡命运；命运决定研究的经典组成部分。*
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。*
 
-*See the [category page](categories/C6-fate-lineage-biology.md) for 15 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C6-fate-lineage-biology.md) for 18 cross-listed entries filed primarily elsewhere.*
 
 ## Methods Transfer
 
@@ -336,8 +358,10 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *WormGUIDES：交互式单细胞发育图谱与协作标注工具；谱系数据的交互式浏览基础设施。*
 - [AceTree: a tool for visual analysis of Caenorhabditis elegans embryogenesis](https://doi.org/10.1186/1471-2105-7-275) - Boyle et al., *BMC Bioinformatics* 2006 `T1-core` `peer-reviewed` · also filed under `C0`<br>
   *AceTree 初代：谱系树与胚胎影像的可视化分析工具；长维护开源软件的起点。*
+- [WormBook: the online review of C. elegans biology](https://wormbook.org/) - Team, *WormBook / Genetics Society of America* 2005 `T1-core` `peer-reviewed`<br>
+  *线虫领域权威开放参考书（同行评审、持续更新的 living reference）；本库按章节拆分了其中最相关的 12 章，此条目作为整体入口。*
 
-*See the [category page](categories/C8-datasets-benchmarks-software.md) for 20 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C8-datasets-benchmarks-software.md) for 21 cross-listed entries filed primarily elsewhere.*
 
 ## Reviews & Perspectives
 
@@ -357,5 +381,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *脊椎动物胚胎发生机械调控的权威综述；力学-图式形成领域的系统性评述。*
 - [Self-Organization in Pattern Formation](https://doi.org/10.1016/j.devcel.2019.05.019) - Schweisguth et al., *Developmental Cell* 2019 `T3-transfer` `peer-reviewed`<br>
   *图式形成中自组织的综述；从对称性破缺到组织模式的自组织概念框架。*
+- [A Transparent window into biology: A primer on Caenorhabditis elegans](https://doi.org/10.1895/wormbook.1.177.1) - Corsi, *WormBook* 2015 `T1-core` `peer-reviewed`<br>
+  *线虫生物学入门经典（Corsi, Wightman & Chalfie）：新成员与外部读者的首选导读。*
 
 *See the [category page](categories/C9-reviews-perspectives.md) for 2 cross-listed entries filed primarily elsewhere.*
