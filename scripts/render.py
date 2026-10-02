@@ -176,10 +176,6 @@ def c7_stats(papers):
     return len(c7), len(t3), share
 
 
-def _pad_row(cells, widths):
-    return "| " + " | ".join(c + " " * (w - len(c)) for c, w in zip(cells, widths)) + " |"
-
-
 def render_readme(tax, papers):
     cats = tax["categories"]
     grouped = primary_grouped(papers)
@@ -212,9 +208,9 @@ def render_readme(tax, papers):
         "LLM classifies candidates into the taxonomy below and writes Chinese relevance notes, and all "
         "changes are delivered as a pull request for human review — nothing is pushed to `main` "
         "directly. A monthly digest summarizes the month's additions by theme and watches for "
-        "retractions. Full entry details (authors, venue, evidence badges, Chinese notes) live on the "
-        "per-category pages under `categories/`. See `CONTRIBUTING.md` for inclusion criteria and "
-        "`docs/DEVELOPMENT.md` for operations. License: CC0-1.0 (see `LICENSE`)."
+        "retractions. Each category also has a dedicated page under `categories/` with the full "
+        "cross-listed entries. See `CONTRIBUTING.md` for inclusion criteria and `docs/DEVELOPMENT.md` "
+        "for operations. License: CC0-1.0 (see `LICENSE`)."
     )
     lines.append("")
     lines.append(
@@ -222,32 +218,32 @@ def render_readme(tax, papers):
         "Contact: [chenyuhao09@westlake.edu.cn](mailto:chenyuhao09@westlake.edu.cn)"
     )
     lines.append("")
-
-    # 分类总览表：只放类目信息与文章标题；作者/期刊/徽章/注解等详情见各分类页
-    lines.append("## Categories")
+    lines.append("## Contents")
     lines.append("")
-    header = ["分类（点击进分类页）", "篇数", "文献标题（按年份降序，链接原文）"]
-    rows = []
+    for code in SLUGS:
+        name = cats[code]["name"]
+        lines.append(f"- [{name}](#{anchor(name)})")
+    lines.append("")
     for code in SLUGS:
         c = cats[code]
-        label = f"{code} · {c['name']}（{c['zh']}）"
+        lines.append(f"## {c['name']}")
+        lines.append("")
+        lines.append(f"**{c['zh']}** · {code}")
+        lines.append("")
         entries = grouped[code]
         if entries:
-            titles = "<br>".join(f"[{p['title'].replace('|', '\\\\|')}]({p['url']})" for p in entries)
+            for p in entries:
+                lines.append(render_entry_readme(p))
         else:
-            titles = "（暂无）"
-        rows.append([f"[{label}](categories/{code}-{SLUGS[code]}.md)", str(len(entries)), titles])
-    widths = [max(len(r[i]) for r in [header] + rows) for i in range(3)]
-    lines.append(_pad_row(header, widths))
-    lines.append("| " + " | ".join("-" * w for w in widths) + " |")
-    for r in rows:
-        lines.append(_pad_row(r, widths))
-    lines.append("")
-    lines.append(
-        "> 📖 每篇文献在 README 只按其主分类（`categories[0]`）出现一次；分类页包含完整的交叉收录、"
-        "作者、期刊、tier/evidence 徽章与中文注解。"
-    )
-    lines.append("")
+            lines.append("No entries yet.")
+        cross = cross_listed(papers, code)
+        if cross:
+            lines.append("")
+            lines.append(
+                f"*See the [category page](categories/{code}-{SLUGS[code]}.md) for "
+                f"{len(cross)} cross-listed entr{'ies' if len(cross) > 1 else 'y'} filed primarily elsewhere.*"
+            )
+        lines.append("")
     return "\n".join(lines)
 
 
