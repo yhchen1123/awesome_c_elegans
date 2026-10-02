@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (32)
+## Papers (34)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -72,6 +72,10 @@
   线虫胚胎基因表达的多维调控解析（启动子驱动的时空表达）；时空分辨调控分析的早期系统工作。
 - **[Automated analysis of embryonic gene expression with cellular resolution in C. elegans](https://doi.org/10.1038/nmeth.1228)** — Murray et al., *Nature Methods* 2008 `T1-core` `peer-reviewed`<br>
   细胞分辨的胚胎基因表达自动分析管线（谱系+表达整合）；表达定量测量的早期自动化框架。
+- **[Notch signaling in the C. elegans embryo](https://doi.org/10.1895/wormbook.1.4.1)** — Priess, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  胚胎 Notch 信号的经典综述：四次 AB 谱系互作与组合 Notch 编码；信号-命运框架的奠基叙述。
+- **[Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1)** — Evans, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。
 
 ## Related categories
 

@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (9)
+## Papers (10)
 
 - **[Cellular Processes and Forces Shaping the Embryo: Lessons from C. elegans](https://doi.org/10.3390/cells15070645)** — Labouesse et al., *Cells* 2026 `T1-core` `peer-reviewed`<br>
   塑造胚胎的细胞过程与力：以线虫为视角的综述；胚胎力学的线虫专门评述。
@@ -24,6 +24,8 @@
   图式形成中自组织的综述；从对称性破缺到组织模式的自组织概念框架。
 - **[OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans](https://doi.org/10.1098/rstb.2017.0382)** — Sarma et al., *Philosophical Transactions of the Royal Society B: Biological Sciences* 2018 `T2-adjacent` `peer-reviewed`<br>
   OpenWorm 综述：线虫整合生物学模拟（神经肌肉-躯体-环境闭环）的进展与路线；虽面向成虫整体而非胚胎，其多尺度整合模拟的架构与开放工程实践对胚胎尺度模拟有直接参照价值。
+- **[A Transparent window into biology: A primer on Caenorhabditis elegans](https://doi.org/10.1895/wormbook.1.177.1)** — Corsi, *WormBook* 2015 `T1-core` `peer-reviewed`<br>
+  线虫生物学入门经典（Corsi, Wightman & Chalfie）：新成员与外部读者的首选导读。
 - **[Cell fate specification in the C. elegans embryo](https://doi.org/10.1002/dvdy.22233)** — Maduro, *Developmental Dynamics* 2010 `T1-core` `peer-reviewed`<br>
   命运决定机制的权威综述；母源因子、非对称分裂与 Wnt/Notch 信号框架是分子调控与谱系生物学条目的知识底座。
 

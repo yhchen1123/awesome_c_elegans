@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (29)
+## Papers (31)
 
 - **[Developmental chronology of mouse embryo from 2-cell stage through birth](https://doi.org/10.1038/s41556-026-01971-3)** — Cao et al., *Nature Cell Biology* 2026 `T3-transfer` `peer-reviewed`<br>
   小鼠胚胎从 2 细胞到出生的发育年表资源；跨物种发育时序参照系。
@@ -64,6 +64,10 @@
   AceTree 初代：谱系树与胚胎影像的可视化分析工具；长维护开源软件的起点。
 - **[The lineaging of fluorescently-labeled Caenorhabditis elegans embryos with StarryNite and AceTree](https://doi.org/10.1038/nprot.2006.222)** — Murray et al., *Nature Protocols* 2006 `T1-core` `peer-reviewed`<br>
   StarryNite 谱系追踪的标准实验流程；自动谱系追踪方法的配套 protocol。
+- **[Methods in cell biology](https://doi.org/10.1895/wormbook.1.49.1)** — Shaham, *WormBook* 2006 `T1-core` `peer-reviewed`<br>
+  细胞生物学方法章节（含胚胎细胞培养等）：线虫胚胎实验方法的经典操作参考。
+- **[WormBook: the online review of C. elegans biology](https://wormbook.org/)** — Team, *WormBook / Genetics Society of America* 2005 `T1-core` `peer-reviewed`<br>
+  线虫领域权威开放参考书（同行评审、持续更新的 living reference）；本库按章节拆分了其中最相关的 12 章，此条目作为整体入口。
 - **[The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4)** — Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed`<br>
   invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。
 

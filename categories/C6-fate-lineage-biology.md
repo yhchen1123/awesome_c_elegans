@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (25)
+## Papers (31)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -46,6 +46,8 @@
   从活成像表型数据自动推断系统级机制模型（谱系追踪+组织特异表达组合）；数据驱动机制推断的开创性工作。
 - **[Regulatory analysis of the C. elegans genome with spatiotemporal resolution](https://doi.org/10.1038/nature13497)** — Araya et al., *Nature* 2014 `T1-core` `peer-reviewed`<br>
   线虫基因组的时空分辨调控分析（转录因子结合图谱）；调控结合的时空资源。
+- **[Polarity establishment, asymmetric division and segregation of fate determinants in early C. elegans embryos](https://doi.org/10.1895/wormbook.1.30.2)** — Rose et al., *WormBook* 2014 `T1-core` `peer-reviewed`<br>
+  早期胚胎极性建立、不对称分裂与命运决定因子分离的权威章节（Rose & Gönczy）；合子极化机制的标准参考。
 - **[Multidimensional regulation of gene expression in the C. elegans embryo](https://doi.org/10.1101/gr.131920.111)** — Murray et al., *Genome Research* 2012 `T1-core` `peer-reviewed`<br>
   线虫胚胎基因表达的多维调控解析（启动子驱动的时空表达）；时空分辨调控分析的早期系统工作。
 - **[Specific roles for the GATA transcription factors end-1 and end-3 during C. elegans E-lineage development](https://doi.org/10.1016/j.ydbio.2011.08.002)** — Boeck et al., *Developmental Biology* 2011 `T1-core` `peer-reviewed`<br>
@@ -56,6 +58,16 @@
   手性力通过解耦中线与前后轴组织线虫左右图式形成；皮层力学驱动体轴图式的经典案例。
 - **[Control of cell cycle timing during C. elegans embryogenesis](https://doi.org/10.1016/j.ydbio.2008.02.054)** — Bao et al., *Developmental Biology* 2008 `T1-core` `peer-reviewed`<br>
   细胞周期时序的统计分析：分裂同步性与顺序不变性同命运分化耦合，提出命运控制细胞周期节奏的三层模型；WT 发育时序的基础定量工作。
+- **[Embryological variation during nematode development](https://doi.org/10.1895/wormbook.1.55.1)** — Schierenberg, *WormBook* 2006 `T1-core` `peer-reviewed`<br>
+  线虫发育变异的经典比较胚胎学章节：同属内变异大、属内高度保守的现象学；发育稳健性讨论的源头之一。
+- **[Gastrulation in C. elegans](https://doi.org/10.1895/wormbook.1.23.1)** — Nance, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。
+- **[Notch signaling in the C. elegans embryo](https://doi.org/10.1895/wormbook.1.4.1)** — Priess, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  胚胎 Notch 信号的经典综述：四次 AB 谱系互作与组合 Notch 编码；信号-命运框架的奠基叙述。
+- **[Programmed cell death](https://doi.org/10.1895/wormbook.1.32.1)** — Conradt, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  程序性细胞死亡的奠基性章节：ced 通路与谱系固定的死亡命运；命运决定研究的经典组成部分。
+- **[Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1)** — Evans, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
+  母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。
 - **[The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4)** — Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed`<br>
   invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。
 
