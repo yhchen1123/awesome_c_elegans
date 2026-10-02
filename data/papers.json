@@ -4708,5 +4708,39 @@
     "needs_review": true,
     "added": "2026-10-01",
     "source": "epmc"
+  },
+  {
+    "id": "10.64898/2026.09.24.754260",
+    "title": "CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis",
+    "authors": [
+      "Chen X",
+      "Ju X",
+      "Murali M",
+      "Li H",
+      "Chen M",
+      "Zhang MQ."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C4",
+      "C1"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "面向线虫早期胚胎 scRNA 图谱的细胞身份注释模型 CHACAM，整合基因表达、配体-受体互作数据库与细胞接触图，解决近缘亚谱系标签合并导致的注释歧义；对胚胎单细胞图谱的谱系重建与调控网络分析具有直接工具价值。",
+    "url": "https://doi.org/10.64898/2026.09.24.754260",
+    "doi": "10.64898/2026.09.24.754260",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-02",
+    "source": "epmc"
   }
 ]
