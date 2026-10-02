@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-132-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--01-green)
+![papers](https://img.shields.io/badge/papers-133-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--02-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -94,7 +94,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Morphodynamical cell state description via live-cell imaging trajectory embedding](https://doi.org/10.1038/s42003-023-04837-8) - Copperman et al., *Communications Biology* 2023 `T3-transfer` `peer-reviewed` · also filed under `C7`<br>
   *活细胞成像轨迹嵌入的形态动力学细胞状态描述；以轨迹历史而非单帧特征表示细胞状态的方法。*
 
-*See the [category page](categories/C1-cell-representation.md) for 1 cross-listed entry filed primarily elsewhere.*
+*See the [category page](categories/C1-cell-representation.md) for 2 cross-listed entries filed primarily elsewhere.*
 
 ## WT Developmental Dynamics
 
@@ -204,6 +204,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。*
 - [PASTRI: Resolving Stage-Specific Cell-State Dynamics from Annotated Cell Lineage Trees](https://doi.org/10.64898/2026.08.16.745065) - Yang et al., *bioRxiv* 2026 `T1-core` `preprint` · also filed under `C2`<br>
   *PASTRI：从带末端状态标注的谱系树推断阶段特异的细胞状态转移速率，在线虫胚胎谱系上验证；利用不同谱系距离绕过动力学随发育变化的问题。*
+- [CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis](https://doi.org/10.64898/2026.09.24.754260) - X et al., *openRxiv* 2026 `T1-core` `preprint` · also filed under `C1`<br>
+  *面向线虫早期胚胎 scRNA 图谱的细胞身份注释模型 CHACAM，整合基因表达、配体-受体互作数据库与细胞接触图，解决近缘亚谱系标签合并导致的注释歧义；对胚胎单细胞图谱的谱系重建与调控网络分析具有直接工具价值。*
 - [Integrating representation learning, permutation, and optimization to detect lineage-related gene expression patterns](https://doi.org/10.1038/s41467-025-56388-7) - Schlüter et al., *Nature Communications* 2025 `T3-transfer` `peer-reviewed` · also filed under `C7`<br>
   *PORCELAN：表示学习+置换检验+优化检测谱系相关基因表达模式；谱系条形码×表达联合分析的新方法。*
 - [Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249) - Large et al., *Science* 2025 `T1-core` `peer-reviewed` · also filed under `C6`<br>
