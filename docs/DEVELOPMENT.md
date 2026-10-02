@@ -128,10 +128,11 @@ python3 scripts/classify.py --add 10.1126/science.aax1971 --yes   # 跳过交互
 `README.md` 受 `awesome-lint` 约束，render.py 因此采用以下约定（`categories/*.md` 不受 lint，保留富格式）：
 
 1. H1 用 HTML 写法 `<h1>Awesome <i>C. elegans</i> Embryogenesis</h1>` —— 保持物种名小写（awesome-lint 的 title-case 规则不检查 HTML 标题）。
-2. 每篇文献在 README 只出现一次（主分类 = `categories[0]`），多分类条目附 `also filed under` 提示；分类页含完整交叉收录（double-link 规则禁止主链接重复）。
-3. 条目格式 `- [标题](url) - 作者, *期刊* 年份 ` + 行内代码徽章 + `<br>` + 斜体中文注解（em-dash 分隔符、加粗链接均不合规）；分类节标题下的中文副标题行格式为 `**中文名** · C0`（纯粗体段落会被 no-emphasis-as-heading 误伤）。
-4. README 不设 License 章节（awesome-license 规则禁止；许可证见根目录 `LICENSE`）。
-5. 本地新建分支后跑 lint 前，需 `git config branch.<分支名>.remote origin`（awesome-github 规则要读分支远端配置，否则误报「not a valid git repository」）；CI 中 checkout 自动配置，不受影响。
+2. **README 是分类总览表，不放完整条目**：仅「分类 + 篇数 + 标题链接」三列（2026-10-02 起）；作者/期刊/徽章/中文注解全部在各分类页展示。每篇文献在 README 只出现一次（主分类 = `categories[0]`），分类页含完整交叉收录。
+3. 表格单元格内边距风格必须全表一致（table-cell-padding 按第一处风格检测；分隔行 `| --- |` 也带空格），表格列按字符数对齐（tablePipeAlignment）；表格内出现 `categories[0]` 这类方括号文本必须用反引号包裹（否则 no-undefined-references 误判为链接）。
+4. 分类页条目格式 `- [标题](url) - 作者, *期刊* 年份 ` + 行内代码徽章 + `<br>` + 斜体中文注解（em-dash 分隔符、加粗链接在 README 场景均不合规）。
+5. README 不设 License 章节（awesome-license 规则禁止；许可证见根目录 `LICENSE`）。
+6. 本地新建分支后跑 lint 前，需 `git config branch.<分支名>.remote origin`（awesome-github 规则要读分支远端配置，否则误报「not a valid git repository」）；CI 中 checkout 自动配置，不受影响。
 
 ## GitHub 侧一次性设置
 
