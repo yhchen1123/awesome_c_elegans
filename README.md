@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-146-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--02-green)
+![papers](https://img.shields.io/badge/papers-151-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--03-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -139,7 +139,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1) - Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   *细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。*
 
-*See the [category page](categories/C2-wt-dynamics.md) for 3 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C2-wt-dynamics.md) for 4 cross-listed entries filed primarily elsewhere.*
 
 ## Morphology & Mechanics
 
@@ -169,6 +169,12 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *用可独立调节硬度的 NorHA 水凝胶研究基质力学如何调控人 iPSC 来源内皮祖细胞的机械转导与血管网络自组装；基质硬度引导形态发生的思路对力学-形态耦合研究（C3）有迁移参考价值。*
 - [The Interplay of Curvature, Geometry, and Topology Shapes Tissue Organisation in Epithelial Shells.](https://doi.org/10.1002/advs.77487) - L et al., *Advanced Science* 2026 `T3-transfer` `peer-reviewed`<br>
   *结合计算模型与 MDCK 囊肿及早期小鼠胚胎的精确细胞分割，揭示曲率与拓扑约束如何决定上皮壳层的多边形排布规律；为形态与力学（C3）中曲面组织的几何组织原则提供跨物种定量证据。*
+- [Increased tissue tension caused by depletion of CLDN3 in the non-neural ectoderm causes neural tube defects in chick embryos.](https://doi.org/10.1242/jcs.264758) - EA et al., *Journal of Cell Science* 2026 `T3-transfer` `peer-reviewed` · also filed under `C5`<br>
+  *在鸡胚神经管闭合中发现非神经外胚层 CLDN3 缺失通过增强肌动球蛋白收缩提高组织张力、阻碍神经褶融合，且 blebbistatin 降张力可挽救；张力调控与药理学挽救思路对形态力学（C3）和扰动-挽救实验（C5）有参考价值。*
+- [Mechanical anisotropy and medio-apical force transmission shape cellular strain heterogeneity in epithelia.](https://doi.org/10.1242/dev.205417) - J et al., *Development* 2026 `T3-transfer` `peer-reviewed`<br>
+  *对非洲爪蟾胚胎上皮外植体施加单轴应变，结合黏着斑力传感器与激光消融，发现细胞固有机械各向异性是应变不均匀性的主因，力主要经顶端中部皮层传递；为组织力学响应的定量分析（C3）提供物理框架。*
+- [Mitotically driven cytoskeletal reorganization governs zebrafish left-right organizer detachment from EVL and lumen morphogenesis.](https://doi.org/10.1242/jcs.264896) - Y et al., *Journal of Cell Science* 2026 `T3-transfer` `peer-reviewed` · also filed under `C5`<br>
+  *结合活体成像与激光消融，证明早期胞质分裂事件通过细胞骨架重组驱动斑马鱼左右组织者脱离包被层并形成管腔；细胞分裂史指导上皮组织组装，对形态发生力学（C3）与消融扰动实验（C5）均有借鉴意义。*
 - [Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0) - Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。*
 - [Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166) - Guan et al., *LTS Preprints* 2025 `T1-core` `preprint` · also filed under `C6`<br>
@@ -261,7 +267,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1) - Evans, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。*
 
-*See the [category page](categories/C4-molecular-regulation.md) for 11 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C4-molecular-regulation.md) for 12 cross-listed entries filed primarily elsewhere.*
 
 ## Perturbation & Causal Inference
 
@@ -271,6 +277,10 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。*
 - [Learning Perturbation Effects Through Contrastive Alignment of Multimodal Biological Embeddings](https://doi.org/10.64898/2026.06.23.734145) - Long et al., *bioRxiv* 2026 `T3-transfer` `preprint` · also filed under `C8`<br>
   *多模态扰动图谱定义细胞形态表型的分辨率极限；扰动-形态表型分析规模化的方法参照。*
+- [Epigenetic regulators partition the genome by evolutionary and developmental constraint](https://doi.org/10.64898/2026.10.01.755350) - Y et al., *openRxiv* 2026 `T3-transfer` `preprint` · also filed under `C4`<br>
+  *对小鼠原肠胚期胚胎中 30 条必需调控通路进行单细胞 RNA 测序突变体表型普查（逾 450 个重复），构建发育解析的扰动互作网络；大规模「扰动-单细胞读出」设计对胚胎因果推断（C5）与分子调控（C4）具有方法迁移价值。*
+- [Loss of the fatty acid β-oxidation gene acaa-2 impairs timely hatching under poor maternal diet in C. elegans](https://doi.org/10.64898/2026.09.29.755286) - Y et al., *openRxiv* 2026 `T1-core` `preprint` · also filed under `C2`<br>
+  *通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。*
 - [Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041) - Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed` · also filed under `C2`<br>
   *不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。*
 - [Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq](https://doi.org/10.1038/s41467-025-60154-0) - Zhang et al., *Nature Communications* 2025 `T2-adjacent` `peer-reviewed` · also filed under `C4`<br>
@@ -282,7 +292,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The Regulatory Landscape of Lineage Differentiation in a Metazoan Embryo](https://doi.org/10.1016/j.devcel.2015.07.014) - Du et al., *Developmental Cell* 2015 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *系统 RNAi 绘制谱系分化的调控景观：命运沟渠化、二元命运开关与多尺度分化模型；扰动-表型系统分析的奠基资源。*
 
-*See the [category page](categories/C5-perturbation-causal.md) for 4 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C5-perturbation-causal.md) for 6 cross-listed entries filed primarily elsewhere.*
 
 ## Fate Specification & Lineage Biology
 

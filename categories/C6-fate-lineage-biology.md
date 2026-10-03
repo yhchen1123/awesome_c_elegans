@@ -14,7 +14,7 @@
   建立线虫合子极化的 3D 力学模型（皮层收缩丝网络），复现 cortical flow、表面褶皱与张力各向异性，提出密度依赖收缩的机械负反馈机制；形态-力学耦合建模在单细胞阶段的直接参照，与 FIDES 力推断工作出自同一团队。
 - **[Decoding anterior–posterior patterning cues into embryo-wide binary fate decisions through recruitment-mediated targeting](https://doi.org/10.1101/gad.353848.126)** — Xiao et al., *Genes & Development* 2026 `T1-core` `peer-reviewed`<br>
   前后轴图式信号被解码为全胚胎二元命运决策；图式-命运映射的机制解析。
-- **[&lt;b&gt;Genetic-Morphological Synergy Governs Cell Fate Specification in Development&lt;/b&gt;](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>
+- **[Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>
   遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。
 - **[Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249)** — Large et al., *Science* 2025 `T1-core` `peer-reviewed`<br>
   跨物种谱系分辨表达演化；为 lineage 与 transcriptome 非恒定关系及远缘谱系分子收敛提供证据。

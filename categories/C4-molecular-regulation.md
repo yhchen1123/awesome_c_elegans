@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (34)
+## Papers (35)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -24,6 +24,8 @@
   优化 DBiT-seq 空间转录组流程绘制早期小鼠肺发育的空间图谱，平均转录本回收率较此前提升约两倍；空间组学方法对胚胎分子调控研究（C4）具有迁移参考价值。
 - **[CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis](https://doi.org/10.64898/2026.09.24.754260)** — X et al., *openRxiv* 2026 `T1-core` `preprint`<br>
   面向线虫早期胚胎 scRNA 图谱的细胞身份注释模型 CHACAM，整合基因表达、配体-受体互作数据库与细胞接触图，解决近缘亚谱系标签合并导致的注释歧义；对胚胎单细胞图谱的谱系重建与调控网络分析具有直接工具价值。
+- **[Epigenetic regulators partition the genome by evolutionary and developmental constraint](https://doi.org/10.64898/2026.10.01.755350)** — Y et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  对小鼠原肠胚期胚胎中 30 条必需调控通路进行单细胞 RNA 测序突变体表型普查（逾 450 个重复），构建发育解析的扰动互作网络；大规模「扰动-单细胞读出」设计对胚胎因果推断（C5）与分子调控（C4）具有方法迁移价值。
 - **[Integrating representation learning, permutation, and optimization to detect lineage-related gene expression patterns](https://doi.org/10.1038/s41467-025-56388-7)** — Schlüter et al., *Nature Communications* 2025 `T3-transfer` `peer-reviewed`<br>
   PORCELAN：表示学习+置换检验+优化检测谱系相关基因表达模式；谱系条形码×表达联合分析的新方法。
 - **[Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249)** — Large et al., *Science* 2025 `T1-core` `peer-reviewed`<br>
