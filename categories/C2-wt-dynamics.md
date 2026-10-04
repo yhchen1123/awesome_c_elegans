@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (21)
+## Papers (22)
 
 - **[A kinematic equation for the morphogenetic reproducibility of an animal](https://doi.org/10.65215/ltspreprints.2026.04.04.000174)** — Wang et al., *LTS Preprints* 2026 `T1-core` `emerging-evidence`<br>
   ⚠️ emerging evidence: 形态发生可重复性的运动学方程；与发育稳健性/可重复性定量研究直接相关。**注意：按本仓库证据规则视为 emerging evidence，未经同行评审与独立验证前不得作为既定共识引用。**
@@ -20,6 +20,8 @@
   PASTRI：从带末端状态标注的谱系树推断阶段特异的细胞状态转移速率，在线虫胚胎谱系上验证；利用不同谱系距离绕过动力学随发育变化的问题。
 - **[Single-nucleus multiome sequencing reveals the molecular basis of thermal acclimation in Drosophila melanogaster embryos.](https://doi.org/10.1242/dev.205729)** — TS et al., *Development* 2026 `T3-transfer` `peer-reviewed`<br>
   以单核多组学（scRNA + 染色质可及性）刻画果蝇胚胎对温度驯化的稳态基因调控响应，直接涉及发育稳健性（canalization/robustness）的分子机制；为野生型发育动力学（C2）与谱系分辨分子调控（C4）提供跨物种参照。
+- **[Loss of the fatty acid β-oxidation gene acaa-2 impairs timely hatching under poor maternal diet in C. elegans](https://doi.org/10.64898/2026.09.29.755286)** — Y et al., *openRxiv* 2026 `T1-core` `preprint`<br>
+  通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。
 - **[Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041)** — Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed`<br>
   不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。
 - **[Quantitative Resolving Cell Fate in the Early Embryogenesis of Caenorhabditis elegans](https://doi.org/10.1101/2024.10.25.620330)** — Xiong et al., *bioRxiv* 2024 `T1-core` `preprint`<br>

@@ -5104,5 +5104,174 @@
     "needs_review": false,
     "added": "2026-10-02",
     "source": "manual"
+  },
+  {
+    "id": "10.64898/2026.09.29.755286",
+    "title": "Loss of the fatty acid β-oxidation gene acaa-2 impairs timely hatching under poor maternal diet in C. elegans",
+    "authors": [
+      "Komachiya Y",
+      "Kato R",
+      "Ohno H."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C5",
+      "C2"
+    ],
+    "tags": [
+      "perturbation",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。",
+    "url": "https://doi.org/10.64898/2026.09.29.755286",
+    "doi": "10.64898/2026.09.29.755286",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-10-03",
+    "source": "epmc"
+  },
+  {
+    "id": "10.64898/2026.10.01.755350",
+    "title": "Epigenetic regulators partition the genome by evolutionary and developmental constraint",
+    "authors": [
+      "Kijima Y",
+      "Villagrana J",
+      "Wang M",
+      "Tornisiello R",
+      "Dias N",
+      "Hou JT",
+      "Tse K",
+      "Wang J",
+      "Kretzmer H",
+      "Sumigray K",
+      "Aktas T",
+      "Smith Z."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C5",
+      "C4"
+    ],
+    "tags": [
+      "scRNA",
+      "perturbation",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "对小鼠原肠胚期胚胎中 30 条必需调控通路进行单细胞 RNA 测序突变体表型普查（逾 450 个重复），构建发育解析的扰动互作网络；大规模「扰动-单细胞读出」设计对胚胎因果推断（C5）与分子调控（C4）具有方法迁移价值。",
+    "url": "https://doi.org/10.64898/2026.10.01.755350",
+    "doi": "10.64898/2026.10.01.755350",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-03",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1242/jcs.264896",
+    "title": "Mitotically driven cytoskeletal reorganization governs zebrafish left-right organizer detachment from EVL and lumen morphogenesis.",
+    "authors": [
+      "Lan Y",
+      "Wu Y",
+      "Allred MA",
+      "Adhya AL",
+      "Timpson C",
+      "Hehnly H."
+    ],
+    "venue": "Journal of Cell Science",
+    "year": 2026,
+    "categories": [
+      "C3",
+      "C5"
+    ],
+    "tags": [
+      "imaging",
+      "mechanics",
+      "perturbation",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "结合活体成像与激光消融，证明早期胞质分裂事件通过细胞骨架重组驱动斑马鱼左右组织者脱离包被层并形成管腔；细胞分裂史指导上皮组织组装，对形态发生力学（C3）与消融扰动实验（C5）均有借鉴意义。",
+    "url": "https://doi.org/10.1242/jcs.264896",
+    "doi": "10.1242/jcs.264896",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-03",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1242/jcs.264758",
+    "title": "Increased tissue tension caused by depletion of CLDN3 in the non-neural ectoderm causes neural tube defects in chick embryos.",
+    "authors": [
+      "Legere EA",
+      "Dumont M",
+      "Dias JA",
+      "Yamanaka Y",
+      "Galea GL",
+      "Ryan AK."
+    ],
+    "venue": "Journal of Cell Science",
+    "year": 2026,
+    "categories": [
+      "C3",
+      "C5"
+    ],
+    "tags": [
+      "imaging",
+      "mechanics",
+      "perturbation",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "在鸡胚神经管闭合中发现非神经外胚层 CLDN3 缺失通过增强肌动球蛋白收缩提高组织张力、阻碍神经褶融合，且 blebbistatin 降张力可挽救；张力调控与药理学挽救思路对形态力学（C3）和扰动-挽救实验（C5）有参考价值。",
+    "url": "https://doi.org/10.1242/jcs.264758",
+    "doi": "10.1242/jcs.264758",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-10-03",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1242/dev.205417",
+    "title": "Mechanical anisotropy and medio-apical force transmission shape cellular strain heterogeneity in epithelia.",
+    "authors": [
+      "Yang J",
+      "Dong Y",
+      "Jones CB",
+      "Wang Y",
+      "Merino CV",
+      "Stuckenholz C",
+      "Davidson LA."
+    ],
+    "venue": "Development",
+    "year": 2026,
+    "categories": [
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "imaging",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "对非洲爪蟾胚胎上皮外植体施加单轴应变，结合黏着斑力传感器与激光消融，发现细胞固有机械各向异性是应变不均匀性的主因，力主要经顶端中部皮层传递；为组织力学响应的定量分析（C3）提供物理框架。",
+    "url": "https://doi.org/10.1242/dev.205417",
+    "doi": "10.1242/dev.205417",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-10-03",
+    "source": "epmc"
   }
 ]

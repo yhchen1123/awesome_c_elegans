@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (11)
+## Papers (15)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
@@ -14,6 +14,14 @@
   基因组加倍后细胞内缓冲保障发育稳健性；倍性扰动下稳健性机制的直接证据。
 - **[Learning Perturbation Effects Through Contrastive Alignment of Multimodal Biological Embeddings](https://doi.org/10.64898/2026.06.23.734145)** — Long et al., *bioRxiv* 2026 `T3-transfer` `preprint`<br>
   多模态扰动图谱定义细胞形态表型的分辨率极限；扰动-形态表型分析规模化的方法参照。
+- **[Epigenetic regulators partition the genome by evolutionary and developmental constraint](https://doi.org/10.64898/2026.10.01.755350)** — Y et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  对小鼠原肠胚期胚胎中 30 条必需调控通路进行单细胞 RNA 测序突变体表型普查（逾 450 个重复），构建发育解析的扰动互作网络；大规模「扰动-单细胞读出」设计对胚胎因果推断（C5）与分子调控（C4）具有方法迁移价值。
+- **[Increased tissue tension caused by depletion of CLDN3 in the non-neural ectoderm causes neural tube defects in chick embryos.](https://doi.org/10.1242/jcs.264758)** — EA et al., *Journal of Cell Science* 2026 `T3-transfer` `peer-reviewed`<br>
+  在鸡胚神经管闭合中发现非神经外胚层 CLDN3 缺失通过增强肌动球蛋白收缩提高组织张力、阻碍神经褶融合，且 blebbistatin 降张力可挽救；张力调控与药理学挽救思路对形态力学（C3）和扰动-挽救实验（C5）有参考价值。
+- **[Loss of the fatty acid β-oxidation gene acaa-2 impairs timely hatching under poor maternal diet in C. elegans](https://doi.org/10.64898/2026.09.29.755286)** — Y et al., *openRxiv* 2026 `T1-core` `preprint`<br>
+  通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。
+- **[Mitotically driven cytoskeletal reorganization governs zebrafish left-right organizer detachment from EVL and lumen morphogenesis.](https://doi.org/10.1242/jcs.264896)** — Y et al., *Journal of Cell Science* 2026 `T3-transfer` `peer-reviewed`<br>
+  结合活体成像与激光消融，证明早期胞质分裂事件通过细胞骨架重组驱动斑马鱼左右组织者脱离包被层并形成管腔；细胞分裂史指导上皮组织组装，对形态发生力学（C3）与消融扰动实验（C5）均有借鉴意义。
 - **[Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041)** — Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed`<br>
   不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。
 - **[Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq](https://doi.org/10.1038/s41467-025-60154-0)** — Zhang et al., *Nature Communications* 2025 `T2-adjacent` `peer-reviewed`<br>
