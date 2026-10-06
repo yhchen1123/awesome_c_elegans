@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-151-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--03-green)
+![papers](https://img.shields.io/badge/papers-152-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--06-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -267,7 +267,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1) - Evans, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。*
 
-*See the [category page](categories/C4-molecular-regulation.md) for 12 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C4-molecular-regulation.md) for 13 cross-listed entries filed primarily elsewhere.*
 
 ## Perturbation & Causal Inference
 
@@ -302,6 +302,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。*
 - [Decoding anterior–posterior patterning cues into embryo-wide binary fate decisions through recruitment-mediated targeting](https://doi.org/10.1101/gad.353848.126) - Xiao et al., *Genes & Development* 2026 `T1-core` `peer-reviewed` · also filed under `C4`<br>
   *前后轴图式信号被解码为全胚胎二元命运决策；图式-命运映射的机制解析。*
+- [&lt;i&gt;C. elegans&lt;/i&gt; CEH-43/DLX drives convergent astrocyte differentiation by sequential control of axon guidance and synaptic gene expression programs.](https://doi.org/10.1101/gad.353618.125) - S et al., *Genes & Development* 2026 `T2-adjacent` `peer-reviewed` · also filed under `C4`<br>
+  *利用谱系限制的单细胞 RNA 测序刻画线虫 CEPsh 胶质细胞的发育时序程序，发现 DLX 同源转录因子 CEH-43 序贯控制胚胎期轴突引导基因与成熟胶质功能基因；跨谱系收敛性命运决定的分子机制对谱系生物学（C6）与分子调控（C4）研究有参考价值。*
 - [Vacuolar H+-ATPase determines daughter cell fates through asymmetric segregation of the nucleosome remodeling and deacetylase complex](https://doi.org/10.7554/elife.89032) - Xie et al., *eLife* 2024 `T1-core` `peer-reviewed`<br>
   *液泡 H+-ATPase 通过不对称分离决定子细胞命运；细胞器不对称遗传与命运决定。*
 - [The Caenorhabditis elegans gene ham-1 regulates daughter cell size asymmetry primarily in divisions that produce a small anterior daughter cell](https://doi.org/10.1371/journal.pone.0195855) - Teuliere et al., *PLOS ONE* 2018 `T1-core` `peer-reviewed`<br>

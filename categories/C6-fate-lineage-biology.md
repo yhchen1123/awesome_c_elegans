@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (31)
+## Papers (32)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -14,6 +14,8 @@
   建立线虫合子极化的 3D 力学模型（皮层收缩丝网络），复现 cortical flow、表面褶皱与张力各向异性，提出密度依赖收缩的机械负反馈机制；形态-力学耦合建模在单细胞阶段的直接参照，与 FIDES 力推断工作出自同一团队。
 - **[Decoding anterior–posterior patterning cues into embryo-wide binary fate decisions through recruitment-mediated targeting](https://doi.org/10.1101/gad.353848.126)** — Xiao et al., *Genes & Development* 2026 `T1-core` `peer-reviewed`<br>
   前后轴图式信号被解码为全胚胎二元命运决策；图式-命运映射的机制解析。
+- **[&lt;i&gt;C. elegans&lt;/i&gt; CEH-43/DLX drives convergent astrocyte differentiation by sequential control of axon guidance and synaptic gene expression programs.](https://doi.org/10.1101/gad.353618.125)** — S et al., *Genes & Development* 2026 `T2-adjacent` `peer-reviewed`<br>
+  利用谱系限制的单细胞 RNA 测序刻画线虫 CEPsh 胶质细胞的发育时序程序，发现 DLX 同源转录因子 CEH-43 序贯控制胚胎期轴突引导基因与成熟胶质功能基因；跨谱系收敛性命运决定的分子机制对谱系生物学（C6）与分子调控（C4）研究有参考价值。
 - **[Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>
   遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。
 - **[Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249)** — Large et al., *Science* 2025 `T1-core` `peer-reviewed`<br>
