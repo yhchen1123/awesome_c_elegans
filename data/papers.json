@@ -5273,5 +5273,40 @@
     "needs_review": false,
     "added": "2026-10-03",
     "source": "epmc"
+  },
+  {
+    "id": "10.1101/gad.353618.125",
+    "title": "&lt;i&gt;C. elegans&lt;/i&gt; CEH-43/DLX drives convergent astrocyte differentiation by sequential control of axon guidance and synaptic gene expression programs.",
+    "authors": [
+      "Liu S",
+      "Kim YA",
+      "Milosevic A",
+      "Stefanakis N",
+      "Craig RMJ",
+      "Bradley K",
+      "Tang JJ",
+      "Shaham S."
+    ],
+    "venue": "Genes & Development",
+    "year": 2026,
+    "categories": [
+      "C6",
+      "C4"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "利用谱系限制的单细胞 RNA 测序刻画线虫 CEPsh 胶质细胞的发育时序程序，发现 DLX 同源转录因子 CEH-43 序贯控制胚胎期轴突引导基因与成熟胶质功能基因；跨谱系收敛性命运决定的分子机制对谱系生物学（C6）与分子调控（C4）研究有参考价值。",
+    "url": "https://doi.org/10.1101/gad.353618.125",
+    "doi": "10.1101/gad.353618.125",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-10-06",
+    "source": "epmc"
   }
 ]
