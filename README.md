@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-152-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--06-green)
+![papers](https://img.shields.io/badge/papers-157-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--07-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -79,7 +79,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Methods in cell biology](https://doi.org/10.1895/wormbook.1.49.1) - Shaham, *WormBook* 2006 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *细胞生物学方法章节（含胚胎细胞培养等）：线虫胚胎实验方法的经典操作参考。*
 
-*See the [category page](categories/C0-measurement-tracking.md) for 4 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C0-measurement-tracking.md) for 5 cross-listed entries filed primarily elsewhere.*
 
 ## Cell & Embryo Representation
 
@@ -292,7 +292,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The Regulatory Landscape of Lineage Differentiation in a Metazoan Embryo](https://doi.org/10.1016/j.devcel.2015.07.014) - Du et al., *Developmental Cell* 2015 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *系统 RNAi 绘制谱系分化的调控景观：命运沟渠化、二元命运开关与多尺度分化模型；扰动-表型系统分析的奠基资源。*
 
-*See the [category page](categories/C5-perturbation-causal.md) for 6 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C5-perturbation-causal.md) for 7 cross-listed entries filed primarily elsewhere.*
 
 ## Fate Specification & Lineage Biology
 
@@ -345,6 +345,16 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *优化 DBiT-seq 空间转录组流程绘制早期小鼠肺发育的空间图谱，平均转录本回收率较此前提升约两倍；空间组学方法对胚胎分子调控研究（C4）具有迁移参考价值。*
 - [Real-Time Monitoring of Mass and Mechanical Properties in Single Cells and Multicellular Spheroids.](https://doi.org/10.1002/advs.77926) - I et al., *Advanced Science* 2026 `T3-transfer` `peer-reviewed` · also filed under `C3`<br>
   *基于光热驱动微悬臂梁联用光学显微，实现单细胞与多细胞球体质量、形态及力学耗散（Q 因子）的毫秒级实时同步监测；为细胞与胚胎样系统的力学性质测量方法（C7/C3）提供新工具。*
+- [CellMSA: Context Modeling for Single-Cell Representation Learning](https://arxiv.org/abs/2609.38908) - Zhao et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  *CellMSA 将蛋白质建模中多序列比对（MSA）的上下文归纳偏置引入单细胞转录组建模，跨批次检索相关细胞作为上下文学习基因对表示，在约 1.09 亿细胞语料上预训练；为单细胞表示学习提供新架构思路。*
+- [CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging](https://arxiv.org/abs/2610.04199) - Tao et al., *arXiv* 2026 `T3-transfer` `preprint` · also filed under `C0`<br>
+  *CellSplat4D 面向稀疏采样的机器人活细胞成像，用 PSF 感知的 4D 高斯泼溅重建任意缺失时间点的体积并维持细胞身份与分裂记录；对稀疏时序下的细胞追踪与谱系记录（C0）具有直接方法迁移价值。*
+- [Generalizable single-cell perturbation response prediction using energy-guided flow matching](https://arxiv.org/abs/2610.02232) - Wei et al., *arXiv* 2026 `T3-transfer` `preprint` `perturbation-holdout` · also filed under `C5`<br>
+  *scEGFlow 用条件流匹配加能量引导预测单细胞扰动响应，无需重训练即可适配新扰动条件，并在未见扰动上整体留出评估；对扰动响应预测与跨条件泛化（C5/C7）具有参考价值。*
+- [KoopCell: Koopman-Based Generative Model for Learning Single-Cell Dynamics from Distribution Snapshots](https://arxiv.org/abs/2609.33350) - Lu et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  *基于 Koopman-Mori-Zwanzig 理论从非配对分布快照学习单细胞群体动力学的生成框架，可外推训练时程之外并建模发育分支（非马尔可夫记忆嵌入）；对群体层面发育轨迹建模具有直接方法迁移价值。*
+- [Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals](https://arxiv.org/abs/2610.03679) - Sergeev et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  *提出 Double-Stitch：免仿真的 Wasserstein 拉格朗日力学学习方法，从非配对快照重建并外推保守/周期型群体动力学，训练速度较仿真式方法提升 4-14 倍；为细胞群体动力学建模提供新的数学工具。*
 
 *See the [category page](categories/C7-methods-transfer.md) for 14 cross-listed entries filed primarily elsewhere.*
 
