@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (20)
+## Papers (25)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -28,6 +28,16 @@
   优化 DBiT-seq 空间转录组流程绘制早期小鼠肺发育的空间图谱，平均转录本回收率较此前提升约两倍；空间组学方法对胚胎分子调控研究（C4）具有迁移参考价值。
 - **[Real-Time Monitoring of Mass and Mechanical Properties in Single Cells and Multicellular Spheroids.](https://doi.org/10.1002/advs.77926)** — I et al., *Advanced Science* 2026 `T3-transfer` `peer-reviewed`<br>
   基于光热驱动微悬臂梁联用光学显微，实现单细胞与多细胞球体质量、形态及力学耗散（Q 因子）的毫秒级实时同步监测；为细胞与胚胎样系统的力学性质测量方法（C7/C3）提供新工具。
+- **[CellMSA: Context Modeling for Single-Cell Representation Learning](https://arxiv.org/abs/2609.38908)** — Zhao et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  CellMSA 将蛋白质建模中多序列比对（MSA）的上下文归纳偏置引入单细胞转录组建模，跨批次检索相关细胞作为上下文学习基因对表示，在约 1.09 亿细胞语料上预训练；为单细胞表示学习提供新架构思路。
+- **[CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging](https://arxiv.org/abs/2610.04199)** — Tao et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  CellSplat4D 面向稀疏采样的机器人活细胞成像，用 PSF 感知的 4D 高斯泼溅重建任意缺失时间点的体积并维持细胞身份与分裂记录；对稀疏时序下的细胞追踪与谱系记录（C0）具有直接方法迁移价值。
+- **[Generalizable single-cell perturbation response prediction using energy-guided flow matching](https://arxiv.org/abs/2610.02232)** — Wei et al., *arXiv* 2026 `T3-transfer` `preprint` `perturbation-holdout`<br>
+  scEGFlow 用条件流匹配加能量引导预测单细胞扰动响应，无需重训练即可适配新扰动条件，并在未见扰动上整体留出评估；对扰动响应预测与跨条件泛化（C5/C7）具有参考价值。
+- **[KoopCell: Koopman-Based Generative Model for Learning Single-Cell Dynamics from Distribution Snapshots](https://arxiv.org/abs/2609.33350)** — Lu et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  基于 Koopman-Mori-Zwanzig 理论从非配对分布快照学习单细胞群体动力学的生成框架，可外推训练时程之外并建模发育分支（非马尔可夫记忆嵌入）；对群体层面发育轨迹建模具有直接方法迁移价值。
+- **[Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals](https://arxiv.org/abs/2610.03679)** — Sergeev et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  提出 Double-Stitch：免仿真的 Wasserstein 拉格朗日力学学习方法，从非配对快照重建并外推保守/周期型群体动力学，训练速度较仿真式方法提升 4-14 倍；为细胞群体动力学建模提供新的数学工具。
 - **[CELLECT: contrastive embedding learning for large-scale efficient cell tracking](https://doi.org/10.1038/s41592-025-02886-x)** — Zhou et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed`<br>
   CELLECT：对比嵌入学习实现大规模高效细胞追踪；嵌入表示驱动的追踪范式，与细胞表示学习方法天然衔接。
 - **[Integrating representation learning, permutation, and optimization to detect lineage-related gene expression patterns](https://doi.org/10.1038/s41467-025-56388-7)** — Schlüter et al., *Nature Communications* 2025 `T3-transfer` `peer-reviewed`<br>

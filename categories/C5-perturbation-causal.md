@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (15)
+## Papers (16)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
@@ -22,6 +22,8 @@
   通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。
 - **[Mitotically driven cytoskeletal reorganization governs zebrafish left-right organizer detachment from EVL and lumen morphogenesis.](https://doi.org/10.1242/jcs.264896)** — Y et al., *Journal of Cell Science* 2026 `T3-transfer` `peer-reviewed`<br>
   结合活体成像与激光消融，证明早期胞质分裂事件通过细胞骨架重组驱动斑马鱼左右组织者脱离包被层并形成管腔；细胞分裂史指导上皮组织组装，对形态发生力学（C3）与消融扰动实验（C5）均有借鉴意义。
+- **[Generalizable single-cell perturbation response prediction using energy-guided flow matching](https://arxiv.org/abs/2610.02232)** — Wei et al., *arXiv* 2026 `T3-transfer` `preprint` `perturbation-holdout`<br>
+  scEGFlow 用条件流匹配加能量引导预测单细胞扰动响应，无需重训练即可适配新扰动条件，并在未见扰动上整体留出评估；对扰动响应预测与跨条件泛化（C5/C7）具有参考价值。
 - **[Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041)** — Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed`<br>
   不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。
 - **[Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq](https://doi.org/10.1038/s41467-025-60154-0)** — Zhang et al., *Nature Communications* 2025 `T2-adjacent` `peer-reviewed`<br>

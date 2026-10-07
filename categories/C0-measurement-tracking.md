@@ -6,12 +6,14 @@
 
 [← Back to README](../README.md)
 
-## Papers (29)
+## Papers (30)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
 - **[Cell Identification from Partial Observation Using Spatiotemporal Attention in Caenorhabditis Elegans Embryogenesis](https://doi.org/10.1007/978-3-032-29912-3_16)** — Xue et al., *Lecture Notes in Computer Science* 2026 `T1-core` `peer-reviewed`<br>
   时空注意力实现部分观测下的细胞身份识别；缺失观测场景的身份指派方法（会议论文）。
+- **[CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging](https://arxiv.org/abs/2610.04199)** — Tao et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  CellSplat4D 面向稀疏采样的机器人活细胞成像，用 PSF 感知的 4D 高斯泼溅重建任意缺失时间点的体积并维持细胞身份与分裂记录；对稀疏时序下的细胞追踪与谱系记录（C0）具有直接方法迁移价值。
 - **[Cell tracking with accurate error prediction](https://doi.org/10.1038/s41592-025-02845-6)** — Betjes et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed` `uncertainty-quantified`<br>
   OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。
 - **[CELLECT: contrastive embedding learning for large-scale efficient cell tracking](https://doi.org/10.1038/s41592-025-02886-x)** — Zhou et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed`<br>

@@ -5308,5 +5308,166 @@
     "needs_review": false,
     "added": "2026-10-06",
     "source": "epmc"
+  },
+  {
+    "id": "2609.33350",
+    "title": "KoopCell: Koopman-Based Generative Model for Learning Single-Cell Dynamics from Distribution Snapshots",
+    "authors": [
+      "Wanfeng Lu",
+      "Yutong Zhang",
+      "Keyi Zhou",
+      "Chenxin Ge",
+      "Wei Lin",
+      "Qunxi Zhu"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7"
+    ],
+    "tags": [
+      "scRNA",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "基于 Koopman-Mori-Zwanzig 理论从非配对分布快照学习单细胞群体动力学的生成框架，可外推训练时程之外并建模发育分支（非马尔可夫记忆嵌入）；对群体层面发育轨迹建模具有直接方法迁移价值。",
+    "url": "https://arxiv.org/abs/2609.33350",
+    "arxiv_id": "2609.33350",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-10-07",
+    "source": "arxiv"
+  },
+  {
+    "id": "2610.03679",
+    "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+    "authors": [
+      "Fedor Sergeev",
+      "Markus Heinonen",
+      "Daniel Waxman",
+      "Tim Cooijmans",
+      "Ricardo Baptista",
+      "Dmitry Batenkov",
+      "Eli Bingham"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7"
+    ],
+    "tags": [
+      "scRNA",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "提出 Double-Stitch：免仿真的 Wasserstein 拉格朗日力学学习方法，从非配对快照重建并外推保守/周期型群体动力学，训练速度较仿真式方法提升 4-14 倍；为细胞群体动力学建模提供新的数学工具。",
+    "url": "https://arxiv.org/abs/2610.03679",
+    "arxiv_id": "2610.03679",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-07",
+    "source": "arxiv"
+  },
+  {
+    "id": "2610.02232",
+    "title": "Generalizable single-cell perturbation response prediction using energy-guided flow matching",
+    "authors": [
+      "Jianan Wei",
+      "Jiajun Hong",
+      "Guikun Chen",
+      "Ning Yang",
+      "Lifeng Fan",
+      "Wenguan Wang"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C5"
+    ],
+    "tags": [
+      "scRNA",
+      "perturbation",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [
+      "perturbation-holdout"
+    ],
+    "relevance_note": "scEGFlow 用条件流匹配加能量引导预测单细胞扰动响应，无需重训练即可适配新扰动条件，并在未见扰动上整体留出评估；对扰动响应预测与跨条件泛化（C5/C7）具有参考价值。",
+    "url": "https://arxiv.org/abs/2610.02232",
+    "arxiv_id": "2610.02232",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-07",
+    "source": "arxiv"
+  },
+  {
+    "id": "2609.38908",
+    "title": "CellMSA: Context Modeling for Single-Cell Representation Learning",
+    "authors": [
+      "Suyuan Zhao",
+      "Minghao Liu",
+      "Yizhen Luo",
+      "Zaiqing Nie"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7"
+    ],
+    "tags": [
+      "scRNA",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "CellMSA 将蛋白质建模中多序列比对（MSA）的上下文归纳偏置引入单细胞转录组建模，跨批次检索相关细胞作为上下文学习基因对表示，在约 1.09 亿细胞语料上预训练；为单细胞表示学习提供新架构思路。",
+    "url": "https://arxiv.org/abs/2609.38908",
+    "arxiv_id": "2609.38908",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-10-07",
+    "source": "arxiv"
+  },
+  {
+    "id": "2610.04199",
+    "title": "CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging",
+    "authors": [
+      "Yingda Tao",
+      "Guoyu Lu"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C0"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "CellSplat4D 面向稀疏采样的机器人活细胞成像，用 PSF 感知的 4D 高斯泼溅重建任意缺失时间点的体积并维持细胞身份与分裂记录；对稀疏时序下的细胞追踪与谱系记录（C0）具有直接方法迁移价值。",
+    "url": "https://arxiv.org/abs/2610.04199",
+    "arxiv_id": "2610.04199",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-10-07",
+    "source": "arxiv"
   }
 ]
