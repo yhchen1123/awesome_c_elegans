@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (32)
+## Papers (35)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -16,6 +16,12 @@
   前后轴图式信号被解码为全胚胎二元命运决策；图式-命运映射的机制解析。
 - **[&lt;i&gt;C. elegans&lt;/i&gt; CEH-43/DLX drives convergent astrocyte differentiation by sequential control of axon guidance and synaptic gene expression programs.](https://doi.org/10.1101/gad.353618.125)** — S et al., *Genes & Development* 2026 `T2-adjacent` `peer-reviewed`<br>
   利用谱系限制的单细胞 RNA 测序刻画线虫 CEPsh 胶质细胞的发育时序程序，发现 DLX 同源转录因子 CEH-43 序贯控制胚胎期轴突引导基因与成熟胶质功能基因；跨谱系收敛性命运决定的分子机制对谱系生物学（C6）与分子调控（C4）研究有参考价值。
+- **[Cell Position-Associated Division Orders and Cell Cycle Durations Shape Asymmetric Trajectories of Cell Fates and Morphological Events in Pre- and Peri-implantation Mouse Embryos](https://doi.org/10.64898/2026.09.24.754028)** — H., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  对小鼠着床前后期胚胎进行连续活体细胞追踪（2 细胞至约 100 细胞期），发现细胞位置、分裂次序与细胞周期时长的历史共同塑造命运与形态事件的不对称轨迹；为早期胚胎时空动态定量研究（C2/C6）提供描述性框架。
+- **[Creation of a High-Resolution, Continually Evolvable Lineage Tracer](https://doi.org/10.64898/2026.09.30.754670)** — RN et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  SCRIBBLE：基于 Prime Editor 的迭代条形码谱系记录工具，可在克隆后代中保留产生顺序信息，经高通量筛选优化后在胚胎期小鼠视网膜中复现已知谱系；为多代高分辨率谱系追踪（C8/C6）提供新工具。
+- **[Lineage tracing reveals asynchronous fate restriction in mouse embryos and stem cell-derived embryo models](https://doi.org/10.64898/2026.10.06.756974)** — Y et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  将 DNA Typewriter 谱系记录与四倍体互补结合，重建小鼠发育全程的高分辨率单细胞谱系，并附 FateVec 分析框架推断命运偏置动态；揭示发育潜能丧失是渐进且异步的过程，为谱系记录工具与命运决定研究（C8/C6）提供新范式。
 - **[Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>
   遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。
 - **[Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249)** — Large et al., *Science* 2025 `T1-core` `peer-reviewed`<br>
