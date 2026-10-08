@@ -10,6 +10,7 @@
 
 - fetch / dedupe 走 `scripts/` 脚本；**分类由 Kimi Work agent 亲自完成**，不调用外部 LLM API，无需配置 `LLM_API_KEY`；
 - 每天只追踪一个方向：`scripts/fetch.py --only-category Cx` 只运行 `categories_hint` 覆盖该分类的查询（C9 综述查询为 2026-09-29 新增，首次运行需观察 Europe PMC 语法表现）；
+- **每天最多入库 1 篇**（2026-10-08 起）：agent 通读当日全部候选后精选对项目最有价值的一篇，其余初筛通过的候选只在报告中列出，人工 review 每天最多一篇；
 - 分支改为每周一个：`auto/daily-update-<ISO 年-W 周>`，同一周的五个工作日增量提交到同一分支；**若上一周的分支尚未合并进 main，本周任务会跳过**（桌面通知提醒合并）；
 - 分类规则与 `scripts/classify.py` 的 SYSTEM_PROMPT 完全一致（铁律：书目字段只来自数据源 API 元数据）；
 - **保密红线**：本仓库公开。所有入库文本（尤其 relevance_note）只使用公开科学语言，不得包含任何未公开的项目内部信息；该约束已写入定时任务的最高优先级规则；
