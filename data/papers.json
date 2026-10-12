@@ -5469,5 +5469,148 @@
     "needs_review": false,
     "added": "2026-10-07",
     "source": "arxiv"
+  },
+  {
+    "id": "10.64898/2026.10.06.756974",
+    "title": "Lineage tracing reveals asynchronous fate restriction in mouse embryos and stem cell-derived embryo models",
+    "authors": [
+      "Liu Y",
+      "Park J",
+      "Amaya L",
+      "Junyent S",
+      "Sun X",
+      "Xiao JS",
+      "Wang Y",
+      "Wang H",
+      "Lu Y",
+      "Nakagawa S",
+      "Park S",
+      "Hu W",
+      "Liu S",
+      "Wei J",
+      "Kim HH",
+      "Thomson M",
+      "Ju C",
+      "Bronner ME",
+      "Choi J",
+      "Zernicka-Goetz M."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C8",
+      "C6"
+    ],
+    "tags": [
+      "lineage",
+      "scRNA",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "将 DNA Typewriter 谱系记录与四倍体互补结合，重建小鼠发育全程的高分辨率单细胞谱系，并附 FateVec 分析框架推断命运偏置动态；揭示发育潜能丧失是渐进且异步的过程，为谱系记录工具与命运决定研究（C8/C6）提供新范式。",
+    "url": "https://doi.org/10.64898/2026.10.06.756974",
+    "doi": "10.64898/2026.10.06.756974",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-10-08",
+    "source": "epmc"
+  },
+  {
+    "id": "10.64898/2026.09.30.754670",
+    "title": "Creation of a High-Resolution, Continually Evolvable Lineage Tracer",
+    "authors": [
+      "Delgado RN",
+      "Si Y",
+      "Andersen RE",
+      "Lee C",
+      "Bushnell HL",
+      "Doman JL",
+      "Pandey S",
+      "Sousa AA",
+      "West ER",
+      "Dagotto CE",
+      "Liu DR",
+      "Cepko CL."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C8",
+      "C6"
+    ],
+    "tags": [
+      "lineage",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "SCRIBBLE：基于 Prime Editor 的迭代条形码谱系记录工具，可在克隆后代中保留产生顺序信息，经高通量筛选优化后在胚胎期小鼠视网膜中复现已知谱系；为多代高分辨率谱系追踪（C8/C6）提供新工具。",
+    "url": "https://doi.org/10.64898/2026.09.30.754670",
+    "doi": "10.64898/2026.09.30.754670",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-10-08",
+    "source": "epmc"
+  },
+  {
+    "id": "10.7554/elife.109268",
+    "title": "Single-cell spatial mapping reveals reproducible cell type organization and spatially dependent gene expression in gastruloids.",
+    "authors": [
+      "Triandafillou C",
+      "Sompalle P",
+      "Heyman Y",
+      "Raj A."
+    ],
+    "venue": "eLife",
+    "year": 2026,
+    "categories": [
+      "C8",
+      "C4"
+    ],
+    "tags": [
+      "scRNA",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "构建 26 个独立类原肠胚的单细胞空间分辨转录组目录，发现细胞类型组成与组织尺度空间组织高度可复现而中尺度图案存在个体间变异，并提出无参的 L-score 互斥基因表达度量；为类胚胎模型的空间单细胞分析（C8/C4）提供数据与方法资源。",
+    "url": "https://doi.org/10.7554/elife.109268",
+    "doi": "10.7554/elife.109268",
+    "confidence": 0.75,
+    "needs_review": false,
+    "added": "2026-10-08",
+    "source": "epmc"
+  },
+  {
+    "id": "10.64898/2026.09.24.754028",
+    "title": "Cell Position-Associated Division Orders and Cell Cycle Durations Shape Asymmetric Trajectories of Cell Fates and Morphological Events in Pre- and Peri-implantation Mouse Embryos",
+    "authors": [
+      "Yang H."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C2",
+      "C6"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "对小鼠着床前后期胚胎进行连续活体细胞追踪（2 细胞至约 100 细胞期），发现细胞位置、分裂次序与细胞周期时长的历史共同塑造命运与形态事件的不对称轨迹；为早期胚胎时空动态定量研究（C2/C6）提供描述性框架。",
+    "url": "https://doi.org/10.64898/2026.09.24.754028",
+    "doi": "10.64898/2026.09.24.754028",
+    "confidence": 0.65,
+    "needs_review": false,
+    "added": "2026-10-08",
+    "source": "epmc"
   }
 ]

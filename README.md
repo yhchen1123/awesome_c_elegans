@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-157-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--07-green)
+![papers](https://img.shields.io/badge/papers-161-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--08-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -112,6 +112,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *基因组加倍后细胞内缓冲保障发育稳健性；倍性扰动下稳健性机制的直接证据。*
 - [Single-nucleus multiome sequencing reveals the molecular basis of thermal acclimation in Drosophila melanogaster embryos.](https://doi.org/10.1242/dev.205729) - TS et al., *Development* 2026 `T3-transfer` `peer-reviewed` · also filed under `C4`<br>
   *以单核多组学（scRNA + 染色质可及性）刻画果蝇胚胎对温度驯化的稳态基因调控响应，直接涉及发育稳健性（canalization/robustness）的分子机制；为野生型发育动力学（C2）与谱系分辨分子调控（C4）提供跨物种参照。*
+- [Cell Position-Associated Division Orders and Cell Cycle Durations Shape Asymmetric Trajectories of Cell Fates and Morphological Events in Pre- and Peri-implantation Mouse Embryos](https://doi.org/10.64898/2026.09.24.754028) - H., *openRxiv* 2026 `T3-transfer` `preprint` · also filed under `C6`<br>
+  *对小鼠着床前后期胚胎进行连续活体细胞追踪（2 细胞至约 100 细胞期），发现细胞位置、分裂次序与细胞周期时长的历史共同塑造命运与形态事件的不对称轨迹；为早期胚胎时空动态定量研究（C2/C6）提供描述性框架。*
 - [Quantitative Resolving Cell Fate in the Early Embryogenesis of Caenorhabditis elegans](https://doi.org/10.1101/2024.10.25.620330) - Xiong et al., *bioRxiv* 2024 `T1-core` `preprint` · also filed under `C6`<br>
   *用景观/路径类方法定量解析早期胚胎的细胞命运决定；不变谱系框架下命运景观的定量尝试。*
 - [Temporal variability and cell mechanics control robustness in mammalian embryogenesis](https://doi.org/10.1126/science.adh1145) - Fabrèges et al., *Science* 2024 `T3-transfer` `peer-reviewed` · also filed under `C3`<br>
@@ -267,7 +269,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1) - Evans, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。*
 
-*See the [category page](categories/C4-molecular-regulation.md) for 13 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C4-molecular-regulation.md) for 14 cross-listed entries filed primarily elsewhere.*
 
 ## Perturbation & Causal Inference
 
@@ -327,7 +329,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。*
 
-*See the [category page](categories/C6-fate-lineage-biology.md) for 18 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C6-fate-lineage-biology.md) for 21 cross-listed entries filed primarily elsewhere.*
 
 ## Methods Transfer
 
@@ -366,6 +368,12 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *DynamicAtlas：果蝇发育的形态动力学图谱；活体动态形态图谱资源的代表。*
 - [Whole-embryo spatial transcriptomics at subcellular resolution from gastrulation to organogenesis](https://doi.org/10.1126/science.adt3439) - Wan et al., *Science* 2026 `T3-transfer` `peer-reviewed` · also filed under `C4`<br>
   *全胚胎亚细胞分辨空间转录组（斑马鱼，原肠到器官发生）；空间组学图谱技术的标杆。*
+- [Creation of a High-Resolution, Continually Evolvable Lineage Tracer](https://doi.org/10.64898/2026.09.30.754670) - RN et al., *openRxiv* 2026 `T3-transfer` `preprint` · also filed under `C6`<br>
+  *SCRIBBLE：基于 Prime Editor 的迭代条形码谱系记录工具，可在克隆后代中保留产生顺序信息，经高通量筛选优化后在胚胎期小鼠视网膜中复现已知谱系；为多代高分辨率谱系追踪（C8/C6）提供新工具。*
+- [Lineage tracing reveals asynchronous fate restriction in mouse embryos and stem cell-derived embryo models](https://doi.org/10.64898/2026.10.06.756974) - Y et al., *openRxiv* 2026 `T3-transfer` `preprint` · also filed under `C6`<br>
+  *将 DNA Typewriter 谱系记录与四倍体互补结合，重建小鼠发育全程的高分辨率单细胞谱系，并附 FateVec 分析框架推断命运偏置动态；揭示发育潜能丧失是渐进且异步的过程，为谱系记录工具与命运决定研究（C8/C6）提供新范式。*
+- [Single-cell spatial mapping reveals reproducible cell type organization and spatially dependent gene expression in gastruloids.](https://doi.org/10.7554/elife.109268) - C et al., *eLife* 2026 `T3-transfer` `peer-reviewed` · also filed under `C4`<br>
+  *构建 26 个独立类原肠胚的单细胞空间分辨转录组目录，发现细胞类型组成与组织尺度空间组织高度可复现而中尺度图案存在个体间变异，并提出无参的 L-score 互斥基因表达度量；为类胚胎模型的空间单细胞分析（C8/C4）提供数据与方法资源。*
 - [A full-body transcription factor expression atlas with completely resolved cell identities in C. elegans](https://doi.org/10.1038/s41467-023-42677-6) - Li et al., *Nature Communications* 2024 `T2-adjacent` `peer-reviewed` · also filed under `C4`<br>
   *全身转录因子表达图谱（L1 幼虫）与 RAPCAT 自动细胞身份标注工具；细胞身份自动标注方法对胚胎数据同样适用。*
 - [TedSim: temporal dynamics simulation of single-cell RNA sequencing data and cell division history](https://doi.org/10.1093/nar/gkac235) - Pan et al., *Nucleic Acids Research* 2022 `T3-transfer` `peer-reviewed` · also filed under `C4`<br>

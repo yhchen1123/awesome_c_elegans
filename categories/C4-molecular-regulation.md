@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (36)
+## Papers (37)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -28,6 +28,8 @@
   对小鼠原肠胚期胚胎中 30 条必需调控通路进行单细胞 RNA 测序突变体表型普查（逾 450 个重复），构建发育解析的扰动互作网络；大规模「扰动-单细胞读出」设计对胚胎因果推断（C5）与分子调控（C4）具有方法迁移价值。
 - **[&lt;i&gt;C. elegans&lt;/i&gt; CEH-43/DLX drives convergent astrocyte differentiation by sequential control of axon guidance and synaptic gene expression programs.](https://doi.org/10.1101/gad.353618.125)** — S et al., *Genes & Development* 2026 `T2-adjacent` `peer-reviewed`<br>
   利用谱系限制的单细胞 RNA 测序刻画线虫 CEPsh 胶质细胞的发育时序程序，发现 DLX 同源转录因子 CEH-43 序贯控制胚胎期轴突引导基因与成熟胶质功能基因；跨谱系收敛性命运决定的分子机制对谱系生物学（C6）与分子调控（C4）研究有参考价值。
+- **[Single-cell spatial mapping reveals reproducible cell type organization and spatially dependent gene expression in gastruloids.](https://doi.org/10.7554/elife.109268)** — C et al., *eLife* 2026 `T3-transfer` `peer-reviewed`<br>
+  构建 26 个独立类原肠胚的单细胞空间分辨转录组目录，发现细胞类型组成与组织尺度空间组织高度可复现而中尺度图案存在个体间变异，并提出无参的 L-score 互斥基因表达度量；为类胚胎模型的空间单细胞分析（C8/C4）提供数据与方法资源。
 - **[Integrating representation learning, permutation, and optimization to detect lineage-related gene expression patterns](https://doi.org/10.1038/s41467-025-56388-7)** — Schlüter et al., *Nature Communications* 2025 `T3-transfer` `peer-reviewed`<br>
   PORCELAN：表示学习+置换检验+优化检测谱系相关基因表达模式；谱系条形码×表达联合分析的新方法。
 - **[Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249)** — Large et al., *Science* 2025 `T1-core` `peer-reviewed`<br>
