@@ -5612,5 +5612,36 @@
     "needs_review": false,
     "added": "2026-10-08",
     "source": "epmc"
+  },
+  {
+    "id": "2610.11185",
+    "title": "Predictive Multiplicity in Cell-Fate Assignment: Label-Free Rashomon Sets and the Limits of Per-Cell Certification",
+    "authors": [
+      "Arjun Bhupatiraju",
+      "Abhiram Bhupatiraju"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C1",
+      "C2"
+    ],
+    "tags": [
+      "scRNA",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [
+      "uncertainty-quantified"
+    ],
+    "relevance_note": "提出无标签的 Rashomon 集框架 FateMultiplicity，用交叉拟合留出基因与非劣效检验校准随机种子变异，量化单细胞轨迹推断中等价模型给出冲突命运指派的多重性；并发现逐细胞认证间隔的判别力反低于模型自身决策间隔，对细胞命运指派的可靠性评估与不确定性报告（C1/C2）具有直接警示价值。",
+    "url": "https://arxiv.org/abs/2610.11185",
+    "arxiv_id": "2610.11185",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-13",
+    "source": "arxiv"
   }
 ]

@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-161-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--08-green)
+![papers](https://img.shields.io/badge/papers-162-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--13-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -89,6 +89,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *MultiCell：几何深度学习预测多细胞发育中每个细胞的行为；几何归纳偏置用于发育建模的代表工作。*
 - [A single-cell spatiotemporal manifold of tissue morphology and dynamics](https://doi.org/10.1016/j.crmeth.2026.101606) - Haus et al., *Cell Reports Methods* 2026 `T1-core` `peer-reviewed` · also filed under `C3`<br>
   *组织形态与动力学的单细胞时空流形；形态-动力学联合表示学习的新框架。*
+- [Predictive Multiplicity in Cell-Fate Assignment: Label-Free Rashomon Sets and the Limits of Per-Cell Certification](https://arxiv.org/abs/2610.11185) - Bhupatiraju et al., *arXiv* 2026 `T3-transfer` `preprint` `uncertainty-quantified` · also filed under `C2`<br>
+  *提出无标签的 Rashomon 集框架 FateMultiplicity，用交叉拟合留出基因与非劣效检验校准随机种子变异，量化单细胞轨迹推断中等价模型给出冲突命运指派的多重性；并发现逐细胞认证间隔的判别力反低于模型自身决策间隔，对细胞命运指派的可靠性评估与不确定性报告（C1/C2）具有直接警示价值。*
 - [Interpretable representation learning for 3D multi-piece intracellular structures using point clouds](https://doi.org/10.1038/s41592-025-02729-9) - Vasan et al., *Nature Methods* 2025 `T3-transfer` `peer-reviewed` · also filed under `C7`<br>
   *点云表示学习刻画 3D 胞内多部件结构且保持可解释；3D 生物结构表示学习的参照。*
 - [Characterizing Cellular Physiological States with Three-Dimensional Shape Descriptors for Cell Membranes](https://doi.org/10.3390/membranes14060137) - Guan et al., *Membranes* 2024 `T1-core` `peer-reviewed` · also filed under `C3`<br>
@@ -141,7 +143,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1) - Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   *细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。*
 
-*See the [category page](categories/C2-wt-dynamics.md) for 4 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C2-wt-dynamics.md) for 5 cross-listed entries filed primarily elsewhere.*
 
 ## Morphology & Mechanics
 
