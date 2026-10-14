@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (24)
+## Papers (25)
 
 - **[A kinematic equation for the morphogenetic reproducibility of an animal](https://doi.org/10.65215/ltspreprints.2026.04.04.000174)** — Wang et al., *LTS Preprints* 2026 `T1-core` `emerging-evidence`<br>
   ⚠️ emerging evidence: 形态发生可重复性的运动学方程；与发育稳健性/可重复性定量研究直接相关。**注意：按本仓库证据规则视为 emerging evidence，未经同行评审与独立验证前不得作为既定共识引用。**
@@ -36,6 +36,8 @@
   Waddington 发育运河的直接发现与胚胎稳定性阐释；沟渠化现象的实证刻画（bioRxiv 预印本）。
 - **[Metabolic plasticity sustains the robustness of Caenorhabditis elegans embryogenesis](https://doi.org/10.15252/embr.202357440)** — Chen et al., *EMBO Reports* 2023 `T1-core` `peer-reviewed`<br>
   代谢可塑性支撑线虫胚胎发生稳健性；代谢层面对扰动缓冲的证据。
+- **[Novel metrics reveal new structure and unappreciated heterogeneity in Caenorhabditis elegans development](https://doi.org/10.1371/journal.pcbi.1011733)** — Natesan et al., *PLOS Computational Biology* 2023 `T1-core` `peer-reviewed`<br>
+  提出谱系树对齐的「分支编辑距离」度量，对 1300 余枚野生型与 RNAi 处理的线虫胚胎细胞周期时程数据进行整体比较，揭示野生型中此前被忽略的批次效应与 RNAi 表型的巨大异质性，并定量连接命运决定通路与早期胚胎细胞周期时程的图案化；为野生型发育动力学（C2）与扰动表型分析（C5）提供新的定量比较框架。
 - **[Defect-buffering cellular plasticity increases robustness of metazoan embryogenesis](https://doi.org/10.1016/j.cels.2022.07.001)** — Xiao et al., *Cell Systems* 2022 `T1-core` `peer-reviewed`<br>
   系统量化保守基因敲低诱导的细胞缺陷，揭示细胞可塑性对缺陷的缓冲机制；「扰动→缺陷→缓冲」发育稳健性框架的实证基础。
 - **[Hierarchical deep reinforcement learning reveals a modular mechanism of cell movement](https://doi.org/10.1038/s42256-021-00431-x)** — Wang et al., *Nature Machine Intelligence* 2022 `T1-core` `peer-reviewed`<br>

@@ -5643,5 +5643,37 @@
     "needs_review": false,
     "added": "2026-10-13",
     "source": "arxiv"
+  },
+  {
+    "id": "10.1371/journal.pcbi.1011733",
+    "title": "Novel metrics reveal new structure and unappreciated heterogeneity in Caenorhabditis elegans development",
+    "authors": [
+      "Gunalan Natesan",
+      "Timothy Hamilton",
+      "Eric J. Deeds",
+      "Pavak K. Shah"
+    ],
+    "venue": "PLOS Computational Biology",
+    "year": 2023,
+    "categories": [
+      "C2",
+      "C5"
+    ],
+    "tags": [
+      "lineage",
+      "perturbation",
+      "theory-model",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "提出谱系树对齐的「分支编辑距离」度量，对 1300 余枚野生型与 RNAi 处理的线虫胚胎细胞周期时程数据进行整体比较，揭示野生型中此前被忽略的批次效应与 RNAi 表型的巨大异质性，并定量连接命运决定通路与早期胚胎细胞周期时程的图案化；为野生型发育动力学（C2）与扰动表型分析（C5）提供新的定量比较框架。",
+    "url": "https://doi.org/10.1371/journal.pcbi.1011733",
+    "doi": "10.1371/journal.pcbi.1011733",
+    "confidence": 0.9,
+    "needs_review": false,
+    "added": "2026-10-14",
+    "source": "manual"
   }
 ]
