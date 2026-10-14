@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (16)
+## Papers (17)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
@@ -34,6 +34,8 @@
   鸟类胚胎自组织组织力学支撑的胚胎调节现象（分割后重建完整胚胎）；扰动-恢复与自修复的力学基础。
 - **[Metabolic plasticity sustains the robustness of Caenorhabditis elegans embryogenesis](https://doi.org/10.15252/embr.202357440)** — Chen et al., *EMBO Reports* 2023 `T1-core` `peer-reviewed`<br>
   代谢可塑性支撑线虫胚胎发生稳健性；代谢层面对扰动缓冲的证据。
+- **[Novel metrics reveal new structure and unappreciated heterogeneity in Caenorhabditis elegans development](https://doi.org/10.1371/journal.pcbi.1011733)** — Natesan et al., *PLOS Computational Biology* 2023 `T1-core` `peer-reviewed`<br>
+  提出谱系树对齐的「分支编辑距离」度量，对 1300 余枚野生型与 RNAi 处理的线虫胚胎细胞周期时程数据进行整体比较，揭示野生型中此前被忽略的批次效应与 RNAi 表型的巨大异质性，并定量连接命运决定通路与早期胚胎细胞周期时程的图案化；为野生型发育动力学（C2）与扰动表型分析（C5）提供新的定量比较框架。
 - **[Defect-buffering cellular plasticity increases robustness of metazoan embryogenesis](https://doi.org/10.1016/j.cels.2022.07.001)** — Xiao et al., *Cell Systems* 2022 `T1-core` `peer-reviewed`<br>
   系统量化保守基因敲低诱导的细胞缺陷，揭示细胞可塑性对缺陷的缓冲机制；「扰动→缺陷→缓冲」发育稳健性框架的实证基础。
 - **[A genetic screen for temperature-sensitive morphogenesis-defective Caenorhabditis elegans mutants](https://doi.org/10.1093/g3journal/jkab026)** — Jud et al., *G3 Genes|Genomes|Genetics* 2021 `T1-core` `peer-reviewed`<br>

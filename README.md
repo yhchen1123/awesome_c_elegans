@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-162-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--13-green)
+![papers](https://img.shields.io/badge/papers-163-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--14-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -124,6 +124,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *Waddington 发育运河的直接发现与胚胎稳定性阐释；沟渠化现象的实证刻画（bioRxiv 预印本）。*
 - [Metabolic plasticity sustains the robustness of Caenorhabditis elegans embryogenesis](https://doi.org/10.15252/embr.202357440) - Chen et al., *EMBO Reports* 2023 `T1-core` `peer-reviewed` · also filed under `C5`<br>
   *代谢可塑性支撑线虫胚胎发生稳健性；代谢层面对扰动缓冲的证据。*
+- [Novel metrics reveal new structure and unappreciated heterogeneity in Caenorhabditis elegans development](https://doi.org/10.1371/journal.pcbi.1011733) - Natesan et al., *PLOS Computational Biology* 2023 `T1-core` `peer-reviewed` · also filed under `C5`<br>
+  *提出谱系树对齐的「分支编辑距离」度量，对 1300 余枚野生型与 RNAi 处理的线虫胚胎细胞周期时程数据进行整体比较，揭示野生型中此前被忽略的批次效应与 RNAi 表型的巨大异质性，并定量连接命运决定通路与早期胚胎细胞周期时程的图案化；为野生型发育动力学（C2）与扰动表型分析（C5）提供新的定量比较框架。*
 - [Defect-buffering cellular plasticity increases robustness of metazoan embryogenesis](https://doi.org/10.1016/j.cels.2022.07.001) - Xiao et al., *Cell Systems* 2022 `T1-core` `peer-reviewed` · also filed under `C5`<br>
   *系统量化保守基因敲低诱导的细胞缺陷，揭示细胞可塑性对缺陷的缓冲机制；「扰动→缺陷→缓冲」发育稳健性框架的实证基础。*
 - [Hierarchical deep reinforcement learning reveals a modular mechanism of cell movement](https://doi.org/10.1038/s42256-021-00431-x) - Wang et al., *Nature Machine Intelligence* 2022 `T1-core` `peer-reviewed` · also filed under `C7`<br>
@@ -296,7 +298,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The Regulatory Landscape of Lineage Differentiation in a Metazoan Embryo](https://doi.org/10.1016/j.devcel.2015.07.014) - Du et al., *Developmental Cell* 2015 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *系统 RNAi 绘制谱系分化的调控景观：命运沟渠化、二元命运开关与多尺度分化模型；扰动-表型系统分析的奠基资源。*
 
-*See the [category page](categories/C5-perturbation-causal.md) for 7 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C5-perturbation-causal.md) for 8 cross-listed entries filed primarily elsewhere.*
 
 ## Fate Specification & Lineage Biology
 
