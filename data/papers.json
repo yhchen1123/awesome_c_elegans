@@ -5675,5 +5675,40 @@
     "needs_review": false,
     "added": "2026-10-14",
     "source": "manual"
+  },
+  {
+    "id": "2610.16236",
+    "title": "From Simulated Fluids to Living Tissue: Zero-Shot Foundation Model Transfer to Perturbed Embryos",
+    "authors": [
+      "Louisa Cornelis",
+      "Haewon Jeong",
+      "Irina Espejo",
+      "Payel Mukhopadhyay"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C3"
+    ],
+    "tags": [
+      "imaging",
+      "theory-model",
+      "perturbation",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [
+      "open-loop-rollout",
+      "perturbation-holdout"
+    ],
+    "relevance_note": "将跨多种模拟连续系统预训练的连续介质动力学基础模型 Walrus 用仅 12 段野生型果蝇胚盘视频微调，实现组织速度场的自回归预测，并在未见温度与遗传扰动条件上零样本评估；为胚胎形态发生的跨系统先验迁移与扰动外推（C7/C3）提供直接范例。",
+    "url": "https://arxiv.org/abs/2610.16236",
+    "arxiv_id": "2610.16236",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-10-15",
+    "source": "arxiv"
   }
 ]
