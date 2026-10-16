@@ -5710,5 +5710,35 @@
     "needs_review": false,
     "added": "2026-10-15",
     "source": "arxiv"
+  },
+  {
+    "id": "10.1016/s0092-8674(00)80530-9",
+    "title": "Wnt Signaling Polarizes an Early C. elegans Blastomere to Distinguish Endoderm from Mesoderm",
+    "authors": [
+      "Christopher J Thorpe",
+      "Ann Schlesinger",
+      "J.Clayton Carter",
+      "Bruce Bowerman"
+    ],
+    "venue": "Cell",
+    "year": 1997,
+    "categories": [
+      "C4",
+      "C6"
+    ],
+    "tags": [
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：确立 Wnt/β-catenin 不对称信号首次卵裂后极化 EMS 母细胞、决定内胚层与中胚层命运的范式，是线虫胚胎非对称分裂与信号导向命运决定（C4/C6）的奠基性机制研究。",
+    "url": "https://doi.org/10.1016/s0092-8674(00)80530-9",
+    "doi": "10.1016/s0092-8674(00)80530-9",
+    "confidence": 0.9,
+    "needs_review": false,
+    "added": "2026-10-16",
+    "source": "manual"
   }
 ]

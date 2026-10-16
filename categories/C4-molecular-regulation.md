@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (37)
+## Papers (38)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -82,6 +82,8 @@
   胚胎 Notch 信号的经典综述：四次 AB 谱系互作与组合 Notch 编码；信号-命运框架的奠基叙述。
 - **[Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1)** — Evans, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。
+- **[Wnt Signaling Polarizes an Early C. elegans Blastomere to Distinguish Endoderm from Mesoderm](https://doi.org/10.1016/s0092-8674(00)80530-9)** — Thorpe et al., *Cell* 1997 `T1-core` `peer-reviewed`<br>
+  经典回填：确立 Wnt/β-catenin 不对称信号首次卵裂后极化 EMS 母细胞、决定内胚层与中胚层命运的范式，是线虫胚胎非对称分裂与信号导向命运决定（C4/C6）的奠基性机制研究。
 
 ## Related categories
 

@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (35)
+## Papers (36)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -76,6 +76,8 @@
   程序性细胞死亡的奠基性章节：ced 通路与谱系固定的死亡命运；命运决定研究的经典组成部分。
 - **[Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1)** — Evans, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。
+- **[Wnt Signaling Polarizes an Early C. elegans Blastomere to Distinguish Endoderm from Mesoderm](https://doi.org/10.1016/s0092-8674(00)80530-9)** — Thorpe et al., *Cell* 1997 `T1-core` `peer-reviewed`<br>
+  经典回填：确立 Wnt/β-catenin 不对称信号首次卵裂后极化 EMS 母细胞、决定内胚层与中胚层命运的范式，是线虫胚胎非对称分裂与信号导向命运决定（C4/C6）的奠基性机制研究。
 - **[The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4)** — Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed`<br>
   invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。
 
