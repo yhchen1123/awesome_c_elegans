@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-165-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--16-green)
+![papers](https://img.shields.io/badge/papers-166-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--19-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -289,6 +289,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *对小鼠原肠胚期胚胎中 30 条必需调控通路进行单细胞 RNA 测序突变体表型普查（逾 450 个重复），构建发育解析的扰动互作网络；大规模「扰动-单细胞读出」设计对胚胎因果推断（C5）与分子调控（C4）具有方法迁移价值。*
 - [Loss of the fatty acid β-oxidation gene acaa-2 impairs timely hatching under poor maternal diet in C. elegans](https://doi.org/10.64898/2026.09.29.755286) - Y et al., *openRxiv* 2026 `T1-core` `preprint` · also filed under `C2`<br>
   *通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。*
+- [Cell cycle arrest of a craniofacial epithelial population shapes faces in mice and humans.](https://doi.org/10.1016/j.devcel.2026.09.008) - T et al., *Developmental Cell* 2026 `T3-transfer` `peer-reviewed` · also filed under `C6`<br>
+  *发现颅面融合所需的「拉链 λ」上皮细胞群处于细胞周期阻滞状态；Pbx1/2 与 p63 突变导致该细胞群周期失控与唇腭裂，条件性敲除 Zfhx3 亦可诱发，且 ZFHX3 变异见于人类患者——把细胞周期阻滞与发育性组织融合直接耦合的扰动-表型-人体验证闭环研究（C5/C6）。*
 - [Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041) - Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed` · also filed under `C2`<br>
   *不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。*
 - [Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq](https://doi.org/10.1038/s41467-025-60154-0) - Zhang et al., *Nature Communications* 2025 `T2-adjacent` `peer-reviewed` · also filed under `C4`<br>
@@ -335,7 +337,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。*
 
-*See the [category page](categories/C6-fate-lineage-biology.md) for 22 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C6-fate-lineage-biology.md) for 23 cross-listed entries filed primarily elsewhere.*
 
 ## Methods Transfer
 
