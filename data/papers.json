@@ -5740,5 +5740,48 @@
     "needs_review": false,
     "added": "2026-10-16",
     "source": "manual"
+  },
+  {
+    "id": "10.1016/j.devcel.2026.09.008",
+    "title": "Cell cycle arrest of a craniofacial epithelial population shapes faces in mice and humans.",
+    "authors": [
+      "Qu T",
+      "Faure L",
+      "Hernández-Martínez R",
+      "Chacón BH",
+      "Losa M",
+      "Robinson K",
+      "Jones A",
+      "Lisgo S",
+      "Hermosilla-Aguayo V",
+      "Laub V",
+      "De Anda J",
+      "Aho RJ",
+      "Risolino M",
+      "Panagiotakos G",
+      "Leslie-Clarkson EJ",
+      "Adameyko I",
+      "Selleri L."
+    ],
+    "venue": "Developmental Cell",
+    "year": 2026,
+    "categories": [
+      "C5",
+      "C6"
+    ],
+    "tags": [
+      "perturbation",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "发现颅面融合所需的「拉链 λ」上皮细胞群处于细胞周期阻滞状态；Pbx1/2 与 p63 突变导致该细胞群周期失控与唇腭裂，条件性敲除 Zfhx3 亦可诱发，且 ZFHX3 变异见于人类患者——把细胞周期阻滞与发育性组织融合直接耦合的扰动-表型-人体验证闭环研究（C5/C6）。",
+    "url": "https://doi.org/10.1016/j.devcel.2026.09.008",
+    "doi": "10.1016/j.devcel.2026.09.008",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-19",
+    "source": "epmc"
   }
 ]

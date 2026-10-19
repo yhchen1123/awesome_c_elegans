@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (36)
+## Papers (37)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -22,6 +22,8 @@
   SCRIBBLE：基于 Prime Editor 的迭代条形码谱系记录工具，可在克隆后代中保留产生顺序信息，经高通量筛选优化后在胚胎期小鼠视网膜中复现已知谱系；为多代高分辨率谱系追踪（C8/C6）提供新工具。
 - **[Lineage tracing reveals asynchronous fate restriction in mouse embryos and stem cell-derived embryo models](https://doi.org/10.64898/2026.10.06.756974)** — Y et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
   将 DNA Typewriter 谱系记录与四倍体互补结合，重建小鼠发育全程的高分辨率单细胞谱系，并附 FateVec 分析框架推断命运偏置动态；揭示发育潜能丧失是渐进且异步的过程，为谱系记录工具与命运决定研究（C8/C6）提供新范式。
+- **[Cell cycle arrest of a craniofacial epithelial population shapes faces in mice and humans.](https://doi.org/10.1016/j.devcel.2026.09.008)** — T et al., *Developmental Cell* 2026 `T3-transfer` `peer-reviewed`<br>
+  发现颅面融合所需的「拉链 λ」上皮细胞群处于细胞周期阻滞状态；Pbx1/2 与 p63 突变导致该细胞群周期失控与唇腭裂，条件性敲除 Zfhx3 亦可诱发，且 ZFHX3 变异见于人类患者——把细胞周期阻滞与发育性组织融合直接耦合的扰动-表型-人体验证闭环研究（C5/C6）。
 - **[Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>
   遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。
 - **[Lineage-resolved analysis of embryonic gene expression evolution in C. elegans and C. briggsae](https://doi.org/10.1126/science.adu8249)** — Large et al., *Science* 2025 `T1-core` `peer-reviewed`<br>
