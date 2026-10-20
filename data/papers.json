@@ -5783,5 +5783,34 @@
     "needs_review": false,
     "added": "2026-10-19",
     "source": "epmc"
+  },
+  {
+    "id": "10.1016/s0092-8674(88)80024-2",
+    "title": "Identification of genes required for cytoplasmic localization in early C. elegans embryos",
+    "authors": [
+      "Kenneth J. Kemphues",
+      "James R. Priess",
+      "Diane G. Morton",
+      "Niansheng Cheng"
+    ],
+    "venue": "Cell",
+    "year": 1988,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：通过 EMS 诱变筛选首次鉴定 par-1 至 par-6 等细胞质极性定位基因，奠定线虫胚胎不对称分裂与命运决定（C6）的遗传学基础，PAR 极性系统至今仍是该领域的核心框架。",
+    "url": "https://doi.org/10.1016/s0092-8674(88)80024-2",
+    "doi": "10.1016/s0092-8674(88)80024-2",
+    "confidence": 0.9,
+    "needs_review": false,
+    "added": "2026-10-20",
+    "source": "manual"
   }
 ]

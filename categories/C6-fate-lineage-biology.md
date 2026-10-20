@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (37)
+## Papers (38)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -80,6 +80,8 @@
   母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。
 - **[Wnt Signaling Polarizes an Early C. elegans Blastomere to Distinguish Endoderm from Mesoderm](https://doi.org/10.1016/s0092-8674(00)80530-9)** — Thorpe et al., *Cell* 1997 `T1-core` `peer-reviewed`<br>
   经典回填：确立 Wnt/β-catenin 不对称信号首次卵裂后极化 EMS 母细胞、决定内胚层与中胚层命运的范式，是线虫胚胎非对称分裂与信号导向命运决定（C4/C6）的奠基性机制研究。
+- **[Identification of genes required for cytoplasmic localization in early C. elegans embryos](https://doi.org/10.1016/s0092-8674(88)80024-2)** — Kemphues et al., *Cell* 1988 `T1-core` `peer-reviewed`<br>
+  经典回填：通过 EMS 诱变筛选首次鉴定 par-1 至 par-6 等细胞质极性定位基因，奠定线虫胚胎不对称分裂与命运决定（C6）的遗传学基础，PAR 极性系统至今仍是该领域的核心框架。
 - **[The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4)** — Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed`<br>
   invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。
 

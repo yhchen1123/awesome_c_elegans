@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-166-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--19-green)
+![papers](https://img.shields.io/badge/papers-167-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--20-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -334,6 +334,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *胚胎 Notch 信号的经典综述：四次 AB 谱系互作与组合 Notch 编码；信号-命运框架的奠基叙述。*
 - [Programmed cell death](https://doi.org/10.1895/wormbook.1.32.1) - Conradt, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   *程序性细胞死亡的奠基性章节：ced 通路与谱系固定的死亡命运；命运决定研究的经典组成部分。*
+- [Identification of genes required for cytoplasmic localization in early C. elegans embryos](https://doi.org/10.1016/s0092-8674(88)80024-2) - Kemphues et al., *Cell* 1988 `T1-core` `peer-reviewed`<br>
+  *经典回填：通过 EMS 诱变筛选首次鉴定 par-1 至 par-6 等细胞质极性定位基因，奠定线虫胚胎不对称分裂与命运决定（C6）的遗传学基础，PAR 极性系统至今仍是该领域的核心框架。*
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。*
 
