@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-167-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--20-green)
+![papers](https://img.shields.io/badge/papers-168-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--21-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -302,7 +302,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The Regulatory Landscape of Lineage Differentiation in a Metazoan Embryo](https://doi.org/10.1016/j.devcel.2015.07.014) - Du et al., *Developmental Cell* 2015 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *系统 RNAi 绘制谱系分化的调控景观：命运沟渠化、二元命运开关与多尺度分化模型；扰动-表型系统分析的奠基资源。*
 
-*See the [category page](categories/C5-perturbation-causal.md) for 8 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C5-perturbation-causal.md) for 9 cross-listed entries filed primarily elsewhere.*
 
 ## Fate Specification & Lineage Biology
 
@@ -369,6 +369,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *提出 Double-Stitch：免仿真的 Wasserstein 拉格朗日力学学习方法，从非配对快照重建并外推保守/周期型群体动力学，训练速度较仿真式方法提升 4-14 倍；为细胞群体动力学建模提供新的数学工具。*
 - [From Simulated Fluids to Living Tissue: Zero-Shot Foundation Model Transfer to Perturbed Embryos](https://arxiv.org/abs/2610.16236) - Cornelis et al., *arXiv* 2026 `T3-transfer` `preprint` `open-loop-rollout` `perturbation-holdout` · also filed under `C3`<br>
   *将跨多种模拟连续系统预训练的连续介质动力学基础模型 Walrus 用仅 12 段野生型果蝇胚盘视频微调，实现组织速度场的自回归预测，并在未见温度与遗传扰动条件上零样本评估；为胚胎形态发生的跨系统先验迁移与扰动外推（C7/C3）提供直接范例。*
+- [Synergy-Aware Residual Flow Matching for Single-Cell Perturbation Prediction](https://arxiv.org/abs/2610.25021) - Wu et al., *arXiv* 2026 `T3-transfer` `preprint` · also filed under `C5`<br>
+  *SynGeneFlow：面向组合扰动预测的协同感知流匹配框架，将源分布锚定在加性先验上、仅学习非加性残差流，并以静态基因互作掩码加扰动依赖形变偏置建模协同结构；对单细胞扰动响应预测中「组合效应」这一难点（C7/C5）提供新的生成式建模范式。*
 
 *See the [category page](categories/C7-methods-transfer.md) for 14 cross-listed entries filed primarily elsewhere.*
 
