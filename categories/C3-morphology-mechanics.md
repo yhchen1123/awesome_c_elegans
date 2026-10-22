@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (48)
+## Papers (49)
 
 - **[Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development](https://doi.org/10.1038/s41563-026-02594-7)** — Guruciaga et al., *Nature Materials* 2026 `T3-transfer` `peer-reviewed`<br>
   边界几何控制三维拓扑缺陷转变并决定小鼠胚胎腔体成核位置；边界条件-缺陷-形态发生链条的实验证据。
@@ -52,6 +52,8 @@
   结合活体成像与激光消融，证明早期胞质分裂事件通过细胞骨架重组驱动斑马鱼左右组织者脱离包被层并形成管腔；细胞分裂史指导上皮组织组装，对形态发生力学（C3）与消融扰动实验（C5）均有借鉴意义。
 - **[From Simulated Fluids to Living Tissue: Zero-Shot Foundation Model Transfer to Perturbed Embryos](https://arxiv.org/abs/2610.16236)** — Cornelis et al., *arXiv* 2026 `T3-transfer` `preprint` `open-loop-rollout` `perturbation-holdout`<br>
   将跨多种模拟连续系统预训练的连续介质动力学基础模型 Walrus 用仅 12 段野生型果蝇胚盘视频微调，实现组织速度场的自回归预测，并在未见温度与遗传扰动条件上零样本评估；为胚胎形态发生的跨系统先验迁移与扰动外推（C7/C3）提供直接范例。
+- **[An implantable sensor network for large-scale cellular force mapping in living embryos](https://doi.org/10.64898/2026.10.19.760153)** — F et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  FORCENET：植入式超薄膜弹性传感器网络，在活体斑马鱼原肠胚中以细胞分辨率、组织尺度定量映射细胞间作用力（体积仅为单细胞的 1/6-1/20，且验证不干扰细胞运动、增殖与发育）；为形态发生的力学直接测量（C3）与新型力传感工具（C8）提供能力突破。
 - **[Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0)** — Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed`<br>
   CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。
 - **[Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>

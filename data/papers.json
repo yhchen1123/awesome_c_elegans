@@ -5812,5 +5812,49 @@
     "needs_review": false,
     "added": "2026-10-20",
     "source": "manual"
+  },
+  {
+    "id": "10.64898/2026.10.19.760153",
+    "title": "An implantable sensor network for large-scale cellular force mapping in living embryos",
+    "authors": [
+      "Liu F",
+      "Wu JD",
+      "Kacmoli S",
+      "Zhang X",
+      "Gonzalez V",
+      "Young CB",
+      "Wang J",
+      "Li MJ",
+      "Qiu Y",
+      "Myslo G",
+      "Yan A",
+      "Song Z",
+      "Liang Y",
+      "Burdine RD",
+      "Stone HA",
+      "Fu T."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C3",
+      "C8"
+    ],
+    "tags": [
+      "mechanics",
+      "imaging",
+      "morphology-3D",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "FORCENET：植入式超薄膜弹性传感器网络，在活体斑马鱼原肠胚中以细胞分辨率、组织尺度定量映射细胞间作用力（体积仅为单细胞的 1/6-1/20，且验证不干扰细胞运动、增殖与发育）；为形态发生的力学直接测量（C3）与新型力传感工具（C8）提供能力突破。",
+    "url": "https://doi.org/10.64898/2026.10.19.760153",
+    "doi": "10.64898/2026.10.19.760153",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-22",
+    "source": "epmc"
   }
 ]
