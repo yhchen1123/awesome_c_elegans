@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-170-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--23-green)
+![papers](https://img.shields.io/badge/papers-172-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--23-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -187,6 +187,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。*
 - [Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166) - Guan et al., *LTS Preprints* 2025 `T1-core` `preprint` · also filed under `C6`<br>
   *遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。*
+- [ForSys: Non-invasive stress inference from time-lapse microscopy](https://doi.org/10.1016/j.isci.2025.113685) - Borges et al., *iScience* 2025 `T2-adjacent` `peer-reviewed` · also filed under `C8`<br>
+  *ForSys：从时序显微图像非侵入式推断细胞间应力与细胞内压，把力学推断从静态扩展到动态时间序列；验证于斑马鱼侧线原基并成功预测莲座形成起点，Python 开源。*
 - [Image-based force inference by biomechanical simulation](https://doi.org/10.1371/journal.pcbi.1012629) - Vanslambrouck et al., *PLOS Computational Biology* 2024 `T2-adjacent` `peer-reviewed`<br>
   *FIDES 生物力学仿真力推断；为「形态约束力学但不等同绝对 force」的可识别性讨论提供方法样本。*
 - [Self-organized tissue mechanics underlie embryonic regulation](https://doi.org/10.1038/s41586-024-07934-8) - Caldarelli et al., *Nature* 2024 `T3-transfer` `peer-reviewed` · also filed under `C5`<br>
@@ -222,7 +224,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Gastrulation in C. elegans](https://doi.org/10.1895/wormbook.1.23.1) - Nance, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。*
 
-*See the [category page](categories/C3-morphology-mechanics.md) for 14 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C3-morphology-mechanics.md) for 15 cross-listed entries filed primarily elsewhere.*
 
 ## Molecular Regulation & Coupling
 
@@ -409,7 +411,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [WormBook: the online review of C. elegans biology](https://wormbook.org/) - Team, *WormBook / Genetics Society of America* 2005 `T1-core` `peer-reviewed`<br>
   *线虫领域权威开放参考书（同行评审、持续更新的 living reference）；本库按章节拆分了其中最相关的 12 章，此条目作为整体入口。*
 
-*See the [category page](categories/C8-datasets-benchmarks-software.md) for 22 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C8-datasets-benchmarks-software.md) for 23 cross-listed entries filed primarily elsewhere.*
 
 ## Reviews & Perspectives
 
@@ -425,6 +427,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *迈向基因组学与 AI 结合的预测性虚拟胚胎（评论）；虚拟胚胎方向的路线图式观点。*
 - [To see and to know: the power of live imaging in illuminating and decoding biological complexity](https://doi.org/10.1016/j.jgg.2025.10.003) - Yang et al., *Journal of Genetics and Genomics* 2026 `T2-adjacent` `peer-reviewed`<br>
   *活成像照亮与解码生物学的综述（见与知）；活体成像领域的观点性评述。*
+- [Peeking into the future: inferring mechanics in dynamical tissues](https://doi.org/10.1042/bst20230225) - Borges et al., *Biochemical Society Transactions* 2024 `T2-adjacent` `peer-reviewed` · also filed under `C3`<br>
+  *力学推断 mini-review：系统比较静态与动态应力推断模态的优势与局限，梳理从单张图像到时序数据的方法谱系；力推断方法选型与可识别性讨论的地图式综述。*
 - [Mechanical regulation of early vertebrate embryogenesis](https://doi.org/10.1038/s41580-021-00424-z) - Valet et al., *Nature Reviews Molecular Cell Biology* 2022 `T3-transfer` `peer-reviewed` · also filed under `C3`<br>
   *脊椎动物胚胎发生机械调控的权威综述；力学-图式形成领域的系统性评述。*
 - [Self-Organization in Pattern Formation](https://doi.org/10.1016/j.devcel.2019.05.019) - Schweisguth et al., *Developmental Cell* 2019 `T3-transfer` `peer-reviewed`<br>

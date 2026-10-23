@@ -5922,5 +5922,73 @@
     "needs_review": false,
     "added": "2026-10-23",
     "source": "manual"
+  },
+  {
+    "id": "10.1016/j.isci.2025.113685",
+    "doi": "10.1016/j.isci.2025.113685",
+    "title": "ForSys: Non-invasive stress inference from time-lapse microscopy",
+    "authors": [
+      "Augusto Borges",
+      "Jerónimo R. Miranda-Rodríguez",
+      "Alberto S. Ceccarelli",
+      "Guilherme Ventura",
+      "Jakub Sedzinski",
+      "Hernán López-Schier",
+      "Osvaldo Chara"
+    ],
+    "venue": "iScience",
+    "year": 2025,
+    "categories": [
+      "C3",
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "mechanics",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "ForSys：从时序显微图像非侵入式推断细胞间应力与细胞内压，把力学推断从静态扩展到动态时间序列；验证于斑马鱼侧线原基并成功预测莲座形成起点，Python 开源。",
+    "url": "https://doi.org/10.1016/j.isci.2025.113685",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-23",
+    "source": "manual"
+  },
+  {
+    "id": "10.1042/bst20230225",
+    "doi": "10.1042/bst20230225",
+    "title": "Peeking into the future: inferring mechanics in dynamical tissues",
+    "authors": [
+      "Augusto Borges",
+      "Osvaldo Chara"
+    ],
+    "venue": "Biochemical Society Transactions",
+    "year": 2024,
+    "categories": [
+      "C9",
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "力学推断 mini-review：系统比较静态与动态应力推断模态的优势与局限，梳理从单张图像到时序数据的方法谱系；力推断方法选型与可识别性讨论的地图式综述。",
+    "url": "https://doi.org/10.1042/bst20230225",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-23",
+    "source": "manual"
   }
 ]

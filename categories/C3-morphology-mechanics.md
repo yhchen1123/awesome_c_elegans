@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (49)
+## Papers (51)
 
 - **[Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development](https://doi.org/10.1038/s41563-026-02594-7)** — Guruciaga et al., *Nature Materials* 2026 `T3-transfer` `peer-reviewed`<br>
   边界几何控制三维拓扑缺陷转变并决定小鼠胚胎腔体成核位置；边界条件-缺陷-形态发生链条的实验证据。
@@ -58,6 +58,8 @@
   CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。
 - **[Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>
   遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。
+- **[ForSys: Non-invasive stress inference from time-lapse microscopy](https://doi.org/10.1016/j.isci.2025.113685)** — Borges et al., *iScience* 2025 `T2-adjacent` `peer-reviewed`<br>
+  ForSys：从时序显微图像非侵入式推断细胞间应力与细胞内压，把力学推断从静态扩展到动态时间序列；验证于斑马鱼侧线原基并成功预测莲座形成起点，Python 开源。
 - **[Characterizing Cellular Physiological States with Three-Dimensional Shape Descriptors for Cell Membranes](https://doi.org/10.3390/membranes14060137)** — Guan et al., *Membranes* 2024 `T1-core` `peer-reviewed`<br>
   三维细胞膜形状描述子刻画细胞生理状态；谱系分辨胚胎细胞形态表示的基础方法。
 - **[Image-based force inference by biomechanical simulation](https://doi.org/10.1371/journal.pcbi.1012629)** — Vanslambrouck et al., *PLOS Computational Biology* 2024 `T2-adjacent` `peer-reviewed`<br>
@@ -66,6 +68,8 @@
   鸟类胚胎自组织组织力学支撑的胚胎调节现象（分割后重建完整胚胎）；扰动-恢复与自修复的力学基础。
 - **[Temporal variability and cell mechanics control robustness in mammalian embryogenesis](https://doi.org/10.1126/science.adh1145)** — Fabrèges et al., *Science* 2024 `T3-transfer` `peer-reviewed`<br>
   哺乳动物胚胎中时间变异与细胞力学共同控制发育稳健性；变异并非纯噪声而可成为稳健性来源的跨物种定量证据。
+- **[Peeking into the future: inferring mechanics in dynamical tissues](https://doi.org/10.1042/bst20230225)** — Borges et al., *Biochemical Society Transactions* 2024 `T2-adjacent` `peer-reviewed`<br>
+  力学推断 mini-review：系统比较静态与动态应力推断模态的优势与局限，梳理从单张图像到时序数据的方法谱系；力推断方法选型与可识别性讨论的地图式综述。
 - **[Axis convergence in C. elegans embryos](https://doi.org/10.1016/j.cub.2023.10.050)** — Bhatnagar et al., *Current Biology* 2023 `T1-core` `peer-reviewed`<br>
   肌动球蛋白流驱动单细胞胚胎 AP 轴向长轴收敛，假分裂沟为主要驱动而胞质流贡献较小；合子期力学-几何耦合的定量拆解。
 - **[Embryo mechanics cartography: inference of 3D force atlases from fluorescence microscopy](https://doi.org/10.1038/s41592-023-02084-7)** — Ichbiah et al., *Nature Methods* 2023 `T1-core` `peer-reviewed`<br>

@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (36)
+## Papers (37)
 
 - **[Developmental chronology of mouse embryo from 2-cell stage through birth](https://doi.org/10.1038/s41556-026-01971-3)** — Cao et al., *Nature Cell Biology* 2026 `T3-transfer` `peer-reviewed`<br>
   小鼠胚胎从 2 细胞到出生的发育年表资源；跨物种发育时序参照系。
@@ -32,6 +32,8 @@
   OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。
 - **[EmbSAM: cell boundary localization and Segment Anything Model for fast images of developing embryos](https://doi.org/10.1038/s42003-025-09220-3)** — Guan et al., *Communications Biology* 2025 `T1-core` `peer-reviewed`<br>
   EmbSAM：面向发育胚胎低信噪比膜图像的 SAM 分割管线（边界定位+Segment Anything）；膜分割的实用工具。
+- **[ForSys: Non-invasive stress inference from time-lapse microscopy](https://doi.org/10.1016/j.isci.2025.113685)** — Borges et al., *iScience* 2025 `T2-adjacent` `peer-reviewed`<br>
+  ForSys：从时序显微图像非侵入式推断细胞间应力与细胞内压，把力学推断从静态扩展到动态时间序列；验证于斑马鱼侧线原基并成功预测莲座形成起点，Python 开源。
 - **[A full-body transcription factor expression atlas with completely resolved cell identities in C. elegans](https://doi.org/10.1038/s41467-023-42677-6)** — Li et al., *Nature Communications* 2024 `T2-adjacent` `peer-reviewed`<br>
   全身转录因子表达图谱（L1 幼虫）与 RAPCAT 自动细胞身份标注工具；细胞身份自动标注方法对胚胎数据同样适用。
 - **[Automated profiling of gene function during embryonic development](https://doi.org/10.1016/j.cell.2024.04.012)** — Green et al., *Cell* 2024 `T1-core` `peer-reviewed`<br>
