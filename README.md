@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-167-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--20-green)
+![papers](https://img.shields.io/badge/papers-172-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--23-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -181,10 +181,14 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *对非洲爪蟾胚胎上皮外植体施加单轴应变，结合黏着斑力传感器与激光消融，发现细胞固有机械各向异性是应变不均匀性的主因，力主要经顶端中部皮层传递；为组织力学响应的定量分析（C3）提供物理框架。*
 - [Mitotically driven cytoskeletal reorganization governs zebrafish left-right organizer detachment from EVL and lumen morphogenesis.](https://doi.org/10.1242/jcs.264896) - Y et al., *Journal of Cell Science* 2026 `T3-transfer` `peer-reviewed` · also filed under `C5`<br>
   *结合活体成像与激光消融，证明早期胞质分裂事件通过细胞骨架重组驱动斑马鱼左右组织者脱离包被层并形成管腔；细胞分裂史指导上皮组织组装，对形态发生力学（C3）与消融扰动实验（C5）均有借鉴意义。*
+- [An implantable sensor network for large-scale cellular force mapping in living embryos](https://doi.org/10.64898/2026.10.19.760153) - F et al., *openRxiv* 2026 `T3-transfer` `preprint` · also filed under `C8`<br>
+  *FORCENET：植入式超薄膜弹性传感器网络，在活体斑马鱼原肠胚中以细胞分辨率、组织尺度定量映射细胞间作用力（体积仅为单细胞的 1/6-1/20，且验证不干扰细胞运动、增殖与发育）；为形态发生的力学直接测量（C3）与新型力传感工具（C8）提供能力突破。*
 - [Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0) - Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。*
 - [Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166) - Guan et al., *LTS Preprints* 2025 `T1-core` `preprint` · also filed under `C6`<br>
   *遗传与形态的协同支配发育中的命运决定；基因型-形态表型联合定量分析框架。*
+- [ForSys: Non-invasive stress inference from time-lapse microscopy](https://doi.org/10.1016/j.isci.2025.113685) - Borges et al., *iScience* 2025 `T2-adjacent` `peer-reviewed` · also filed under `C8`<br>
+  *ForSys：从时序显微图像非侵入式推断细胞间应力与细胞内压，把力学推断从静态扩展到动态时间序列；验证于斑马鱼侧线原基并成功预测莲座形成起点，Python 开源。*
 - [Image-based force inference by biomechanical simulation](https://doi.org/10.1371/journal.pcbi.1012629) - Vanslambrouck et al., *PLOS Computational Biology* 2024 `T2-adjacent` `peer-reviewed`<br>
   *FIDES 生物力学仿真力推断；为「形态约束力学但不等同绝对 force」的可识别性讨论提供方法样本。*
 - [Self-organized tissue mechanics underlie embryonic regulation](https://doi.org/10.1038/s41586-024-07934-8) - Caldarelli et al., *Nature* 2024 `T3-transfer` `peer-reviewed` · also filed under `C5`<br>
@@ -220,7 +224,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Gastrulation in C. elegans](https://doi.org/10.1895/wormbook.1.23.1) - Nance, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。*
 
-*See the [category page](categories/C3-morphology-mechanics.md) for 14 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C3-morphology-mechanics.md) for 15 cross-listed entries filed primarily elsewhere.*
 
 ## Molecular Regulation & Coupling
 
@@ -302,7 +306,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The Regulatory Landscape of Lineage Differentiation in a Metazoan Embryo](https://doi.org/10.1016/j.devcel.2015.07.014) - Du et al., *Developmental Cell* 2015 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *系统 RNAi 绘制谱系分化的调控景观：命运沟渠化、二元命运开关与多尺度分化模型；扰动-表型系统分析的奠基资源。*
 
-*See the [category page](categories/C5-perturbation-causal.md) for 8 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C5-perturbation-causal.md) for 9 cross-listed entries filed primarily elsewhere.*
 
 ## Fate Specification & Lineage Biology
 
@@ -339,7 +343,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。*
 
-*See the [category page](categories/C6-fate-lineage-biology.md) for 23 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C6-fate-lineage-biology.md) for 24 cross-listed entries filed primarily elsewhere.*
 
 ## Methods Transfer
 
@@ -369,6 +373,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *提出 Double-Stitch：免仿真的 Wasserstein 拉格朗日力学学习方法，从非配对快照重建并外推保守/周期型群体动力学，训练速度较仿真式方法提升 4-14 倍；为细胞群体动力学建模提供新的数学工具。*
 - [From Simulated Fluids to Living Tissue: Zero-Shot Foundation Model Transfer to Perturbed Embryos](https://arxiv.org/abs/2610.16236) - Cornelis et al., *arXiv* 2026 `T3-transfer` `preprint` `open-loop-rollout` `perturbation-holdout` · also filed under `C3`<br>
   *将跨多种模拟连续系统预训练的连续介质动力学基础模型 Walrus 用仅 12 段野生型果蝇胚盘视频微调，实现组织速度场的自回归预测，并在未见温度与遗传扰动条件上零样本评估；为胚胎形态发生的跨系统先验迁移与扰动外推（C7/C3）提供直接范例。*
+- [Synergy-Aware Residual Flow Matching for Single-Cell Perturbation Prediction](https://arxiv.org/abs/2610.25021) - Wu et al., *arXiv* 2026 `T3-transfer` `preprint` · also filed under `C5`<br>
+  *SynGeneFlow：面向组合扰动预测的协同感知流匹配框架，将源分布锚定在加性先验上、仅学习非加性残差流，并以静态基因互作掩码加扰动依赖形变偏置建模协同结构；对单细胞扰动响应预测中「组合效应」这一难点（C7/C5）提供新的生成式建模范式。*
 
 *See the [category page](categories/C7-methods-transfer.md) for 14 cross-listed entries filed primarily elsewhere.*
 
@@ -394,6 +400,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *共聚焦荧光时序 3D+time 细胞核追踪数据集；追踪/分割算法的公开基准数据。*
 - [AceTree: a major update and case study in the long term maintenance of open-source scientific software](https://doi.org/10.1186/s12859-018-2127-0) - Katzman et al., *BMC Bioinformatics* 2018 `T1-core` `peer-reviewed` · also filed under `C0`<br>
   *AceTree 重大更新：开源科学软件长期维护的案例研究；谱系分析工具的持续演进。*
+- [Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics](https://doi.org/10.1186/s12864-018-4772-0) - Street et al., *BMC Genomics* 2018 `T3-transfer` `peer-reviewed` · also filed under `C6`<br>
+  *经典回填：Slingshot 是单细胞谱系与拟时序推断领域引用最高的基准工具之一（3300+ 引用），以全轨迹谱系树拓扑推断与稳定的最小生成树后剪枝策略著称；作为几乎所有后续轨迹方法的对照基线，是胚胎单细胞谱系分析工具栈（C8/C6）的必备参照。*
 - [Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119) - Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *Digital Development 数据库：谱系分化表型、细胞特异基因功能与多尺度模型；扰动表型的公开数据资源。*
 - [WormGUIDES: an interactive single cell developmental atlas and tool for collaborative multidimensional data exploration](https://doi.org/10.1186/s12859-015-0627-8) - Santella et al., *BMC Bioinformatics* 2015 `T1-core` `peer-reviewed` · also filed under `C0`<br>
@@ -403,7 +411,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [WormBook: the online review of C. elegans biology](https://wormbook.org/) - Team, *WormBook / Genetics Society of America* 2005 `T1-core` `peer-reviewed`<br>
   *线虫领域权威开放参考书（同行评审、持续更新的 living reference）；本库按章节拆分了其中最相关的 12 章，此条目作为整体入口。*
 
-*See the [category page](categories/C8-datasets-benchmarks-software.md) for 21 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C8-datasets-benchmarks-software.md) for 23 cross-listed entries filed primarily elsewhere.*
 
 ## Reviews & Perspectives
 
@@ -419,6 +427,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *迈向基因组学与 AI 结合的预测性虚拟胚胎（评论）；虚拟胚胎方向的路线图式观点。*
 - [To see and to know: the power of live imaging in illuminating and decoding biological complexity](https://doi.org/10.1016/j.jgg.2025.10.003) - Yang et al., *Journal of Genetics and Genomics* 2026 `T2-adjacent` `peer-reviewed`<br>
   *活成像照亮与解码生物学的综述（见与知）；活体成像领域的观点性评述。*
+- [Peeking into the future: inferring mechanics in dynamical tissues](https://doi.org/10.1042/bst20230225) - Borges et al., *Biochemical Society Transactions* 2024 `T2-adjacent` `peer-reviewed` · also filed under `C3`<br>
+  *力学推断 mini-review：系统比较静态与动态应力推断模态的优势与局限，梳理从单张图像到时序数据的方法谱系；力推断方法选型与可识别性讨论的地图式综述。*
 - [Mechanical regulation of early vertebrate embryogenesis](https://doi.org/10.1038/s41580-021-00424-z) - Valet et al., *Nature Reviews Molecular Cell Biology* 2022 `T3-transfer` `peer-reviewed` · also filed under `C3`<br>
   *脊椎动物胚胎发生机械调控的权威综述；力学-图式形成领域的系统性评述。*
 - [Self-Organization in Pattern Formation](https://doi.org/10.1016/j.devcel.2019.05.019) - Schweisguth et al., *Developmental Cell* 2019 `T3-transfer` `peer-reviewed`<br>

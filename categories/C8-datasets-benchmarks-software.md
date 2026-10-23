@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (34)
+## Papers (37)
 
 - **[Developmental chronology of mouse embryo from 2-cell stage through birth](https://doi.org/10.1038/s41556-026-01971-3)** — Cao et al., *Nature Cell Biology* 2026 `T3-transfer` `peer-reviewed`<br>
   小鼠胚胎从 2 细胞到出生的发育年表资源；跨物种发育时序参照系。
@@ -24,12 +24,16 @@
   将 DNA Typewriter 谱系记录与四倍体互补结合，重建小鼠发育全程的高分辨率单细胞谱系，并附 FateVec 分析框架推断命运偏置动态；揭示发育潜能丧失是渐进且异步的过程，为谱系记录工具与命运决定研究（C8/C6）提供新范式。
 - **[Single-cell spatial mapping reveals reproducible cell type organization and spatially dependent gene expression in gastruloids.](https://doi.org/10.7554/elife.109268)** — C et al., *eLife* 2026 `T3-transfer` `peer-reviewed`<br>
   构建 26 个独立类原肠胚的单细胞空间分辨转录组目录，发现细胞类型组成与组织尺度空间组织高度可复现而中尺度图案存在个体间变异，并提出无参的 L-score 互斥基因表达度量；为类胚胎模型的空间单细胞分析（C8/C4）提供数据与方法资源。
+- **[An implantable sensor network for large-scale cellular force mapping in living embryos](https://doi.org/10.64898/2026.10.19.760153)** — F et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  FORCENET：植入式超薄膜弹性传感器网络，在活体斑马鱼原肠胚中以细胞分辨率、组织尺度定量映射细胞间作用力（体积仅为单细胞的 1/6-1/20，且验证不干扰细胞运动、增殖与发育）；为形态发生的力学直接测量（C3）与新型力传感工具（C8）提供能力突破。
 - **[Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0)** — Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed`<br>
   CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。
 - **[Cell tracking with accurate error prediction](https://doi.org/10.1038/s41592-025-02845-6)** — Betjes et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed` `uncertainty-quantified`<br>
   OrganoidTracker 2.0：为追踪结果的每一步给出误差概率（类 P 值），支持仅保留高置信片段的全自动分析；直接回应追踪误差沿谱系传播的问题，是不确定性量化硬标准的示范。
 - **[EmbSAM: cell boundary localization and Segment Anything Model for fast images of developing embryos](https://doi.org/10.1038/s42003-025-09220-3)** — Guan et al., *Communications Biology* 2025 `T1-core` `peer-reviewed`<br>
   EmbSAM：面向发育胚胎低信噪比膜图像的 SAM 分割管线（边界定位+Segment Anything）；膜分割的实用工具。
+- **[ForSys: Non-invasive stress inference from time-lapse microscopy](https://doi.org/10.1016/j.isci.2025.113685)** — Borges et al., *iScience* 2025 `T2-adjacent` `peer-reviewed`<br>
+  ForSys：从时序显微图像非侵入式推断细胞间应力与细胞内压，把力学推断从静态扩展到动态时间序列；验证于斑马鱼侧线原基并成功预测莲座形成起点，Python 开源。
 - **[A full-body transcription factor expression atlas with completely resolved cell identities in C. elegans](https://doi.org/10.1038/s41467-023-42677-6)** — Li et al., *Nature Communications* 2024 `T2-adjacent` `peer-reviewed`<br>
   全身转录因子表达图谱（L1 幼虫）与 RAPCAT 自动细胞身份标注工具；细胞身份自动标注方法对胚胎数据同样适用。
 - **[Automated profiling of gene function during embryonic development](https://doi.org/10.1016/j.cell.2024.04.012)** — Green et al., *Cell* 2024 `T1-core` `peer-reviewed`<br>
@@ -52,6 +56,8 @@
   小鼠着床后发育的 in toto 光片成像与单细胞重建（含多胚胎统计动态图谱）；全胚胎动态图谱的范式性工作。
 - **[AceTree: a major update and case study in the long term maintenance of open-source scientific software](https://doi.org/10.1186/s12859-018-2127-0)** — Katzman et al., *BMC Bioinformatics* 2018 `T1-core` `peer-reviewed`<br>
   AceTree 重大更新：开源科学软件长期维护的案例研究；谱系分析工具的持续演进。
+- **[Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics](https://doi.org/10.1186/s12864-018-4772-0)** — Street et al., *BMC Genomics* 2018 `T3-transfer` `peer-reviewed`<br>
+  经典回填：Slingshot 是单细胞谱系与拟时序推断领域引用最高的基准工具之一（3300+ 引用），以全轨迹谱系树拓扑推断与稳定的最小生成树后剪枝策略著称；作为几乎所有后续轨迹方法的对照基线，是胚胎单细胞谱系分析工具栈（C8/C6）的必备参照。
 - **[A Transcriptional Lineage of the Early C. elegans Embryo](https://doi.org/10.1016/j.devcel.2016.07.025)** — Tintori et al., *Developmental Cell* 2016 `T1-core` `peer-reviewed`<br>
   16 细胞期前每个胚胎细胞的 RNA-seq 转录谱系；细胞级合子基因组激活图谱的奠基数据集。
 - **[Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119)** — Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed`<br>

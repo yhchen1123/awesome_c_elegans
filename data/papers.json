@@ -5812,5 +5812,183 @@
     "needs_review": false,
     "added": "2026-10-20",
     "source": "manual"
+  },
+  {
+    "id": "2610.25021",
+    "title": "Synergy-Aware Residual Flow Matching for Single-Cell Perturbation Prediction",
+    "authors": [
+      "Jingrui Wu",
+      "Wangyun Dan"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C5"
+    ],
+    "tags": [
+      "scRNA",
+      "perturbation",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "SynGeneFlow：面向组合扰动预测的协同感知流匹配框架，将源分布锚定在加性先验上、仅学习非加性残差流，并以静态基因互作掩码加扰动依赖形变偏置建模协同结构；对单细胞扰动响应预测中「组合效应」这一难点（C7/C5）提供新的生成式建模范式。",
+    "url": "https://arxiv.org/abs/2610.25021",
+    "arxiv_id": "2610.25021",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-21",
+    "source": "arxiv"
+  },
+  {
+    "id": "10.64898/2026.10.19.760153",
+    "title": "An implantable sensor network for large-scale cellular force mapping in living embryos",
+    "authors": [
+      "Liu F",
+      "Wu JD",
+      "Kacmoli S",
+      "Zhang X",
+      "Gonzalez V",
+      "Young CB",
+      "Wang J",
+      "Li MJ",
+      "Qiu Y",
+      "Myslo G",
+      "Yan A",
+      "Song Z",
+      "Liang Y",
+      "Burdine RD",
+      "Stone HA",
+      "Fu T."
+    ],
+    "venue": "openRxiv",
+    "year": 2026,
+    "categories": [
+      "C3",
+      "C8"
+    ],
+    "tags": [
+      "mechanics",
+      "imaging",
+      "morphology-3D",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "FORCENET：植入式超薄膜弹性传感器网络，在活体斑马鱼原肠胚中以细胞分辨率、组织尺度定量映射细胞间作用力（体积仅为单细胞的 1/6-1/20，且验证不干扰细胞运动、增殖与发育）；为形态发生的力学直接测量（C3）与新型力传感工具（C8）提供能力突破。",
+    "url": "https://doi.org/10.64898/2026.10.19.760153",
+    "doi": "10.64898/2026.10.19.760153",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-22",
+    "source": "epmc"
+  },
+  {
+    "id": "10.1186/s12864-018-4772-0",
+    "title": "Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics",
+    "authors": [
+      "Kelly Street",
+      "Davide Risso",
+      "Russell B. Fletcher",
+      "Diya Das",
+      "John Ngai",
+      "Nir Yosef",
+      "Elizabeth Purdom",
+      "Sandrine Dudoit"
+    ],
+    "venue": "BMC Genomics",
+    "year": 2018,
+    "categories": [
+      "C8",
+      "C6"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：Slingshot 是单细胞谱系与拟时序推断领域引用最高的基准工具之一（3300+ 引用），以全轨迹谱系树拓扑推断与稳定的最小生成树后剪枝策略著称；作为几乎所有后续轨迹方法的对照基线，是胚胎单细胞谱系分析工具栈（C8/C6）的必备参照。",
+    "url": "https://doi.org/10.1186/s12864-018-4772-0",
+    "doi": "10.1186/s12864-018-4772-0",
+    "confidence": 0.9,
+    "needs_review": false,
+    "added": "2026-10-23",
+    "source": "manual"
+  },
+  {
+    "id": "10.1016/j.isci.2025.113685",
+    "doi": "10.1016/j.isci.2025.113685",
+    "title": "ForSys: Non-invasive stress inference from time-lapse microscopy",
+    "authors": [
+      "Augusto Borges",
+      "Jerónimo R. Miranda-Rodríguez",
+      "Alberto S. Ceccarelli",
+      "Guilherme Ventura",
+      "Jakub Sedzinski",
+      "Hernán López-Schier",
+      "Osvaldo Chara"
+    ],
+    "venue": "iScience",
+    "year": 2025,
+    "categories": [
+      "C3",
+      "C8"
+    ],
+    "tags": [
+      "imaging",
+      "mechanics",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "ForSys：从时序显微图像非侵入式推断细胞间应力与细胞内压，把力学推断从静态扩展到动态时间序列；验证于斑马鱼侧线原基并成功预测莲座形成起点，Python 开源。",
+    "url": "https://doi.org/10.1016/j.isci.2025.113685",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-23",
+    "source": "manual"
+  },
+  {
+    "id": "10.1042/bst20230225",
+    "doi": "10.1042/bst20230225",
+    "title": "Peeking into the future: inferring mechanics in dynamical tissues",
+    "authors": [
+      "Augusto Borges",
+      "Osvaldo Chara"
+    ],
+    "venue": "Biochemical Society Transactions",
+    "year": 2024,
+    "categories": [
+      "C9",
+      "C3"
+    ],
+    "tags": [
+      "mechanics",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T2-adjacent",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "力学推断 mini-review：系统比较静态与动态应力推断模态的优势与局限，梳理从单张图像到时序数据的方法谱系；力推断方法选型与可识别性讨论的地图式综述。",
+    "url": "https://doi.org/10.1042/bst20230225",
+    "citations": 0,
+    "retracted": false,
+    "confidence": 1.0,
+    "needs_review": false,
+    "added": "2026-10-23",
+    "source": "manual"
   }
 ]
