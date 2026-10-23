@@ -5892,5 +5892,35 @@
     "needs_review": false,
     "added": "2026-10-23",
     "source": "manual"
+  },
+  {
+    "id": "2610.25021",
+    "title": "Synergy-Aware Residual Flow Matching for Single-Cell Perturbation Prediction",
+    "authors": [
+      "Jingrui Wu",
+      "Wangyun Dan"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C5"
+    ],
+    "tags": [
+      "scRNA",
+      "perturbation",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "SynGeneFlow：面向组合扰动预测的协同感知流匹配框架，将源分布锚定在加性先验上、仅学习非加性残差流，并以静态基因互作掩码加扰动依赖形变偏置建模协同结构；对单细胞扰动响应预测中「组合效应」这一难点（C7/C5）提供新的生成式建模范式。",
+    "url": "https://arxiv.org/abs/2610.25021",
+    "arxiv_id": "2610.25021",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-10-21",
+    "source": "arxiv"
   }
 ]
