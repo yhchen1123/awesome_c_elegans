@@ -5856,5 +5856,41 @@
     "needs_review": false,
     "added": "2026-10-22",
     "source": "epmc"
+  },
+  {
+    "id": "10.1186/s12864-018-4772-0",
+    "title": "Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics",
+    "authors": [
+      "Kelly Street",
+      "Davide Risso",
+      "Russell B. Fletcher",
+      "Diya Das",
+      "John Ngai",
+      "Nir Yosef",
+      "Elizabeth Purdom",
+      "Sandrine Dudoit"
+    ],
+    "venue": "BMC Genomics",
+    "year": 2018,
+    "categories": [
+      "C8",
+      "C6"
+    ],
+    "tags": [
+      "scRNA",
+      "lineage",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：Slingshot 是单细胞谱系与拟时序推断领域引用最高的基准工具之一（3300+ 引用），以全轨迹谱系树拓扑推断与稳定的最小生成树后剪枝策略著称；作为几乎所有后续轨迹方法的对照基线，是胚胎单细胞谱系分析工具栈（C8/C6）的必备参照。",
+    "url": "https://doi.org/10.1186/s12864-018-4772-0",
+    "doi": "10.1186/s12864-018-4772-0",
+    "confidence": 0.9,
+    "needs_review": false,
+    "added": "2026-10-23",
+    "source": "manual"
   }
 ]

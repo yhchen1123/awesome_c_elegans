@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (35)
+## Papers (36)
 
 - **[Developmental chronology of mouse embryo from 2-cell stage through birth](https://doi.org/10.1038/s41556-026-01971-3)** — Cao et al., *Nature Cell Biology* 2026 `T3-transfer` `peer-reviewed`<br>
   小鼠胚胎从 2 细胞到出生的发育年表资源；跨物种发育时序参照系。
@@ -54,6 +54,8 @@
   小鼠着床后发育的 in toto 光片成像与单细胞重建（含多胚胎统计动态图谱）；全胚胎动态图谱的范式性工作。
 - **[AceTree: a major update and case study in the long term maintenance of open-source scientific software](https://doi.org/10.1186/s12859-018-2127-0)** — Katzman et al., *BMC Bioinformatics* 2018 `T1-core` `peer-reviewed`<br>
   AceTree 重大更新：开源科学软件长期维护的案例研究；谱系分析工具的持续演进。
+- **[Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics](https://doi.org/10.1186/s12864-018-4772-0)** — Street et al., *BMC Genomics* 2018 `T3-transfer` `peer-reviewed`<br>
+  经典回填：Slingshot 是单细胞谱系与拟时序推断领域引用最高的基准工具之一（3300+ 引用），以全轨迹谱系树拓扑推断与稳定的最小生成树后剪枝策略著称；作为几乎所有后续轨迹方法的对照基线，是胚胎单细胞谱系分析工具栈（C8/C6）的必备参照。
 - **[A Transcriptional Lineage of the Early C. elegans Embryo](https://doi.org/10.1016/j.devcel.2016.07.025)** — Tintori et al., *Developmental Cell* 2016 `T1-core` `peer-reviewed`<br>
   16 细胞期前每个胚胎细胞的 RNA-seq 转录谱系；细胞级合子基因组激活图谱的奠基数据集。
 - **[Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119)** — Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed`<br>

@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-168-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--22-green)
+![papers](https://img.shields.io/badge/papers-169-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--23-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -341,7 +341,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。*
 
-*See the [category page](categories/C6-fate-lineage-biology.md) for 23 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C6-fate-lineage-biology.md) for 24 cross-listed entries filed primarily elsewhere.*
 
 ## Methods Transfer
 
@@ -396,6 +396,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *共聚焦荧光时序 3D+time 细胞核追踪数据集；追踪/分割算法的公开基准数据。*
 - [AceTree: a major update and case study in the long term maintenance of open-source scientific software](https://doi.org/10.1186/s12859-018-2127-0) - Katzman et al., *BMC Bioinformatics* 2018 `T1-core` `peer-reviewed` · also filed under `C0`<br>
   *AceTree 重大更新：开源科学软件长期维护的案例研究；谱系分析工具的持续演进。*
+- [Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics](https://doi.org/10.1186/s12864-018-4772-0) - Street et al., *BMC Genomics* 2018 `T3-transfer` `peer-reviewed` · also filed under `C6`<br>
+  *经典回填：Slingshot 是单细胞谱系与拟时序推断领域引用最高的基准工具之一（3300+ 引用），以全轨迹谱系树拓扑推断与稳定的最小生成树后剪枝策略著称；作为几乎所有后续轨迹方法的对照基线，是胚胎单细胞谱系分析工具栈（C8/C6）的必备参照。*
 - [Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119) - Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *Digital Development 数据库：谱系分化表型、细胞特异基因功能与多尺度模型；扰动表型的公开数据资源。*
 - [WormGUIDES: an interactive single cell developmental atlas and tool for collaborative multidimensional data exploration](https://doi.org/10.1186/s12859-015-0627-8) - Santella et al., *BMC Bioinformatics* 2015 `T1-core` `peer-reviewed` · also filed under `C0`<br>

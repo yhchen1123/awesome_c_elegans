@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (38)
+## Papers (39)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -42,6 +42,8 @@
   脊索动物胚胎发生的分子谱系单细胞分析；谱系-分子联合分析在头索动物中的范式。
 - **[The Caenorhabditis elegans gene ham-1 regulates daughter cell size asymmetry primarily in divisions that produce a small anterior daughter cell](https://doi.org/10.1371/journal.pone.0195855)** — Teuliere et al., *PLOS ONE* 2018 `T1-core` `peer-reviewed`<br>
   ham-1 主要通过谱系自主机制调控子细胞大小不对称；不对称分裂的遗传证据。
+- **[Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics](https://doi.org/10.1186/s12864-018-4772-0)** — Street et al., *BMC Genomics* 2018 `T3-transfer` `peer-reviewed`<br>
+  经典回填：Slingshot 是单细胞谱系与拟时序推断领域引用最高的基准工具之一（3300+ 引用），以全轨迹谱系树拓扑推断与稳定的最小生成树后剪枝策略著称；作为几乎所有后续轨迹方法的对照基线，是胚胎单细胞谱系分析工具栈（C8/C6）的必备参照。
 - **[Digital development: a database of cell lineage differentiation inC. eleganswith lineage phenotypes, cell-specific gene functions and a multiscale model](https://doi.org/10.1093/nar/gkv1119)** — Santella et al., *Nucleic Acids Research* 2016 `T1-core` `peer-reviewed`<br>
   Digital Development 数据库：谱系分化表型、细胞特异基因功能与多尺度模型；扰动表型的公开数据资源。
 - **[Spatiotemporal transcriptomics reveals the evolutionary history of the endoderm germ layer](https://doi.org/10.1038/nature13996)** — Hashimshony et al., *Nature* 2015 `T1-core` `peer-reviewed`<br>
