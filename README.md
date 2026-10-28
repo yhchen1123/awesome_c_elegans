@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-172-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--23-green)
+![papers](https://img.shields.io/badge/papers-173-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--28-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -144,6 +144,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *线虫发育变异的经典比较胚胎学章节：同属内变异大、属内高度保守的现象学；发育稳健性讨论的源头之一。*
 - [Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1) - Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   *细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。*
+- [Canalization of development and the inheritance of acquired characters](https://doi.org/10.1038/150563a0) - Waddington, *Nature* 1942 `T3-transfer` `peer-reviewed`<br>
+  *经典回填：Waddington 提出「发育 canalization（渠道化）」概念的经典短文，阐述发育轨迹对遗传与环境扰动的稳健性及其可遗传的「遗传同化」现象；该概念是野生型发育动力学方向（C2）全部稳健性研究的理论源头。*
 
 *See the [category page](categories/C2-wt-dynamics.md) for 5 cross-listed entries filed primarily elsewhere.*
 
