@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-173-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--28-green)
+![papers](https://img.shields.io/badge/papers-174-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--29-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -185,6 +185,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *结合活体成像与激光消融，证明早期胞质分裂事件通过细胞骨架重组驱动斑马鱼左右组织者脱离包被层并形成管腔；细胞分裂史指导上皮组织组装，对形态发生力学（C3）与消融扰动实验（C5）均有借鉴意义。*
 - [An implantable sensor network for large-scale cellular force mapping in living embryos](https://doi.org/10.64898/2026.10.19.760153) - F et al., *openRxiv* 2026 `T3-transfer` `preprint` · also filed under `C8`<br>
   *FORCENET：植入式超薄膜弹性传感器网络，在活体斑马鱼原肠胚中以细胞分辨率、组织尺度定量映射细胞间作用力（体积仅为单细胞的 1/6-1/20，且验证不干扰细胞运动、增殖与发育）；为形态发生的力学直接测量（C3）与新型力传感工具（C8）提供能力突破。*
+- [The Endoplasmic Reticulum as a Cytoplasmic Anchor for Microtubule-Driven Aster Centration](https://doi.org/10.64898/2026.10.22.760944) - Sallé et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
+  *海胆受精卵精子星状体居中机制研究：发现内质网在居中星状体周围大规模压实并拖拽胞质、对星状体产生反作用力，结合高分辨成像、扰动实验与 3D 建模刻画该力学生成过程。为早期胚胎分裂定位与形态发生力学（C3）提供了细胞器尺度的力源机制参考，其成像+建模测量范式可迁移。*
 - [Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0) - Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed` · also filed under `C8`<br>
   *CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。*
 - [Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166) - Guan et al., *LTS Preprints* 2025 `T1-core` `preprint` · also filed under `C6`<br>
