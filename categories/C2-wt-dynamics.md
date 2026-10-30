@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (26)
+## Papers (27)
 
 - **[A kinematic equation for the morphogenetic reproducibility of an animal](https://doi.org/10.65215/ltspreprints.2026.04.04.000174)** — Wang et al., *LTS Preprints* 2026 `T1-core` `emerging-evidence`<br>
   ⚠️ emerging evidence: 形态发生可重复性的运动学方程；与发育稳健性/可重复性定量研究直接相关。**注意：按本仓库证据规则视为 emerging evidence，未经同行评审与独立验证前不得作为既定共识引用。**
@@ -58,6 +58,8 @@
   线虫发育变异的经典比较胚胎学章节：同属内变异大、属内高度保守的现象学；发育稳健性讨论的源头之一。
 - **[Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1)** — Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。
+- **[Composition and dynamics of the Caenorhabditis elegans early embryonic transcriptome](https://doi.org/10.1242/dev.00302)** — Baugh et al., *Development* 2003 `T1-core` `peer-reviewed`<br>
+  经典回填：首次系统刻画秀丽隐杆线虫早期胚胎转录组的组成与动态变化，定量覆盖母源-合子过渡与早期发育时序的基因表达测量，是早期胚胎分子调控（C4）方向的奠基性数据集论文；其发育时间序列转录组设计至今仍是野生型发育动力学建模（C2）的参考基准。
 - **[Canalization of development and the inheritance of acquired characters](https://doi.org/10.1038/150563a0)** — Waddington, *Nature* 1942 `T3-transfer` `peer-reviewed`<br>
   经典回填：Waddington 提出「发育 canalization（渠道化）」概念的经典短文，阐述发育轨迹对遗传与环境扰动的稳健性及其可遗传的「遗传同化」现象；该概念是野生型发育动力学方向（C2）全部稳健性研究的理论源头。
 

@@ -6057,5 +6057,36 @@
     "needs_review": false,
     "added": "2026-10-29",
     "source": "epmc"
+  },
+  {
+    "id": "10.1242/dev.00302",
+    "title": "Composition and dynamics of the Caenorhabditis elegans early embryonic transcriptome",
+    "authors": [
+      "L. Ryan Baugh",
+      "Andrew A. Hill",
+      "Donna K. Slonim",
+      "Eugene L. Brown",
+      "Craig P. Hunter"
+    ],
+    "venue": "Development",
+    "year": 2003,
+    "categories": [
+      "C4",
+      "C2"
+    ],
+    "tags": [
+      "scRNA",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：首次系统刻画秀丽隐杆线虫早期胚胎转录组的组成与动态变化，定量覆盖母源-合子过渡与早期发育时序的基因表达测量，是早期胚胎分子调控（C4）方向的奠基性数据集论文；其发育时间序列转录组设计至今仍是野生型发育动力学建模（C2）的参考基准。",
+    "url": "https://doi.org/10.1242/dev.00302",
+    "doi": "10.1242/dev.00302",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-10-30",
+    "source": "epmc"
   }
 ]

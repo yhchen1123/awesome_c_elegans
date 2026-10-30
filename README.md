@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-174-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--29-green)
+![papers](https://img.shields.io/badge/papers-175-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--30-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -147,7 +147,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Canalization of development and the inheritance of acquired characters](https://doi.org/10.1038/150563a0) - Waddington, *Nature* 1942 `T3-transfer` `peer-reviewed`<br>
   *经典回填：Waddington 提出「发育 canalization（渠道化）」概念的经典短文，阐述发育轨迹对遗传与环境扰动的稳健性及其可遗传的「遗传同化」现象；该概念是野生型发育动力学方向（C2）全部稳健性研究的理论源头。*
 
-*See the [category page](categories/C2-wt-dynamics.md) for 5 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C2-wt-dynamics.md) for 6 cross-listed entries filed primarily elsewhere.*
 
 ## Morphology & Mechanics
 
@@ -280,6 +280,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *线虫胚胎基因表达的多维调控解析（启动子驱动的时空表达）；时空分辨调控分析的早期系统工作。*
 - [Translational control of maternal RNAs](https://doi.org/10.1895/wormbook.1.34.1) - Evans, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。*
+- [Composition and dynamics of the Caenorhabditis elegans early embryonic transcriptome](https://doi.org/10.1242/dev.00302) - Baugh et al., *Development* 2003 `T1-core` `peer-reviewed` · also filed under `C2`<br>
+  *经典回填：首次系统刻画秀丽隐杆线虫早期胚胎转录组的组成与动态变化，定量覆盖母源-合子过渡与早期发育时序的基因表达测量，是早期胚胎分子调控（C4）方向的奠基性数据集论文；其发育时间序列转录组设计至今仍是野生型发育动力学建模（C2）的参考基准。*
 - [Wnt Signaling Polarizes an Early C. elegans Blastomere to Distinguish Endoderm from Mesoderm](https://doi.org/10.1016/s0092-8674(00)80530-9) - Thorpe et al., *Cell* 1997 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *经典回填：确立 Wnt/β-catenin 不对称信号首次卵裂后极化 EMS 母细胞、决定内胚层与中胚层命运的范式，是线虫胚胎非对称分裂与信号导向命运决定（C4/C6）的奠基性机制研究。*
 
