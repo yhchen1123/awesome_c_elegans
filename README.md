@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-172-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--23-green)
+![papers](https://img.shields.io/badge/papers-173-blue) ![last update](https://img.shields.io/badge/last_update-2026--11--02-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -224,7 +224,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Gastrulation in C. elegans](https://doi.org/10.1895/wormbook.1.23.1) - Nance, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。*
 
-*See the [category page](categories/C3-morphology-mechanics.md) for 15 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C3-morphology-mechanics.md) for 16 cross-listed entries filed primarily elsewhere.*
 
 ## Molecular Regulation & Coupling
 
@@ -295,6 +295,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。*
 - [Cell cycle arrest of a craniofacial epithelial population shapes faces in mice and humans.](https://doi.org/10.1016/j.devcel.2026.09.008) - T et al., *Developmental Cell* 2026 `T3-transfer` `peer-reviewed` · also filed under `C6`<br>
   *发现颅面融合所需的「拉链 λ」上皮细胞群处于细胞周期阻滞状态；Pbx1/2 与 p63 突变导致该细胞群周期失控与唇腭裂，条件性敲除 Zfhx3 亦可诱发，且 ZFHX3 变异见于人类患者——把细胞周期阻滞与发育性组织融合直接耦合的扰动-表型-人体验证闭环研究（C5/C6）。*
+- [Divergence of cortical force-generating mechanisms underlies differences in spindle behavior between C. elegans and C. inopinata](https://doi.org/10.1371/journal.pone.0352057) - Oomura et al., *PLOS One* 2026 `T1-core` `peer-reviewed` · also filed under `C3`<br>
+  *比较近缘线虫 C. elegans 与 C. inopinata 单细胞胚胎的原核迁移与纺锤体行为差异，结合活细胞成像与 RNAi 功能扰动证明皮层拉力机制（Gα-GPR-LIN-5、KLP-7）在物种间发生功能分化。是扰动-表型因果分析（C5）与胚胎力学定量（C3）直接结合的线虫样本，其跨物种比较框架对理解保守发育过程的机制可变性很有价值。*
 - [Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041) - Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed` · also filed under `C2`<br>
   *不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。*
 - [Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq](https://doi.org/10.1038/s41467-025-60154-0) - Zhang et al., *Nature Communications* 2025 `T2-adjacent` `peer-reviewed` · also filed under `C4`<br>

@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (51)
+## Papers (52)
 
 - **[Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development](https://doi.org/10.1038/s41563-026-02594-7)** — Guruciaga et al., *Nature Materials* 2026 `T3-transfer` `peer-reviewed`<br>
   边界几何控制三维拓扑缺陷转变并决定小鼠胚胎腔体成核位置；边界条件-缺陷-形态发生链条的实验证据。
@@ -54,6 +54,8 @@
   将跨多种模拟连续系统预训练的连续介质动力学基础模型 Walrus 用仅 12 段野生型果蝇胚盘视频微调，实现组织速度场的自回归预测，并在未见温度与遗传扰动条件上零样本评估；为胚胎形态发生的跨系统先验迁移与扰动外推（C7/C3）提供直接范例。
 - **[An implantable sensor network for large-scale cellular force mapping in living embryos](https://doi.org/10.64898/2026.10.19.760153)** — F et al., *openRxiv* 2026 `T3-transfer` `preprint`<br>
   FORCENET：植入式超薄膜弹性传感器网络，在活体斑马鱼原肠胚中以细胞分辨率、组织尺度定量映射细胞间作用力（体积仅为单细胞的 1/6-1/20，且验证不干扰细胞运动、增殖与发育）；为形态发生的力学直接测量（C3）与新型力传感工具（C8）提供能力突破。
+- **[Divergence of cortical force-generating mechanisms underlies differences in spindle behavior between C. elegans and C. inopinata](https://doi.org/10.1371/journal.pone.0352057)** — Oomura et al., *PLOS One* 2026 `T1-core` `peer-reviewed`<br>
+  比较近缘线虫 C. elegans 与 C. inopinata 单细胞胚胎的原核迁移与纺锤体行为差异，结合活细胞成像与 RNAi 功能扰动证明皮层拉力机制（Gα-GPR-LIN-5、KLP-7）在物种间发生功能分化。是扰动-表型因果分析（C5）与胚胎力学定量（C3）直接结合的线虫样本，其跨物种比较框架对理解保守发育过程的机制可变性很有价值。
 - **[Cell lineage-resolved embryonic morphological map reveals signaling associated with cell fate and size asymmetry](https://doi.org/10.1038/s41467-025-58878-0)** — Guan et al., *Nature Communications* 2025 `T1-core` `peer-reviewed`<br>
   CMap 谱系分辨形态图谱：位置、体积、表面积、接触面积的全胚胎时空图谱；细胞表示与形态力学研究的核心几何数据源。
 - **[Genetic-Morphological Synergy Governs Cell Fate Specification in Development](https://doi.org/10.65215/rmqcg166)** — Guan et al., *LTS Preprints* 2025 `T1-core` `preprint`<br>

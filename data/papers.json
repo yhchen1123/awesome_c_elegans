@@ -5990,5 +5990,38 @@
     "needs_review": false,
     "added": "2026-10-23",
     "source": "manual"
+  },
+  {
+    "id": "10.1371/journal.pone.0352057",
+    "title": "Divergence of cortical force-generating mechanisms underlies differences in spindle behavior between C. elegans and C. inopinata",
+    "authors": [
+      "Shun Oomura",
+      "Koji Kyoda",
+      "Shuichi Onami",
+      "Nami Haruta",
+      "Asako Sugimoto"
+    ],
+    "venue": "PLOS One",
+    "year": 2026,
+    "categories": [
+      "C5",
+      "C3"
+    ],
+    "tags": [
+      "c-elegans",
+      "mechanics",
+      "perturbation",
+      "imaging"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "比较近缘线虫 C. elegans 与 C. inopinata 单细胞胚胎的原核迁移与纺锤体行为差异，结合活细胞成像与 RNAi 功能扰动证明皮层拉力机制（Gα-GPR-LIN-5、KLP-7）在物种间发生功能分化。是扰动-表型因果分析（C5）与胚胎力学定量（C3）直接结合的线虫样本，其跨物种比较框架对理解保守发育过程的机制可变性很有价值。",
+    "url": "https://doi.org/10.1371/journal.pone.0352057",
+    "doi": "10.1371/journal.pone.0352057",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-11-02",
+    "source": "epmc"
   }
 ]
