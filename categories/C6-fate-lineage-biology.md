@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (39)
+## Papers (40)
 
 - **[Distinct roles for partially redundant transcription factors in Caenorhabditis elegans mesoderm lineage development](https://doi.org/10.64898/2026.09.01.748736)** — Gan et al., *bioRxiv* 2026 `T1-core` `preprint`<br>
   部分冗余转录因子在中胚层谱系发育中的差异化功能拆解；命运决定冗余性与补偿机制的精细证据。
@@ -82,6 +82,8 @@
   母源 RNA 翻译调控章节：POS-1 等母源因子的时空激活机制；母源调控层的标准综述。
 - **[Wnt Signaling Polarizes an Early C. elegans Blastomere to Distinguish Endoderm from Mesoderm](https://doi.org/10.1016/s0092-8674(00)80530-9)** — Thorpe et al., *Cell* 1997 `T1-core` `peer-reviewed`<br>
   经典回填：确立 Wnt/β-catenin 不对称信号首次卵裂后极化 EMS 母细胞、决定内胚层与中胚层命运的范式，是线虫胚胎非对称分裂与信号导向命运决定（C4/C6）的奠基性机制研究。
+- **[skn-1, a maternally expressed gene required to specify the fate of ventral blastomeres in the early C. elegans embryo](https://doi.org/10.1016/0092-8674(92)90078-q)** — Bowerman et al., *Cell* 1992 `T1-core` `peer-reviewed`<br>
+  经典回填：确立母源因子 skn-1 决定早期胚胎腹部卵裂球命运的奠基性实验——skn-1 缺失导致 EMS 谱系命运转化、过表达使腹部细胞转为肠道命运。以单基因扰动-谱系表型的因果链定义了「母源命运决定因子」范式，是命运决定与谱系生物学（C6）方向必引教科书文献。
 - **[Identification of genes required for cytoplasmic localization in early C. elegans embryos](https://doi.org/10.1016/s0092-8674(88)80024-2)** — Kemphues et al., *Cell* 1988 `T1-core` `peer-reviewed`<br>
   经典回填：通过 EMS 诱变筛选首次鉴定 par-1 至 par-6 等细胞质极性定位基因，奠定线虫胚胎不对称分裂与命运决定（C6）的遗传学基础，PAR 极性系统至今仍是该领域的核心框架。
 - **[The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4)** — Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed`<br>

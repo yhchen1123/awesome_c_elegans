@@ -6023,5 +6023,34 @@
     "needs_review": false,
     "added": "2026-11-02",
     "source": "epmc"
+  },
+  {
+    "id": "10.1016/0092-8674(92)90078-q",
+    "title": "skn-1, a maternally expressed gene required to specify the fate of ventral blastomeres in the early C. elegans embryo",
+    "authors": [
+      "Bruce Bowerman",
+      "Benjamin A. Eaton",
+      "James R. Priess"
+    ],
+    "venue": "Cell",
+    "year": 1992,
+    "categories": [
+      "C6"
+    ],
+    "tags": [
+      "c-elegans",
+      "lineage",
+      "perturbation"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：确立母源因子 skn-1 决定早期胚胎腹部卵裂球命运的奠基性实验——skn-1 缺失导致 EMS 谱系命运转化、过表达使腹部细胞转为肠道命运。以单基因扰动-谱系表型的因果链定义了「母源命运决定因子」范式，是命运决定与谱系生物学（C6）方向必引教科书文献。",
+    "url": "https://doi.org/10.1016/0092-8674(92)90078-q",
+    "doi": "10.1016/0092-8674(92)90078-q",
+    "confidence": 0.9,
+    "needs_review": false,
+    "added": "2026-11-03",
+    "source": "epmc"
   }
 ]
