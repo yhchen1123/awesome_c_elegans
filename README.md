@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-172-blue) ![last update](https://img.shields.io/badge/last_update-2026--10--23-green)
+![papers](https://img.shields.io/badge/papers-174-blue) ![last update](https://img.shields.io/badge/last_update-2026--11--03-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -224,7 +224,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Gastrulation in C. elegans](https://doi.org/10.1895/wormbook.1.23.1) - Nance, *WormBook* 2005 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *原肠形成的权威章节：Ea/Ep 内陷的极化、机制与图式化调控；形态发生教学与研究的双料基准。*
 
-*See the [category page](categories/C3-morphology-mechanics.md) for 15 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C3-morphology-mechanics.md) for 16 cross-listed entries filed primarily elsewhere.*
 
 ## Molecular Regulation & Coupling
 
@@ -295,6 +295,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *通过饮食依赖的正向遗传筛选发现线虫脂肪酸 β-氧化基因 acaa-2 在母体营养不良时维持胚胎准时孵育；揭示线粒体代谢作为发育稳健性缓冲的机制，对扰动实验设计（C5）与野生型动力学（C2）均有直接参考价值。*
 - [Cell cycle arrest of a craniofacial epithelial population shapes faces in mice and humans.](https://doi.org/10.1016/j.devcel.2026.09.008) - T et al., *Developmental Cell* 2026 `T3-transfer` `peer-reviewed` · also filed under `C6`<br>
   *发现颅面融合所需的「拉链 λ」上皮细胞群处于细胞周期阻滞状态；Pbx1/2 与 p63 突变导致该细胞群周期失控与唇腭裂，条件性敲除 Zfhx3 亦可诱发，且 ZFHX3 变异见于人类患者——把细胞周期阻滞与发育性组织融合直接耦合的扰动-表型-人体验证闭环研究（C5/C6）。*
+- [Divergence of cortical force-generating mechanisms underlies differences in spindle behavior between C. elegans and C. inopinata](https://doi.org/10.1371/journal.pone.0352057) - Oomura et al., *PLOS One* 2026 `T1-core` `peer-reviewed` · also filed under `C3`<br>
+  *比较近缘线虫 C. elegans 与 C. inopinata 单细胞胚胎的原核迁移与纺锤体行为差异，结合活细胞成像与 RNAi 功能扰动证明皮层拉力机制（Gα-GPR-LIN-5、KLP-7）在物种间发生功能分化。是扰动-表型因果分析（C5）与胚胎力学定量（C3）直接结合的线虫样本，其跨物种比较框架对理解保守发育过程的机制可变性很有价值。*
 - [Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041) - Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed` · also filed under `C2`<br>
   *不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。*
 - [Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq](https://doi.org/10.1038/s41467-025-60154-0) - Zhang et al., *Nature Communications* 2025 `T2-adjacent` `peer-reviewed` · also filed under `C4`<br>
@@ -338,6 +340,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *胚胎 Notch 信号的经典综述：四次 AB 谱系互作与组合 Notch 编码；信号-命运框架的奠基叙述。*
 - [Programmed cell death](https://doi.org/10.1895/wormbook.1.32.1) - Conradt, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   *程序性细胞死亡的奠基性章节：ced 通路与谱系固定的死亡命运；命运决定研究的经典组成部分。*
+- [skn-1, a maternally expressed gene required to specify the fate of ventral blastomeres in the early C. elegans embryo](https://doi.org/10.1016/0092-8674(92)90078-q) - Bowerman et al., *Cell* 1992 `T1-core` `peer-reviewed`<br>
+  *经典回填：确立母源因子 skn-1 决定早期胚胎腹部卵裂球命运的奠基性实验——skn-1 缺失导致 EMS 谱系命运转化、过表达使腹部细胞转为肠道命运。以单基因扰动-谱系表型的因果链定义了「母源命运决定因子」范式，是命运决定与谱系生物学（C6）方向必引教科书文献。*
 - [Identification of genes required for cytoplasmic localization in early C. elegans embryos](https://doi.org/10.1016/s0092-8674(88)80024-2) - Kemphues et al., *Cell* 1988 `T1-core` `peer-reviewed`<br>
   *经典回填：通过 EMS 诱变筛选首次鉴定 par-1 至 par-6 等细胞质极性定位基因，奠定线虫胚胎不对称分裂与命运决定（C6）的遗传学基础，PAR 极性系统至今仍是该领域的核心框架。*
 - [The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4) - Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed` · also filed under `C8`<br>
