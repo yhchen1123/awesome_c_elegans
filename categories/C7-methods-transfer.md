@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (27)
+## Papers (28)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -42,6 +42,8 @@
   将跨多种模拟连续系统预训练的连续介质动力学基础模型 Walrus 用仅 12 段野生型果蝇胚盘视频微调，实现组织速度场的自回归预测，并在未见温度与遗传扰动条件上零样本评估；为胚胎形态发生的跨系统先验迁移与扰动外推（C7/C3）提供直接范例。
 - **[Synergy-Aware Residual Flow Matching for Single-Cell Perturbation Prediction](https://arxiv.org/abs/2610.25021)** — Wu et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
   SynGeneFlow：面向组合扰动预测的协同感知流匹配框架，将源分布锚定在加性先验上、仅学习非加性残差流，并以静态基因互作掩码加扰动依赖形变偏置建模协同结构；对单细胞扰动响应预测中「组合效应」这一难点（C7/C5）提供新的生成式建模范式。
+- **[Learning developmental dynamics from lineage context](https://arxiv.org/abs/2610.40447)** — Gowri et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  提出 lineage inpainting：以树结构 transformer 与随机插值生成模型，利用谱系上下文（姐妹、表亲细胞状态）在谱系树上建模细胞状态动力学，应用于小鼠胚胎发生谱系追踪转录组图谱，恢复了单看表达无法分辨的转录汇聚事件，并能从野生型拟合直接模拟扰动反事实且与真实发育表型吻合。为谱系约束的发育动力学建模与扰动响应预测（C7 方法迁移至 C5）提供了可直接借鉴的生成式框架。
 - **[CELLECT: contrastive embedding learning for large-scale efficient cell tracking](https://doi.org/10.1038/s41592-025-02886-x)** — Zhou et al., *Nature Methods* 2025 `T2-adjacent` `peer-reviewed`<br>
   CELLECT：对比嵌入学习实现大规模高效细胞追踪；嵌入表示驱动的追踪范式，与细胞表示学习方法天然衔接。
 - **[Integrating representation learning, permutation, and optimization to detect lineage-related gene expression patterns](https://doi.org/10.1038/s41467-025-56388-7)** — Schlüter et al., *Nature Communications* 2025 `T3-transfer` `peer-reviewed`<br>

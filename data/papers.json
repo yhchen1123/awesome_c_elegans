@@ -6052,5 +6052,45 @@
     "needs_review": false,
     "added": "2026-11-03",
     "source": "epmc"
+  },
+  {
+    "id": "2610.40447",
+    "arxiv_id": "2610.40447",
+    "title": "Learning developmental dynamics from lineage context",
+    "authors": [
+      "Gokul Gowri",
+      "Nic Fishman",
+      "William N. Colgan",
+      "Minming Wang",
+      "Yusuke Kijima",
+      "Sachin A. Kumar",
+      "Aleksandr Zimin",
+      "Luke W. Koblan",
+      "Marinka Zitnik",
+      "Zachary D. Smith",
+      "Stephen Bates",
+      "Philippe Rigollet",
+      "Jonathan S. Weissman"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C5"
+    ],
+    "tags": [
+      "lineage",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "提出 lineage inpainting：以树结构 transformer 与随机插值生成模型，利用谱系上下文（姐妹、表亲细胞状态）在谱系树上建模细胞状态动力学，应用于小鼠胚胎发生谱系追踪转录组图谱，恢复了单看表达无法分辨的转录汇聚事件，并能从野生型拟合直接模拟扰动反事实且与真实发育表型吻合。为谱系约束的发育动力学建模与扰动响应预测（C7 方法迁移至 C5）提供了可直接借鉴的生成式框架。",
+    "url": "https://arxiv.org/abs/2610.40447",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-11-04",
+    "source": "arxiv"
   }
 ]
