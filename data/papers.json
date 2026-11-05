@@ -6092,5 +6092,36 @@
     "needs_review": false,
     "added": "2026-11-04",
     "source": "arxiv"
+  },
+  {
+    "id": "10.1006/dbio.1997.8509",
+    "title": "Assessing Normal Embryogenesis in Caenorhabditis elegans Using a 4D Microscope: Variability of Development and Regional Specification",
+    "authors": [
+      "Ralf Schnabel",
+      "Harald Hutter",
+      "Don Moerman",
+      "Heinke Schnabel"
+    ],
+    "venue": "Developmental Biology",
+    "year": 1997,
+    "categories": [
+      "C8",
+      "C2"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：4D 显微镜记录线虫完整胚胎发育并系统评估发育变异的奠基工作，建立了多枚野生型胚胎全细胞谱系与位置的四维记录数据集，定量刻画了细胞位置与发育时序的正常变异范围及区域特化的稳健性。是后续全部 4D 胚胎图谱（C8）的方法源头，其「正常变异」概念仍是野生型发育动力学（C2）研究的基线参照。",
+    "url": "https://doi.org/10.1006/dbio.1997.8509",
+    "doi": "10.1006/dbio.1997.8509",
+    "confidence": 0.88,
+    "needs_review": false,
+    "added": "2026-11-05",
+    "source": "epmc"
   }
 ]

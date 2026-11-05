@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-175-blue) ![last update](https://img.shields.io/badge/last_update-2026--11--04-green)
+![papers](https://img.shields.io/badge/papers-176-blue) ![last update](https://img.shields.io/badge/last_update-2026--11--05-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -145,7 +145,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1) - Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   *细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。*
 
-*See the [category page](categories/C2-wt-dynamics.md) for 5 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C2-wt-dynamics.md) for 6 cross-listed entries filed primarily elsewhere.*
 
 ## Morphology & Mechanics
 
@@ -416,6 +416,8 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *AceTree 初代：谱系树与胚胎影像的可视化分析工具；长维护开源软件的起点。*
 - [WormBook: the online review of C. elegans biology](https://wormbook.org/) - Team, *WormBook / Genetics Society of America* 2005 `T1-core` `peer-reviewed`<br>
   *线虫领域权威开放参考书（同行评审、持续更新的 living reference）；本库按章节拆分了其中最相关的 12 章，此条目作为整体入口。*
+- [Assessing Normal Embryogenesis in Caenorhabditis elegans Using a 4D Microscope: Variability of Development and Regional Specification](https://doi.org/10.1006/dbio.1997.8509) - Schnabel et al., *Developmental Biology* 1997 `T1-core` `peer-reviewed` · also filed under `C2`<br>
+  *经典回填：4D 显微镜记录线虫完整胚胎发育并系统评估发育变异的奠基工作，建立了多枚野生型胚胎全细胞谱系与位置的四维记录数据集，定量刻画了细胞位置与发育时序的正常变异范围及区域特化的稳健性。是后续全部 4D 胚胎图谱（C8）的方法源头，其「正常变异」概念仍是野生型发育动力学（C2）研究的基线参照。*
 
 *See the [category page](categories/C8-datasets-benchmarks-software.md) for 23 cross-listed entries filed primarily elsewhere.*
 
