@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (25)
+## Papers (26)
 
 - **[A kinematic equation for the morphogenetic reproducibility of an animal](https://doi.org/10.65215/ltspreprints.2026.04.04.000174)** — Wang et al., *LTS Preprints* 2026 `T1-core` `emerging-evidence`<br>
   ⚠️ emerging evidence: 形态发生可重复性的运动学方程；与发育稳健性/可重复性定量研究直接相关。**注意：按本仓库证据规则视为 emerging evidence，未经同行评审与独立验证前不得作为既定共识引用。**
@@ -58,6 +58,8 @@
   线虫发育变异的经典比较胚胎学章节：同属内变异大、属内高度保守的现象学；发育稳健性讨论的源头之一。
 - **[Cell-cycle regulation](https://doi.org/10.1895/wormbook.1.28.1)** — Heuvel, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
   细胞周期调控章节：胚胎期快速分裂与后期节律化转变；时序调控的机制底座。
+- **[Assessing Normal Embryogenesis in Caenorhabditis elegans Using a 4D Microscope: Variability of Development and Regional Specification](https://doi.org/10.1006/dbio.1997.8509)** — Schnabel et al., *Developmental Biology* 1997 `T1-core` `peer-reviewed`<br>
+  经典回填：4D 显微镜记录线虫完整胚胎发育并系统评估发育变异的奠基工作，建立了多枚野生型胚胎全细胞谱系与位置的四维记录数据集，定量刻画了细胞位置与发育时序的正常变异范围及区域特化的稳健性。是后续全部 4D 胚胎图谱（C8）的方法源头，其「正常变异」概念仍是野生型发育动力学（C2）研究的基线参照。
 
 ## Related categories
 

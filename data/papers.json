@@ -6052,5 +6052,76 @@
     "needs_review": false,
     "added": "2026-11-03",
     "source": "epmc"
+  },
+  {
+    "id": "2610.40447",
+    "arxiv_id": "2610.40447",
+    "title": "Learning developmental dynamics from lineage context",
+    "authors": [
+      "Gokul Gowri",
+      "Nic Fishman",
+      "William N. Colgan",
+      "Minming Wang",
+      "Yusuke Kijima",
+      "Sachin A. Kumar",
+      "Aleksandr Zimin",
+      "Luke W. Koblan",
+      "Marinka Zitnik",
+      "Zachary D. Smith",
+      "Stephen Bates",
+      "Philippe Rigollet",
+      "Jonathan S. Weissman"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "categories": [
+      "C7",
+      "C5"
+    ],
+    "tags": [
+      "lineage",
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "preprint",
+    "standards": [],
+    "relevance_note": "提出 lineage inpainting：以树结构 transformer 与随机插值生成模型，利用谱系上下文（姐妹、表亲细胞状态）在谱系树上建模细胞状态动力学，应用于小鼠胚胎发生谱系追踪转录组图谱，恢复了单看表达无法分辨的转录汇聚事件，并能从野生型拟合直接模拟扰动反事实且与真实发育表型吻合。为谱系约束的发育动力学建模与扰动响应预测（C7 方法迁移至 C5）提供了可直接借鉴的生成式框架。",
+    "url": "https://arxiv.org/abs/2610.40447",
+    "confidence": 0.8,
+    "needs_review": false,
+    "added": "2026-11-04",
+    "source": "arxiv"
+  },
+  {
+    "id": "10.1006/dbio.1997.8509",
+    "title": "Assessing Normal Embryogenesis in Caenorhabditis elegans Using a 4D Microscope: Variability of Development and Regional Specification",
+    "authors": [
+      "Ralf Schnabel",
+      "Harald Hutter",
+      "Don Moerman",
+      "Heinke Schnabel"
+    ],
+    "venue": "Developmental Biology",
+    "year": 1997,
+    "categories": [
+      "C8",
+      "C2"
+    ],
+    "tags": [
+      "imaging",
+      "lineage",
+      "c-elegans"
+    ],
+    "tier": "T1-core",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：4D 显微镜记录线虫完整胚胎发育并系统评估发育变异的奠基工作，建立了多枚野生型胚胎全细胞谱系与位置的四维记录数据集，定量刻画了细胞位置与发育时序的正常变异范围及区域特化的稳健性。是后续全部 4D 胚胎图谱（C8）的方法源头，其「正常变异」概念仍是野生型发育动力学（C2）研究的基线参照。",
+    "url": "https://doi.org/10.1006/dbio.1997.8509",
+    "doi": "10.1006/dbio.1997.8509",
+    "confidence": 0.88,
+    "needs_review": false,
+    "added": "2026-11-05",
+    "source": "epmc"
   }
 ]

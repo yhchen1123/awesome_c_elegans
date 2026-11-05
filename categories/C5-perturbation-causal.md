@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (20)
+## Papers (21)
 
 - **[An automated high-resolution screening platform identifies regulators of anchor cell invasion in C. elegans](https://doi.org/10.1126/sciadv.aef6546)** — Berger et al., *Science Advances* 2026 `T2-adjacent` `peer-reviewed`<br>
   微流控高通量成像 + RNAi 筛选 + 神经网络表型评分的一体化平台（逾 4 万只个体、亚细胞分辨率、41/52 已知基因召回）；虽以幼虫期 anchor cell 侵袭为模型，其「扰动×高通量成像×自动评分」管线可直接迁移到胚胎扰动筛选研究。
@@ -30,6 +30,8 @@
   SynGeneFlow：面向组合扰动预测的协同感知流匹配框架，将源分布锚定在加性先验上、仅学习非加性残差流，并以静态基因互作掩码加扰动依赖形变偏置建模协同结构；对单细胞扰动响应预测中「组合效应」这一难点（C7/C5）提供新的生成式建模范式。
 - **[Divergence of cortical force-generating mechanisms underlies differences in spindle behavior between C. elegans and C. inopinata](https://doi.org/10.1371/journal.pone.0352057)** — Oomura et al., *PLOS One* 2026 `T1-core` `peer-reviewed`<br>
   比较近缘线虫 C. elegans 与 C. inopinata 单细胞胚胎的原核迁移与纺锤体行为差异，结合活细胞成像与 RNAi 功能扰动证明皮层拉力机制（Gα-GPR-LIN-5、KLP-7）在物种间发生功能分化。是扰动-表型因果分析（C5）与胚胎力学定量（C3）直接结合的线虫样本，其跨物种比较框架对理解保守发育过程的机制可变性很有价值。
+- **[Learning developmental dynamics from lineage context](https://arxiv.org/abs/2610.40447)** — Gowri et al., *arXiv* 2026 `T3-transfer` `preprint`<br>
+  提出 lineage inpainting：以树结构 transformer 与随机插值生成模型，利用谱系上下文（姐妹、表亲细胞状态）在谱系树上建模细胞状态动力学，应用于小鼠胚胎发生谱系追踪转录组图谱，恢复了单看表达无法分辨的转录汇聚事件，并能从野生型拟合直接模拟扰动反事实且与真实发育表型吻合。为谱系约束的发育动力学建模与扰动响应预测（C7 方法迁移至 C5）提供了可直接借鉴的生成式框架。
 - **[Robust spatiotemporal organization of mitotic events in mechanically perturbed C. elegans embryos](https://doi.org/10.1016/j.bpj.2024.03.041)** — Borne et al., *Biophysical Journal* 2025 `T1-core` `peer-reviewed`<br>
   不破卵壳机械压缩早期胚胎后，细胞分裂时序与细胞定位仍高度稳健；机械扰动下发育程序稳健性的直接定量证据。
 - **[Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq](https://doi.org/10.1038/s41467-025-60154-0)** — Zhang et al., *Nature Communications* 2025 `T2-adjacent` `peer-reviewed`<br>

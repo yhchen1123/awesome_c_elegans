@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (37)
+## Papers (38)
 
 - **[Developmental chronology of mouse embryo from 2-cell stage through birth](https://doi.org/10.1038/s41556-026-01971-3)** — Cao et al., *Nature Cell Biology* 2026 `T3-transfer` `peer-reviewed`<br>
   小鼠胚胎从 2 细胞到出生的发育年表资源；跨物种发育时序参照系。
@@ -80,6 +80,8 @@
   细胞生物学方法章节（含胚胎细胞培养等）：线虫胚胎实验方法的经典操作参考。
 - **[WormBook: the online review of C. elegans biology](https://wormbook.org/)** — Team, *WormBook / Genetics Society of America* 2005 `T1-core` `peer-reviewed`<br>
   线虫领域权威开放参考书（同行评审、持续更新的 living reference）；本库按章节拆分了其中最相关的 12 章，此条目作为整体入口。
+- **[Assessing Normal Embryogenesis in Caenorhabditis elegans Using a 4D Microscope: Variability of Development and Regional Specification](https://doi.org/10.1006/dbio.1997.8509)** — Schnabel et al., *Developmental Biology* 1997 `T1-core` `peer-reviewed`<br>
+  经典回填：4D 显微镜记录线虫完整胚胎发育并系统评估发育变异的奠基工作，建立了多枚野生型胚胎全细胞谱系与位置的四维记录数据集，定量刻画了细胞位置与发育时序的正常变异范围及区域特化的稳健性。是后续全部 4D 胚胎图谱（C8）的方法源头，其「正常变异」概念仍是野生型发育动力学（C2）研究的基线参照。
 - **[The embryonic cell lineage of the nematode Caenorhabditis elegans](https://doi.org/10.1016/0012-1606(83)90201-4)** — Sulston et al., *Developmental Biology* 1983 `T1-core` `peer-reviewed`<br>
   invariant lineage 的奠基工作；所有谱系表示与重建方法的基准真值。
 
