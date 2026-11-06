@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (11)
+## Papers (12)
 
 - **[Cellular Processes and Forces Shaping the Embryo: Lessons from C. elegans](https://doi.org/10.3390/cells15070645)** — Labouesse et al., *Cells* 2026 `T1-core` `peer-reviewed`<br>
   塑造胚胎的细胞过程与力：以线虫为视角的综述；胚胎力学的线虫专门评述。
@@ -30,6 +30,8 @@
   线虫生物学入门经典（Corsi, Wightman & Chalfie）：新成员与外部读者的首选导读。
 - **[Cell fate specification in the C. elegans embryo](https://doi.org/10.1002/dvdy.22233)** — Maduro, *Developmental Dynamics* 2010 `T1-core` `peer-reviewed`<br>
   命运决定机制的权威综述；母源因子、非对称分裂与 Wnt/Notch 信号框架是分子调控与谱系生物学条目的知识底座。
+- **[The maternal-to-zygotic transition: a play in two acts](https://doi.org/10.1242/dev.033183)** — Tadros et al., *Development* 2009 `T3-transfer` `peer-reviewed`<br>
+  经典回填：母源-合子过渡（MZT）领域被引逾千次的权威综述，以「两幕剧」框架系统梳理母源产物清除与合子基因组激活的时序协调、保守机制（smad、P-TEFb、小 RNA 等）及物种间差异。是连接早期胚胎分子调控（C4）与发育时序理解的必引参考，为比较不同物种早期胚胎转录组动态（含线虫）提供概念基线。
 
 ## Related categories
 

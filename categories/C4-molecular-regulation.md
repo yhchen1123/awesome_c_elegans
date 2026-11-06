@@ -6,7 +6,7 @@
 
 [← Back to README](../README.md)
 
-## Papers (38)
+## Papers (39)
 
 - **[Decoding cell division history and lineage-resolved phenotypic patterns from single-cell barcode and transcriptomic data](https://doi.org/10.1101/gr.281734.125)** — Yu et al., *Genome Research* 2026 `T2-adjacent` `peer-reviewed`<br>
   FateScape 框架联合谱系条形码与转录组推断细胞分裂树拓扑并刻画深度分辨的表型分布，在线虫胚胎数据上验证了谱系拓扑重建；为「谱系×分子状态」联合分析提供方法参照，也是 destructive assay 限制下的替代观测路线。
@@ -76,6 +76,8 @@
   线虫基因组的时空分辨调控分析（转录因子结合图谱）；调控结合的时空资源。
 - **[Multidimensional regulation of gene expression in the C. elegans embryo](https://doi.org/10.1101/gr.131920.111)** — Murray et al., *Genome Research* 2012 `T1-core` `peer-reviewed`<br>
   线虫胚胎基因表达的多维调控解析（启动子驱动的时空表达）；时空分辨调控分析的早期系统工作。
+- **[The maternal-to-zygotic transition: a play in two acts](https://doi.org/10.1242/dev.033183)** — Tadros et al., *Development* 2009 `T3-transfer` `peer-reviewed`<br>
+  经典回填：母源-合子过渡（MZT）领域被引逾千次的权威综述，以「两幕剧」框架系统梳理母源产物清除与合子基因组激活的时序协调、保守机制（smad、P-TEFb、小 RNA 等）及物种间差异。是连接早期胚胎分子调控（C4）与发育时序理解的必引参考，为比较不同物种早期胚胎转录组动态（含线虫）提供概念基线。
 - **[Automated analysis of embryonic gene expression with cellular resolution in C. elegans](https://doi.org/10.1038/nmeth.1228)** — Murray et al., *Nature Methods* 2008 `T1-core` `peer-reviewed`<br>
   细胞分辨的胚胎基因表达自动分析管线（谱系+表达整合）；表达定量测量的早期自动化框架。
 - **[Notch signaling in the C. elegans embryo](https://doi.org/10.1895/wormbook.1.4.1)** — Priess, *WormBook* 2005 `T1-core` `peer-reviewed`<br>
