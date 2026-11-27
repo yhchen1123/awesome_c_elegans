@@ -6123,5 +6123,33 @@
     "needs_review": false,
     "added": "2026-11-05",
     "source": "epmc"
+  },
+  {
+    "id": "10.1242/dev.033183",
+    "title": "The maternal-to-zygotic transition: a play in two acts",
+    "authors": [
+      "Wael Tadros",
+      "Howard D. Lipshitz"
+    ],
+    "venue": "Development",
+    "year": 2009,
+    "categories": [
+      "C9",
+      "C4"
+    ],
+    "tags": [
+      "theory-model",
+      "other-species"
+    ],
+    "tier": "T3-transfer",
+    "evidence": "peer-reviewed",
+    "standards": [],
+    "relevance_note": "经典回填：母源-合子过渡（MZT）领域被引逾千次的权威综述，以「两幕剧」框架系统梳理母源产物清除与合子基因组激活的时序协调、保守机制（smad、P-TEFb、小 RNA 等）及物种间差异。是连接早期胚胎分子调控（C4）与发育时序理解的必引参考，为比较不同物种早期胚胎转录组动态（含线虫）提供概念基线。",
+    "url": "https://doi.org/10.1242/dev.033183",
+    "doi": "10.1242/dev.033183",
+    "confidence": 0.85,
+    "needs_review": false,
+    "added": "2026-11-06",
+    "source": "epmc"
   }
 ]

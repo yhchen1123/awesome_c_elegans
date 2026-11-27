@@ -3,7 +3,7 @@
 <!-- Auto-generated from data/papers.json by scripts/render.py. Do not edit manually. -->
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![papers](https://img.shields.io/badge/papers-176-blue) ![last update](https://img.shields.io/badge/last_update-2026--11--05-green)
+![papers](https://img.shields.io/badge/papers-177-blue) ![last update](https://img.shields.io/badge/last_update-2026--11--06-green)
 
 > AI-curated, human-audited multidisciplinary literature tracking for *C. elegans* embryogenesis research — from lineage-resolved atlases and live imaging to mechanics, molecular regulation, and dynamical modeling. Updated weekly by automation; every update lands as a reviewed PR.
 
@@ -279,7 +279,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
 - [Wnt Signaling Polarizes an Early C. elegans Blastomere to Distinguish Endoderm from Mesoderm](https://doi.org/10.1016/s0092-8674(00)80530-9) - Thorpe et al., *Cell* 1997 `T1-core` `peer-reviewed` · also filed under `C6`<br>
   *经典回填：确立 Wnt/β-catenin 不对称信号首次卵裂后极化 EMS 母细胞、决定内胚层与中胚层命运的范式，是线虫胚胎非对称分裂与信号导向命运决定（C4/C6）的奠基性机制研究。*
 
-*See the [category page](categories/C4-molecular-regulation.md) for 14 cross-listed entries filed primarily elsewhere.*
+*See the [category page](categories/C4-molecular-regulation.md) for 15 cross-listed entries filed primarily elsewhere.*
 
 ## Perturbation & Causal Inference
 
@@ -443,5 +443,7 @@ Maintained by [Chao Tang's lab](https://tangc.lab.westlake.edu.cn/), Westlake Un
   *图式形成中自组织的综述；从对称性破缺到组织模式的自组织概念框架。*
 - [A Transparent window into biology: A primer on Caenorhabditis elegans](https://doi.org/10.1895/wormbook.1.177.1) - Corsi, *WormBook* 2015 `T1-core` `peer-reviewed`<br>
   *线虫生物学入门经典（Corsi, Wightman & Chalfie）：新成员与外部读者的首选导读。*
+- [The maternal-to-zygotic transition: a play in two acts](https://doi.org/10.1242/dev.033183) - Tadros et al., *Development* 2009 `T3-transfer` `peer-reviewed` · also filed under `C4`<br>
+  *经典回填：母源-合子过渡（MZT）领域被引逾千次的权威综述，以「两幕剧」框架系统梳理母源产物清除与合子基因组激活的时序协调、保守机制（smad、P-TEFb、小 RNA 等）及物种间差异。是连接早期胚胎分子调控（C4）与发育时序理解的必引参考，为比较不同物种早期胚胎转录组动态（含线虫）提供概念基线。*
 
 *See the [category page](categories/C9-reviews-perspectives.md) for 2 cross-listed entries filed primarily elsewhere.*
